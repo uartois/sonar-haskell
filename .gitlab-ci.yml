@@ -1,0 +1,16 @@
+artifact:
+   script: "mvn clean install"
+   stage: build
+   artifacts:
+      paths:
+        - target/*.jar
+   tags:
+     - maven
+     
+auditcode:
+   stage: test
+   script: "sonar-scanner"
+   tags:
+        - sonar
+
+
