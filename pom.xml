@@ -32,7 +32,7 @@
         <extensions>true</extensions>
         <configuration>
           <!-- the entry-point class that extends org.sonar.api.SonarPlugin -->
-          <pluginClass>fr.univartois.sonarhaskell.SonarHaskellPlugin</pluginClass>
+          <pluginClass>fr.univartois.sonarhs.SonarHaskellPlugin</pluginClass>
           <pluginDescription>Sonarqube Plugin for Haskell</pluginDescription>
           <!-- advanced properties can be set here. See paragraph "Advanced Build Properties". -->
         </configuration>
