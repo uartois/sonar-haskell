@@ -6,8 +6,8 @@ import java.util.List;
 import org.sonar.api.config.Settings;
 import org.sonar.api.internal.apachecommons.lang.StringUtils;
 import org.sonar.api.resources.AbstractLanguage;
-import fr.univartois.sonarhs.settings.HaskellLanguageProperties;
 
+import fr.univartois.sonarhs.settings.HaskellLanguageProperties;
 
 public class HaskellLanguage extends AbstractLanguage{
 
@@ -27,7 +27,7 @@ public class HaskellLanguage extends AbstractLanguage{
 	    if (suffixes.length == 0) {
 	      suffixes = StringUtils.split(HaskellLanguageProperties.FILE_SUFFIXES_DEFAULT_VALUE, ",");
 	    }
-	return suffixes;
+	    return suffixes;
 	}
 	
 	private String[] filterEmptyStrings(String[] stringArray) {

@@ -20,8 +20,6 @@ import fr.univartois.sonarhs.rules.HaskellLintRulesDefinition;
 import fr.univartois.sonarhs.settings.HaskellLanguageProperties;
 import fr.univartois.sonarhs.web.ExampleFooter;
 import fr.univartois.sonarhs.web.ExampleWidget;
-//import fr.univartois.sonarhs.settings.HelloWorldProperties;
-//import fr.univartois.sonarhs.settings.SayHelloFromScanner;
 
 public class SonarHaskellPlugin implements Plugin{
 
