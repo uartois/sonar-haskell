@@ -10,9 +10,9 @@ import fr.univartois.sonarhs.languages.HaskellLanguage;
 
 public class HaskellLintRulesDefinition implements RulesDefinition{
 
-  private static final String PATH_TO_RULES_XML = "/sonarhs/haskelllint-rules.xml";
+  private static final String PATH_TO_RULES_XML = "/resources/example/haskelllint-rules.xml";
   protected static final String KEY = "haskelllint";
-  protected static final String NAME = "haskellLint";
+  protected static final String NAME = "HaskellLint";
 
   public static final String REPO_KEY = HaskellLanguage.KEY + "-" + KEY;
   protected static final String REPO_NAME = HaskellLanguage.KEY + "-" + NAME;
