@@ -9,6 +9,11 @@ import org.sonar.api.config.PropertyDefinition;
 //import org.sonarsource.plugins.example.hooks.DisplayQualityGateStatus;
 import fr.univartois.sonarhs.languages.HaskellLanguage;
 import fr.univartois.sonarhs.languages.HaskellQualityProfile;
+import fr.univartois.sonarhs.measures.ComputeSizeAverage;
+import fr.univartois.sonarhs.measures.ComputeSizeRating;
+import fr.univartois.sonarhs.measures.ExampleMetrics;
+import fr.univartois.sonarhs.measures.SetSizeOnFilesSensor;
+import fr.univartois.sonarhs.rules.HaskellLintIssuesLoaderSensor;
 //import fr.univartois.sonarhs.measures.ComputeSizeAverage;
 //import fr.univartois.sonarhs.measures.ComputeSizeRating;
 //import fr.univartois.sonarhs.measures.ExampleMetrics;
@@ -31,6 +36,14 @@ public class SonarHaskellPlugin implements Plugin{
 		//Language
 		context.addExtensions(HaskellLanguage.class, HaskellQualityProfile.class);
 		context.addExtension(HaskellLanguageProperties.getProperties());
+		
+
+	    //Measures
+	    context.addExtensions(ExampleMetrics.class, SetSizeOnFilesSensor.class, ComputeSizeAverage.class, ComputeSizeRating.class);
+		
+		
+	    //Rules
+	    context.addExtensions(HaskellLintRulesDefinition.class, HaskellLintIssuesLoaderSensor.class);
 	}
 
 }
