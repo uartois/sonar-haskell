@@ -31,7 +31,7 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 
 	  private static final Logger LOGGER = Loggers.get(HaskellLintIssuesLoaderSensor.class);
 
-	  protected static final String REPORT_PATH_KEY = "sonar.haskelllint.reportPath";//"resources/reportExample.xml";//
+	  protected static final String REPORT_PATH_KEY = "sonar.haskelllint.reportPath";
 
 	  protected final Settings settings;
 	  protected final FileSystem fileSystem;
