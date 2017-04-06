@@ -170,12 +170,12 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 		public List<HaskellLintError> parse(final File file) throws XMLStreamException {
 			LOGGER.info("Parsing file {}", file.getAbsolutePath());
 
-		      // as the goal of this example is not to demonstrate how to parse an xml file we return an hard coded list of FooError
+		      // as the goal of this example is not to demonstrate how to parse an xml file we return an hard coded list of HaskellError
 
-		      HaskellLintError fooError1 = new HaskellLintError("ExampleRule1", "More precise description of the error", "src/MyClass.haskell", 5);
-		      HaskellLintError fooError2 = new HaskellLintError("ExampleRule2", "More precise description of the error", "src/MyClass.haskell", 9);
+		      HaskellLintError HaskellError1 = new HaskellLintError("ExampleRule1", "More precise description of the error", "src/MyClass.haskell", 5);
+		      HaskellLintError HaskellError2 = new HaskellLintError("ExampleRule2", "More precise description of the error", "src/MyClass.haskell", 9);
 
-		      return Arrays.asList(fooError1, fooError2);
+		      return Arrays.asList(HaskellError1, HaskellError2);
 		    }
 		}
 	

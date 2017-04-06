@@ -9,8 +9,8 @@ import org.sonar.api.resources.Qualifiers;
 
 public class HaskellLanguageProperties {
 
-	public static final String FILE_SUFFIXES_KEY = "sonar.haskell.file.suffixes";
-	public static final String FILE_SUFFIXES_DEFAULT_VALUE = ".haskell";
+	public static final String FILE_SUFFIXES_KEY = ".hs";
+	public static final String FILE_SUFFIXES_DEFAULT_VALUE = ".hs";
 
 	private HaskellLanguageProperties() { 
 		
@@ -21,7 +21,7 @@ public class HaskellLanguageProperties {
 	      .defaultValue(FILE_SUFFIXES_DEFAULT_VALUE)
 	      .category("Haskell")
 	      .name("File Suffixes")
-	      .description("Comma-separated list of suffixes for files to analyze.")//**
+	      .description(FILE_SUFFIXES_DEFAULT_VALUE)
 	      .onQualifiers(Qualifiers.PROJECT)
 	      .build());
 	}

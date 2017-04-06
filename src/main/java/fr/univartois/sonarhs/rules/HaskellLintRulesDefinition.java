@@ -15,7 +15,7 @@ public class HaskellLintRulesDefinition implements RulesDefinition{
   protected static final String NAME = "HaskellLint";
 
   public static final String REPO_KEY = HaskellLanguage.KEY + "-" + KEY;
-  protected static final String REPO_NAME = HaskellLanguage.KEY + "-" + NAME;
+  public static final String REPO_NAME = HaskellLanguage.KEY + "-" + NAME;
 	
   protected String rulesDefinitionFilePath() {
     return PATH_TO_RULES_XML;
