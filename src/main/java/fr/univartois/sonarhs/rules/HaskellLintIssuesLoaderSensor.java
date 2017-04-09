@@ -91,7 +91,7 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 		LOGGER.debug("inputFile null ? " + (inputFile == null));
 
 		if (inputFile != null) {
-			saveIssue(inputFile, error.getLine(), error.getType(), error.getDescription());
+			saveIssue(inputFile, error.getLine(), GateRuleKey.getKeyFromError(error), error.getDescription());
 		} else {
 			LOGGER.error("Not able to find a InputFile with " + error.getFilePath());
 		}
@@ -120,7 +120,7 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 		return "HaskellLintIssuesLoaderSensor";
 	}
 	
-	private class HaskellLintError {
+	protected class HaskellLintError {
 
 		private final String type;
 		private final String description;
@@ -171,7 +171,7 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 			LOGGER.info("Parsing file {}", file.getAbsolutePath());
 
 		      // as the goal of this example is not to demonstrate how to parse an xml file we return an hard coded list of HaskellError
-
+			
 		      HaskellLintError HaskellError1 = new HaskellLintError("ExampleRule1", "More precise description of the error", "src/MyClass.haskell", 5);
 		      HaskellLintError HaskellError2 = new HaskellLintError("ExampleRule2", "More precise description of the error", "src/MyClass.haskell", 9);
 
