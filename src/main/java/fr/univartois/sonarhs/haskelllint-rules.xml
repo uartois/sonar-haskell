@@ -3,7 +3,7 @@
 		<key>ExampleRule1</key>
 		<name>Example Rule 1</name>
 		<internalKey>ExampleRule1</internalKey>
-		<description>This is an example of rule defined thru the XML.
+		<description>This is an example of rule1 defined thru the XML.
 		</description>
 		<severity>BLOCKER</severity>
 		<cardinality>SINGLE</cardinality>
@@ -17,7 +17,7 @@
 		<key>ExampleRule2</key>
 		<name>Example Rule 2</name>
 		<internalKey>ExampleRule2</internalKey>
-		<description>This is a other example of rule defined thru the XML.
+		<description>This is an example of rule2 defined thru the XML.
 		</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -30,9 +30,9 @@
 	</rule>
 	<rule>
 		<key>ExampleRule3</key>
-		<name>Example Rule 3</name> <!-- max size is 200 -->
+		<name>Example Rule 3</name> 
 		<internalKey>ExampleRule3</internalKey>
-		<description>This is a other example of rule defined thru the XML.
+		<description>This is an example of rule3 defined thru the XML.
 		</description>
 		<severity>CRITICAL</severity>
 		<cardinality>SINGLE</cardinality>

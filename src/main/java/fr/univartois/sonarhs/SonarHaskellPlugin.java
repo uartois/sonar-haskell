@@ -14,12 +14,6 @@ import fr.univartois.sonarhs.languages.HaskellQualityProfile;
 //import fr.univartois.sonarhs.measures.ExampleMetrics;
 //import fr.univartois.sonarhs.measures.SetSizeOnFilesSensor;
 import fr.univartois.sonarhs.rules.HaskellLintIssuesLoaderSensor;
-//import fr.univartois.sonarhs.rules.CreateIssuesOnJavaFilesSensor;
-import fr.univartois.sonarhs.rules.HaskellLintRulesDefinition;
-//import fr.univartois.sonarhs.rules.JavaRulesDefinition;
-//import fr.univartois.sonarhs.settings.HaskellLanguageProperties;
-//import fr.univartois.sonarhs.web.ExampleFooter;
-//import fr.univartois.sonarhs.web.ExampleWidget;
 
 public class SonarHaskellPlugin implements Plugin{
 

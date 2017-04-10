@@ -18,6 +18,9 @@ import org.sonar.api.config.Settings;
 import org.sonar.api.rule.RuleKey;
 import org.sonar.api.utils.log.Logger;
 import org.sonar.api.utils.log.Loggers;
+
+import fr.univartois.sonarhs.GateRuleKey;
+import fr.univartois.sonarhs.HaskellLintRulesDefinition;
 import fr.univartois.sonarhs.languages.HaskellLanguage;
 
 
@@ -120,7 +123,7 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 		return "HaskellLintIssuesLoaderSensor";
 	}
 	
-	protected class HaskellLintError {
+	public class HaskellLintError {
 
 		private final String type;
 		private final String description;

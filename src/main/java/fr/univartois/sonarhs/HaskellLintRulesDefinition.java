@@ -1,4 +1,4 @@
-package fr.univartois.sonarhs.rules;
+package fr.univartois.sonarhs;
 
 
 import java.io.InputStream;
@@ -11,8 +11,8 @@ import fr.univartois.sonarhs.languages.HaskellLanguage;
 public class HaskellLintRulesDefinition implements RulesDefinition{
 
 	
-  private static final String PATH_TO_RULES_XML = "/example/haskelllint-rules.xml";
-  protected static final String KEY = "haskelllint";
+  private static final String PATH_TO_RULES_XML = "haskelllint-rules.xml";
+  public static final String KEY = "haskelllint";
   protected static final String NAME = "HaskellLint";
 
   public static final String REPO_KEY = HaskellLanguage.KEY + "-" + KEY;

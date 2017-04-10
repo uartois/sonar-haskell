@@ -1,7 +1,7 @@
 package fr.univartois.sonarhs.languages;
 
-import static fr.univartois.sonarhs.rules.HaskellLintRulesDefinition.REPO_KEY;
-import static fr.univartois.sonarhs.rules.HaskellLintRulesDefinition.REPO_NAME;
+import static fr.univartois.sonarhs.HaskellLintRulesDefinition.REPO_KEY;
+import static fr.univartois.sonarhs.HaskellLintRulesDefinition.REPO_NAME;
 
 import org.sonar.api.profiles.ProfileDefinition;
 import org.sonar.api.profiles.RulesProfile;

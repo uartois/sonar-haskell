@@ -1,4 +1,4 @@
-package fr.univartois.sonarhs.rules;
+package fr.univartois.sonarhs;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -9,8 +9,10 @@ import java.util.regex.Pattern;
 import org.omg.CORBA.portable.InputStream;
 import org.sonar.api.utils.log.Loggers;
 
+import fr.univartois.sonarhs.rules.HaskellLintIssuesLoaderSensor;
+
 public class GateRuleKey {
-	public static final String PATH_FILE = "/sonarhs/rulesKeys.properties";
+	public static final String PATH_FILE = "rulesKeys.properties";
 	private static final org.sonar.api.utils.log.Logger LOGGER = Loggers.get(GateRuleKey.class);
 	private static Properties properties;
 
