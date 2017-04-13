@@ -9,11 +9,6 @@ import org.sonar.api.Plugin;
 //import org.sonarsource.plugins.example.hooks.DisplayQualityGateStatus;
 import fr.univartois.sonarhs.languages.HaskellLanguage;
 import fr.univartois.sonarhs.languages.HaskellQualityProfile;
-//import fr.univartois.sonarhs.measures.ComputeSizeAverage;
-//import fr.univartois.sonarhs.measures.ComputeSizeRating;
-//import fr.univartois.sonarhs.measures.ExampleMetrics;
-//import fr.univartois.sonarhs.measures.SetSizeOnFilesSensor;
-import fr.univartois.sonarhs.rules.HaskellLintIssuesLoaderSensor;
 
 public class SonarHaskellPlugin implements Plugin{
 

@@ -1,4 +1,4 @@
-package fr.univartois.sonarhs.rules;
+package fr.univartois.sonarhs;
 
 import java.io.File;
 import java.util.Arrays;
@@ -19,8 +19,6 @@ import org.sonar.api.rule.RuleKey;
 import org.sonar.api.utils.log.Logger;
 import org.sonar.api.utils.log.Loggers;
 
-import fr.univartois.sonarhs.GateRuleKey;
-import fr.univartois.sonarhs.HaskellLintRulesDefinition;
 import fr.univartois.sonarhs.languages.HaskellLanguage;
 
 
@@ -101,6 +99,11 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 	}
 
 	private void saveIssue(final InputFile inputFile, int line, final String externalRuleKey, final String message) {
+		if(externalRuleKey==null){
+			LOGGER.warn("The key of this message "+message+ " is null, issue not saved");
+			return;
+		}
+		
 		RuleKey ruleKey = RuleKey.of(getRepositoryKeyForLanguage(inputFile.language()), externalRuleKey);
 
 		NewIssue newIssue = context.newIssue().forRule(ruleKey);
