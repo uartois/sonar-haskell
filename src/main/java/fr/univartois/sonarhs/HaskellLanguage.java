@@ -1,4 +1,4 @@
-package fr.univartois.sonarhs.languages;
+package fr.univartois.sonarhs;
 
 import org.sonar.api.resources.AbstractLanguage;
 

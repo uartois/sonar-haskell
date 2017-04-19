@@ -9,12 +9,10 @@ import org.sonar.api.server.rule.RulesDefinitionXmlLoader;
 import org.sonar.api.utils.log.Loggers;
 import org.sonar.api.utils.log.Logger;
 
-import fr.univartois.sonarhs.languages.HaskellLanguage;
-
 public class HaskellLintRulesDefinition implements RulesDefinition{
 
 	
-  private static final String PATH_TO_RULES_XML = "/fr/univartois/sonarhs/haskelllint-rules.xml";
+  private static final String PATH_TO_RULES_XML = "/haskelllint-rules.xml";
   public static final String KEY = "haskelllint";
   protected static final String NAME = "HaskellLint";
   private static final Logger LOGGER=Loggers.get(HaskellLintRulesDefinition.class);	
@@ -34,7 +32,7 @@ public class HaskellLintRulesDefinition implements RulesDefinition{
 		  RulesDefinitionXmlLoader rulesLoader = new RulesDefinitionXmlLoader();
 	      rulesLoader.load(repository, rulesXml, StandardCharsets.UTF_8.name());
 	  }else{
-	    	LOGGER.warn("Unable to load "+PATH_TO_RULES_XML+" file");
+	    	LOGGER.warn("Unable to load "+PATH_TO_RULES_XML);
 	    }
 	  repository.done();
 	  LOGGER.info("The repository "+repositoryName+" is made: "+repository.rules());

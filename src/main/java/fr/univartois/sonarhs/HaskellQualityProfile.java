@@ -1,4 +1,4 @@
-package fr.univartois.sonarhs.languages;
+package fr.univartois.sonarhs;
 
 import static fr.univartois.sonarhs.HaskellLintRulesDefinition.REPO_KEY;
 import static fr.univartois.sonarhs.HaskellLintRulesDefinition.REPO_NAME;
@@ -20,7 +20,7 @@ public class HaskellQualityProfile extends ProfileDefinition{
 	public RulesProfile createProfile(ValidationMessages validation) {
 
 		final Logger LOGGER=Loggers.get(HaskellQualityProfile.class);
-		final String PROFILE_PATH="profile.properties";
+		final String PROFILE_PATH="/profile.properties";
 		
 		LOGGER.info("Haskelllint Quality profile");  
 		RulesProfile profile = RulesProfile.create("Haskelllint Rules", HaskellLanguage.KEY);

@@ -2,14 +2,6 @@ package fr.univartois.sonarhs;
 
 import org.sonar.api.Plugin;
 
-//import static java.util.Arrays.asList;
-
-//import org.sonar.api.config.PropertyDefinition;
-//import org.sonarsource.plugins.example.hooks.DisplayIssuesInScanner;
-//import org.sonarsource.plugins.example.hooks.DisplayQualityGateStatus;
-import fr.univartois.sonarhs.languages.HaskellLanguage;
-import fr.univartois.sonarhs.languages.HaskellQualityProfile;
-
 public class SonarHaskellPlugin implements Plugin{
 
 	@Override
