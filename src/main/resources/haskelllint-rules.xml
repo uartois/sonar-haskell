@@ -1,568 +1,1080 @@
 <haskelllint-rules>
+	
+	<!--
+	IO
+	-->
 	<rule>
 		<key>print</key>
 		<name>Use print</name>
 		<internalKey>print</internalKey>
 		<description>Use print</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>IO</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>1min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>putStr</key>
 		<name>Use putStr</name>
 		<internalKey>putStr</internalKey>
 		<description>Use putStr</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>IO</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>1min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>getChar</key>
 		<name>Use getChar</name>
 		<internalKey>getChar</internalKey>
 		<description>Use getChar</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>IO</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>1min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>getLine</key>
 		<name>Use getLine</name>
 		<internalKey>getLine</internalKey>
 		<description>Use getLine</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>IO</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>1min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>getContents</key>
 		<name>Use getContents</name>
 		<internalKey>getContents</internalKey>
 		<description>Use getContents</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>IO</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>1min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>putChar</key>
 		<name>Use putChar</name>
 		<internalKey>putChar</internalKey>
 		<description>Use putChar</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>IO</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>1min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>putStr</key>
 		<name>Use putStr</name>
 		<internalKey>putStr</internalKey>
 		<description>Use putStr</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>IO</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>1min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>putStrLn</key>
 		<name>Use putStrLn</name>
 		<internalKey>putStrLn</internalKey>
 		<description>Use putStrLn</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>IO</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>1min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>hReady</key>
 		<name>Use hReady</name>
 		<internalKey>hReady</internalKey>
 		<description>Use hReady</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>IO</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>1min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>hPrint</key>
 		<name>Use hPrint</name>
 		<internalKey>hPrint</internalKey>
 		<description>Use hPrint</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>IO</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>1min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>isEOF</key>
 		<name>Use isEOF</name>
 		<internalKey>isEOF</internalKey>
 		<description>Use isEOF</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>IO</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>1min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	
+	<!--
+	EXIT
+	-->
 	<rule>
 		<key>exitSuccess</key>
 		<name>Use exitSuccess</name>
 		<internalKey>exitSuccess</internalKey>
 		<description>Use exitSuccess</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>EXIT</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	
+	<!--
+	ORD
+	-->
 	<rule>
 		<key>minimum</key>
 		<name>Use minimum</name>
 		<internalKey>minimum</internalKey>
 		<description>Use minimum</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>ORD</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>maximum</key>
 		<name>Use maximum</name>
 		<internalKey>maximum</internalKey>
 		<description>Use maximum</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>ORD</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>minimumBy</key>
 		<name>Use minimumBy</name>
 		<internalKey>minimumBy</internalKey>
 		<description>Use minimumBy</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>ORD</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>maximumBy</key>
 		<name>Use maximumBy</name>
 		<internalKey>maximumBy</internalKey>
 		<description>Use maximumBy</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>ORD</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
 		<key>avoid reverse</key>
 		<name>Avoid reverse</name>
 		<internalKey>avoid reverse</internalKey>
 		<description>Avoid reverse</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>ORD</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
-	</rule>	
-	
-	
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+		
+	<!--
+	READ/SHOW
+	-->
 	<rule>
 		<key>show</key>
 		<name>Use show</name>
 		<internalKey>show</internalKey>
 		<description>Use show</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>READ SHOW</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>shows</key>
 		<name>Use shows</name>
 		<internalKey>shows</internalKey>
 		<description>Use shows</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>READ SHOW</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
 		<key>reads</key>
 		<name>Use reads</name>
 		<internalKey>reads</internalKey>
 		<description>Use reads</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>READ SHOW</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
 		<key>showHex</key>
 		<name>Use showHex</name>
 		<internalKey>showHex</internalKey>
 		<description>Use showHex</description>
-		<severity>Warning</severity>
+		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Warning</type>
 		<tag>READ SHOW</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>showOct</key>
 		<name>Use showOct</name>
 		<internalKey>showOct</internalKey>
 		<description>Use showOct</description>
-		<severity>Warning</severity>
+		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Warning</type>
 		<tag>READ SHOW</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	
+	<!--
+	LIST
+	-->
 	<rule>
 		<key>concatMap</key>
 		<name>Use concatMap</name>
 		<internalKey>concatMap</internalKey>
 		<description>Use concatMap</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
 		<key>map once</key>
 		<name>Use map once</name>
 		<internalKey>map once</internalKey>
 		<description>Use map once</description>
-		<severity>Warning</severity>
+		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Warning</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>head</key>
 		<name>Use head</name>
 		<internalKey>head</internalKey>
 		<description>Use head</description>
-		<severity>Warning</severity>
+		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Warning</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>replicate</key>
 		<name>Use replicate</name>
 		<internalKey>replicate</internalKey>
 		<description>Use replicate</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>repeat</key>
 		<name>Use repeat</name>
 		<internalKey>repeat</internalKey>
 		<description>Use repeat</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>last</key>
 		<name>Use last</name>
 		<internalKey>last</internalKey>
 		<description>Use last</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>init</key>
 		<name>Use init</name>
 		<internalKey>init</internalKey>
 		<description>Use init</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
 		<key>isSuffixOf</key>
 		<name>Use isSuffixOf</name>
 		<internalKey>isSuffixOf</internalKey>
 		<description>Use isSuffixOf</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
 		<key>concat</key>
 		<name>Use concat</name>
 		<internalKey>concat</internalKey>
 		<description>Use concat</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>foldl1</key>
 		<name>Use foldl1</name>
 		<internalKey>foldl1</internalKey>
 		<description>Use foldl1</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
 		<key>foldr1</key>
 		<name>Use foldr1</name>
 		<internalKey>foldr1</internalKey>
 		<description>Use foldr1</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>break</key>
 		<name>Use break</name>
 		<internalKey>break</internalKey>
 		<description>Use break</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>span</key>
 		<name>Use span</name>
 		<internalKey>span</internalKey>
 		<description>Use span</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>takeWhile</key>
 		<name>Use takeWhile</name>
 		<internalKey>takeWhile</internalKey>
 		<description>Use takeWhile</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>dropWhile</key>
 		<name>Use dropWhile</name>
 		<internalKey>dropWhile</internalKey>
 		<description>Use dropWhile</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>unlines</key>
 		<name>Use Unlines</name>
 		<internalKey>unlines</internalKey>
 		<description>Use unlines</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>id</key>
 		<name>Use id</name>
 		<internalKey>id</internalKey>
 		<description>Use id</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>any</key>
 		<name>Use any</name>
 		<internalKey>any</internalKey>
 		<description>Use any</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>all</key>
 		<name>Use all</name>
 		<internalKey>all</internalKey>
 		<description>Use all</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>zip</key>
 		<name>Use zip</name>
 		<internalKey>zip</internalKey>
 		<description>Use zip</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>zip3</key>
 		<name>Use zip3</name>
 		<internalKey>zip3</internalKey>
 		<description>Use zip3</description>
-		<severity>Error</severity>
+		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
 		<type>Error</type>
 		<tag>LIST</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>2min</remediationFunctionBaseEffort>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
+	<rule>
+		<key>null</key>
+		<name>Use null</name>
+		<internalKey>null</internalKey>
+		<description>Use null</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Warning</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>bracket</key>
+		<name>Redundant bracket</name>
+		<internalKey>bracket</internalKey>
+		<description>Redundant bracket</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Warning</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>:</key>
+		<name>Use :</name>
+		<internalKey>:</internalKey>
+		<description>Use :</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Warning</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>zipWith</key>
+		<name>Use zipWith</name>
+		<internalKey>zipWith</internalKey>
+		<description>Use zipWith</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>notElem</key>
+		<name>Use notElem</name>
+		<internalKey>notElem</internalKey>
+		<description>Use notElem</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>infix</key>
+		<name>Use infix</name>
+		<internalKey>infix</internalKey>
+		<description>Use infix</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Warning</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>.</key>
+		<name>Use .</name>
+		<internalKey>.</internalKey>
+		<description>Use .</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Warning</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>unwords</key>
+		<name>Use unwords</name>
+		<internalKey>unwords</internalKey>
+		<description>Use unwords</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>intercalate</key>
+		<name>Use intercalate</name>
+		<internalKey>intercalate</internalKey>
+		<description>Use intercalate</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>	
+	<rule>
+		<key>or</key>
+		<name>Use or</name>
+		<internalKey>or</internalKey>
+		<description>Use or</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>	
+	<rule>
+		<key>and</key>
+		<name>Use and</name>
+		<internalKey>and</internalKey>
+		<description>Use and</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>elem</key>
+		<name>Use elem</name>
+		<internalKey>elem</internalKey>
+		<description>Use elem</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>section</key>
+		<name>Use section</name>
+		<internalKey>section</internalKey>
+		<description>Use section</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Warning</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>elemIndex</key>
+		<name>Use elemIndex</name>
+		<internalKey>elemIndex</internalKey>
+		<description>Use elemIndex</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>elemIndices</key>
+		<name>Use elemIndices</name>
+		<internalKey>elemIndices</internalKey>
+		<description>Use elemIndices</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>length always non-negative</key>
+		<name>Length always non-negative</name>
+		<internalKey>length always non-negative</internalKey>
+		<description>Length always non-negative</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Warning</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>foldl</key>
+		<name>Use foldl</name>
+		<internalKey>foldl</internalKey>
+		<description>Use foldl</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>foldr</key>
+		<name>Use foldr</name>
+		<internalKey>foldr</internalKey>
+		<description>Use foldr</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>LIST</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	
+	<!--
+	BY
+	-->
+	<rule>
+		<key>delete</key>
+		<name>Use delete</name>
+		<internalKey>delete</internalKey>
+		<description>Use delete</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>BY</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>group</key>
+		<name>Use group</name>
+		<internalKey>group</internalKey>
+		<description>Use group</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>BY</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>insert</key>
+		<name>Use insert</name>
+		<internalKey>insert</internalKey>
+		<description>Use insert</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>BY</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>intersect</key>
+		<name>Use intersect</name>
+		<internalKey>intersect</internalKey>
+		<description>Use intersect</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>BY</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>nub</key>
+		<name>Use nub</name>
+		<internalKey>nub</internalKey>
+		<description>Use nub</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>BY</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>sort</key>
+		<name>Use sort</name>
+		<internalKey>sort</internalKey>
+		<description>Use sort</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>BY</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>union</key>
+		<name>Use union</name>
+		<internalKey>union</internalKey>
+		<description>Use union</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>BY</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	
+	<!--
+	FOLDS
+	-->
+	<rule>
+		<key>sequence_</key>
+		<name>Use sequence_</name>
+		<internalKey>sequence_</internalKey>
+		<description>Use sequence_</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>FOLDS</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>sum</key>
+		<name>Use sum</name>
+		<internalKey>sum</internalKey>
+		<description>Use sum</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>FOLDS</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>product</key>
+		<name>Use product</name>
+		<internalKey>product</internalKey>
+		<description>Use product</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>FOLDS</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	
+	
+	<!--
+	FUNCTION
+	-->
+	<rule>
+		<key>const</key>
+		<name>Use const</name>
+		<internalKey>const</internalKey>
+		<description>Use const</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>FUNCTION</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>snd</key>
+		<name>Use snd</name>
+		<internalKey>snd</internalKey>
+		<description>Use snd</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>FUNCTION</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>fst</key>
+		<name>Use fst</name>
+		<internalKey>fst</internalKey>
+		<description>Use fst</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>FUNCTION</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>curry</key>
+		<name>Use curry</name>
+		<internalKey>curry</internalKey>
+		<description>Use curry</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Warning</type>
+		<tag>FUNCTION</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>uncurry</key>
+		<name>Use uncurry</name>
+		<internalKey>uncurry</internalKey>
+		<description>Use uncurry</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Warning</type>
+		<tag>FUNCTION</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>$</key>
+		<name>Redundant $</name>
+		<internalKey>$</internalKey>
+		<description>Redundant $</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>FUNCTION</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>flip</key>
+		<name>Redundant flip</name>
+		<internalKey>flip</internalKey>
+		<description>Redundant flip</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>FUNCTION</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>on</key>
+		<name>Use on</name>
+		<internalKey>on</internalKey>
+		<description>Use on</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Warning</type>
+		<tag>FUNCTION</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>evaluate</key>
+		<name>Evaluate</name>
+		<internalKey>evaluate</internalKey>
+		<description>Evaluate</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>Error</type>
+		<tag>FUNCTION</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<!--
+	OTHER
+	-->
 	<rule>
 		<key>ExampleRule2</key>
 		<name>Example Rule 2</name>
