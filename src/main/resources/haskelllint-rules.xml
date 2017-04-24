@@ -220,9 +220,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>avoid reverse</key>
+		<key>avoidReverse</key>
 		<name>Avoid reverse</name>
-		<internalKey>avoid reverse</internalKey>
+		<internalKey>avoidReverse</internalKey>
 		<description>Avoid reverse</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -319,9 +319,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>map once</key>
+		<key>mapOnce</key>
 		<name>Use map once</name>
-		<internalKey>map once</internalKey>
+		<internalKey>mapOnce</internalKey>
 		<description>Use map once</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -605,9 +605,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>:</key>
+		<key>doublePoint</key>
 		<name>Use :</name>
-		<internalKey>:</internalKey>
+		<internalKey>doublePoint</internalKey>
 		<description>Use :</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -774,9 +774,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>length always non-negative</key>
+		<key>lengthAlwaysNon-negative</key>
 		<name>Length always non-negative</name>
-		<internalKey>length always non-negative</internalKey>
+		<internalKey>lengthAlwaysNon-negative</internalKey>
 		<description>Length always non-negative</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1733,9 +1733,9 @@
 	list comp
 	-->
 	<rule>
-		<key>list comprehension</key>
+		<key>listComprehension</key>
 		<name>Use list comprehension</name>
-		<internalKey>list comprehension</internalKey>
+		<internalKey>listComprehension</internalKey>
 		<description>Use list comprehension</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1746,9 +1746,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>redundant list comprehension</key>
+		<key>redundantListComprehension</key>
 		<name>Redundant list comprehension</name>
-		<internalKey>redundant list comprehension</internalKey>
+		<internalKey>redundantListComprehension</internalKey>
 		<description>Redundant list comprehension</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
