@@ -1021,9 +1021,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>$</key>
+		<key>dollar</key>
 		<name>Redundant $</name>
-		<internalKey>$</internalKey>
+		<internalKey>dollar</internalKey>
 		<description>Redundant $</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1192,9 +1192,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>&amp;&amp;&amp;</key>
+		<key>andAndAnd</key>
 		<name>Use &amp;&amp;&amp;</name>
-		<internalKey>&amp;&amp;&amp;</internalKey>
+		<internalKey>andAndAnd</internalKey>
 		<description>Use &amp;&amp;&amp;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1205,9 +1205,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>***</key>
+		<key>starStarStar</key>
 		<name>Use ***</name>
-		<internalKey>***</internalKey>
+		<internalKey>starStarStar</internalKey>
 		<description>Use ***</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1262,9 +1262,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>$</key>
+		<key>dollar</key>
 		<name>Redundant $</name>
-		<internalKey>$</internalKey>
+		<internalKey>dollar</internalKey>
 		<description>Redundant $</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1280,9 +1280,9 @@
 	monad
 	-->
 	<rule>
-		<key>monad law left</key>
+		<key>monadLawLeft</key>
 		<name>Monad law, left identity</name>
-		<internalKey>monad law left</internalKey>
+		<internalKey>monadLawLeft</internalKey>
 		<description>Monad law, left identity</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1293,7 +1293,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>monad law right</key>
+		<key>monadLawRight</key>
 		<name>Monad law, right identity</name>
 		<internalKey>monad law right</internalKey>
 		<description>Monad law, right identity</description>
@@ -1436,9 +1436,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>&lt;equal&lt;</key>
+		<key>infEqualInf</key>
 		<name>Use &lt;=&lt;</name>
-		<internalKey>&lt;equal&lt;</internalKey>
+		<internalKey>infEqualInf</internalKey>
 		<description>Use &lt;=&lt;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1449,9 +1449,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>&gt;equal&gt;</key>
+		<key>supEqualSup</key>
 		<name>Use &gt;=&gt;</name>
-		<internalKey>&gt;equal&gt;</internalKey>
+		<internalKey>supEqualSup</internalKey>
 		<description>Use &gt;=&gt;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1462,9 +1462,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>equal&lt;&lt;</key>
+		<key>equalInfInf</key>
 		<name>Use =&lt;&lt;</name>
-		<internalKey>equal&lt;&lt;</internalKey>
+		<internalKey>equalInfInf</internalKey>
 		<description>Use =&lt;&lt;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1475,9 +1475,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>&gt;&gt;equal</key>
+		<key>supSupEqual</key>
 		<name>Use &gt;&gt;=</name>
-		<internalKey>&gt;&gt;equal</internalKey>
+		<internalKey>supSupEqual</internalKey>
 		<description>Use &gt;&gt;=</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1700,9 +1700,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>&lt;**&gt;</key>
+		<key>infStarStarSup</key>
 		<name>Use &lt;**&gt;</name>
-		<internalKey>&lt;**&gt;</internalKey>
+		<internalKey>infStarStarSup</internalKey>
 		<description>Use &lt;**&gt;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
