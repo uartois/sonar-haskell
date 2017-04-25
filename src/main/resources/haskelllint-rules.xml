@@ -1,5 +1,5 @@
 <haskelllint-rules>
-	
+
 	<!--
 	io
 	-->
@@ -11,11 +11,12 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>io</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
+	
 	<rule>
 		<key>putStr</key>
 		<name>Use putStr</name>
@@ -24,7 +25,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>io</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -37,7 +38,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>io</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -50,7 +51,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>io</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -63,7 +64,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>io</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -76,20 +77,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>io</tag>
-		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
-	</rule>
-	<rule>
-		<key>putStr</key>
-		<name>Use putStr</name>
-		<internalKey>putStr</internalKey>
-		<description>Use putStr</description>
-		<severity>MAJOR</severity>
-		<cardinality>SINGLE</cardinality>
-		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>io</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -102,7 +90,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>io</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -115,7 +103,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>io</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -128,7 +116,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>io</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -141,7 +129,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>io</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -158,7 +146,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>exit</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -175,7 +163,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>ord</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -188,7 +176,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>ord</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -201,7 +189,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>ord</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -214,7 +202,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>ord</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -227,7 +215,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>ord</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -244,8 +232,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>read show</tag>
+		<type>BUG</type>
+		<tag>read-show</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -257,8 +245,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>read show</tag>
+		<type>BUG</type>
+		<tag>read-show</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
@@ -270,8 +258,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>read show</tag>
+		<type>BUG</type>
+		<tag>read-show</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
@@ -283,8 +271,8 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
-		<tag>read show</tag>
+		<type>CODE_SMELL</type>
+		<tag>read-show</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -296,8 +284,8 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
-		<tag>read show</tag>
+		<type>CODE_SMELL</type>
+		<tag>read-show</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -313,7 +301,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -326,7 +314,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -339,7 +327,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -352,7 +340,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -365,7 +353,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -378,7 +366,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -391,7 +379,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -404,7 +392,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -417,7 +405,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -430,7 +418,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -443,7 +431,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -456,7 +444,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -469,7 +457,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -482,7 +470,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -495,7 +483,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -508,7 +496,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -521,7 +509,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -534,7 +522,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -547,7 +535,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -560,7 +548,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -573,7 +561,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -586,7 +574,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -599,7 +587,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -612,7 +600,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -625,7 +613,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -638,7 +626,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -651,7 +639,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -664,7 +652,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -677,7 +665,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -690,7 +678,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -703,7 +691,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -716,7 +704,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -729,7 +717,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -742,7 +730,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -755,7 +743,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -768,7 +756,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -781,7 +769,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -794,7 +782,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -807,7 +795,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -824,7 +812,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>by</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -837,7 +825,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>by</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -850,7 +838,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>by</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -863,7 +851,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>by</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -876,7 +864,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>by</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -889,7 +877,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>by</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -902,7 +890,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>by</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -919,7 +907,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>folds</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -932,7 +920,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>folds</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -945,7 +933,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>folds</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -963,7 +951,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>function</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -976,7 +964,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>function</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -989,7 +977,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>function</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1002,7 +990,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>function</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1015,7 +1003,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>function</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1028,7 +1016,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>function</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1041,7 +1029,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>function</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1054,7 +1042,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>function</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1072,7 +1060,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>char</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1085,7 +1073,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>char</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1098,7 +1086,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>char</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1111,7 +1099,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>char</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1124,7 +1112,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>char</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1142,7 +1130,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>bool</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1155,7 +1143,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>bool</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1168,7 +1156,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>bool</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1186,7 +1174,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>arrow</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1199,7 +1187,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>arrow</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1212,7 +1200,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>arrow</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1225,7 +1213,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>arrow</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1238,7 +1226,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>arrow</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1256,20 +1244,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>functor</tag>
-		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
-	</rule>
-	<rule>
-		<key>dollar</key>
-		<name>Redundant $</name>
-		<internalKey>dollar</internalKey>
-		<description>Redundant $</description>
-		<severity>MINOR</severity>
-		<cardinality>SINGLE</cardinality>
-		<status>READY</status>
-		<type>Warning</type>
+		<type>BUG</type>
 		<tag>functor</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1287,7 +1262,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1300,7 +1275,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1313,7 +1288,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1326,7 +1301,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1339,7 +1314,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1352,7 +1327,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1365,7 +1340,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1378,7 +1353,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1391,7 +1366,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1404,20 +1379,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>monad</tag>
-		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
-	</rule>
-	<rule>
-		<key>.</key>
-		<name>Use .</name>
-		<internalKey>.</internalKey>
-		<description>Use .</description>
-		<severity>MAJOR</severity>
-		<cardinality>SINGLE</cardinality>
-		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1430,7 +1392,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1443,7 +1405,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1456,7 +1418,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1469,7 +1431,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1482,7 +1444,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1495,7 +1457,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1508,7 +1470,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1521,7 +1483,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1530,7 +1492,7 @@
 	
 	
 	<!--
-	state monad
+	state-monad
 	-->
 	<rule>
 		<key>evalState</key>
@@ -1540,8 +1502,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>state monad</tag>
+		<type>BUG</type>
+		<tag>state-monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1553,15 +1515,15 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>state monad</tag>
+		<type>BUG</type>
+		<tag>state-monad</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	
 	
 	<!--
-	monad list
+	monad-list
 	-->
 	<rule>
 		<key>mapAndUnzipM</key>
@@ -1571,8 +1533,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>monad list</tag>
+		<type>BUG</type>
+		<tag>monad-list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1584,8 +1546,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>monad list</tag>
+		<type>BUG</type>
+		<tag>monad-list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1597,8 +1559,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>monad list</tag>
+		<type>BUG</type>
+		<tag>monad-list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1610,8 +1572,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>monad list</tag>
+		<type>BUG</type>
+		<tag>monad-list</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1629,8 +1591,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>applicative traversable</tag>
+		<type>BUG</type>
+		<tag>applicative-traversable</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1642,8 +1604,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>applicative traversable</tag>
+		<type>BUG</type>
+		<tag>applicative-traversable</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1655,8 +1617,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>applicative traversable</tag>
+		<type>BUG</type>
+		<tag>applicative-traversable</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1668,8 +1630,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>applicative traversable</tag>
+		<type>BUG</type>
+		<tag>applicative-traversable</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1681,8 +1643,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>applicative traversable</tag>
+		<type>BUG</type>
+		<tag>applicative-traversable</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1694,8 +1656,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>applicative traversable</tag>
+		<type>BUG</type>
+		<tag>applicative-traversable</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1707,8 +1669,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>applicative traversable</tag>
+		<type>BUG</type>
+		<tag>applicative-traversable</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1720,8 +1682,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>applicative traversable</tag>
+		<type>BUG</type>
+		<tag>applicative-traversable</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1730,31 +1692,31 @@
 	
 	
 	<!--
-	list comp
+	list-comp
 	-->
 	<rule>
 		<key>listComprehension</key>
-		<name>Use list comprehension</name>
+		<name>Use list_comprehension</name>
 		<internalKey>listComprehension</internalKey>
-		<description>Use list comprehension</description>
+		<description>Use list_comprehension</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
-		<tag>list comp</tag>
+		<type>CODE_SMELL</type>
+		<tag>list-comp</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
 		<key>redundantListComprehension</key>
-		<name>Redundant list comprehension</name>
+		<name>Redundant list_comprehension</name>
 		<internalKey>redundantListComprehension</internalKey>
-		<description>Redundant list comprehension</description>
+		<description>Redundant list_comprehension</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
-		<tag>list comp</tag>
+		<type>CODE_SMELL</type>
+		<tag>list-comp</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -1773,7 +1735,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>maybe</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1786,7 +1748,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>maybe</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1799,7 +1761,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>maybe</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1812,7 +1774,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>maybe</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1825,7 +1787,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>maybe</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1838,7 +1800,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>maybe</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1857,7 +1819,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>either</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1870,7 +1832,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>either</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1890,7 +1852,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>maths</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1903,7 +1865,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>maths</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1923,20 +1885,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
-		<tag>exception</tag>
-		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
-        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
-	</rule>
-	<rule>
-		<key>flip</key>
-		<name>Redundant flip</name>
-		<internalKey>flip</internalKey>
-		<description>Redundant flip</description>
-		<severity>MAJOR</severity>
-		<cardinality>SINGLE</cardinality>
-		<status>READY</status>
-		<type>Error</type>
+		<type>CODE_SMELL</type>
 		<tag>exception</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1949,7 +1898,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>exception</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1962,7 +1911,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>exception</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1975,7 +1924,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>exception</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -1988,7 +1937,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>exception</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -2001,7 +1950,7 @@
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Warning</type>
+		<type>CODE_SMELL</type>
 		<tag>exception</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -2014,7 +1963,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>exception</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -2027,7 +1976,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>exception</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -2037,7 +1986,7 @@
 	
 	
 	<!--
-	weak pointers
+	weak-pointers
 	-->
 	<rule>
 		<key>mkWeakPtr</key>
@@ -2047,8 +1996,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>weak pointers</tag>
+		<type>BUG</type>
+		<tag>weak-pointers</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -2060,8 +2009,8 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
-		<tag>weak pointers</tag>
+		<type>BUG</type>
+		<tag>weak-pointers</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
@@ -2080,7 +2029,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>foldable</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -2101,7 +2050,7 @@
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
-		<type>Error</type>
+		<type>BUG</type>
 		<tag>evaluate</tag>
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
@@ -2109,6 +2058,7 @@
 	
 	
 	
+
 	<!--
 	OTHER
 	-->
