@@ -1,12 +1,19 @@
 package fr.univartois.sonarhs;
 
 import java.io.File;
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 
-import javax.xml.stream.XMLStreamException;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.text.ParseException;
+import java.util.Iterator;
 
 import org.sonar.api.internal.apachecommons.lang.StringUtils;
+import org.sonar.api.internal.google.gson.JsonArray;
+import org.sonar.api.internal.google.gson.JsonElement;
+import org.sonar.api.internal.google.gson.JsonObject;
+import org.sonar.api.internal.google.gson.JsonParser;
 import org.sonar.api.batch.fs.FileSystem;
 import org.sonar.api.batch.fs.InputFile;
 import org.sonar.api.batch.sensor.Sensor;
@@ -22,9 +29,9 @@ import org.sonar.api.utils.log.Loggers;
 
 
 /**
- * The goal of this Sensor is to load the results of an analysis performed by an external tool named: HaskellLint
- * Results are provided as an xml file and are corresponding to the rules defined in 'rules.xml'.
- * To be very abstract, these rules are applied on source files made with the fictive language Haskell.
+ * The goal of this Sensor is to load the results of an analysis performed by an external tool named: hLint
+ * Results are provided as an JSON file and are corresponding to the rules defined in 'haskelllint-rules.xml'.
+ * To be very abstract, these rules are applied on source files made with Haskell.
  */
 public class HaskellLintIssuesLoaderSensor implements Sensor {
 
@@ -68,13 +75,13 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 	        File analysisResultsFile = new File(reportPath);
 	        try {
 	          parseAndSaveResults(analysisResultsFile);
-	        } catch (XMLStreamException e) {
+	        } catch (ParseException e) {
 	          throw new IllegalStateException("Unable to parse the provided HaskellLint file", e);
 	        }
 	    }
 	}
 	
-	protected void parseAndSaveResults(final File file) throws XMLStreamException {
+	protected void parseAndSaveResults(final File file) throws ParseException {
 		LOGGER.info("(mock) Parsing 'HaskellLint' Analysis Results");
 		HaskellLintAnalysisResultsParser parser = new HaskellLintAnalysisResultsParser();
 		List<HaskellLintError> errors = parser.parse(file);
@@ -126,38 +133,55 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 	
 	public class HaskellLintError {
 
-		private final String type;
-		private final String description;
-		private final String filePath;
-		private final int line;
+		private final String module;
+		private final String decl;
+		private final String hint;
+		private final String filePath;//file
+		private final int line;//startLine
+		private final String description;//from to
 
-		public HaskellLintError(final String type, final String description, final String filePath, final int line) {
-			this.type = type;
+		public HaskellLintError(final String module, final String decl, final String hint, final String filePath, final int line, final String description) {
+			this.module = module;
+			this.decl = decl;
+			this.hint = hint;
 			this.description = description;
 			this.filePath = filePath;
 			this.line = line;
 		}
 	
-	    public String getType() {
-	      return type;
-	    }
-
-	    public String getDescription() {
-	      return description;
+	    public String getModule() {
+	    	return module;
+		}
+	    
+	    public String getDecl() {
+		    return decl;
+		}
+		
+	    public String getHint() {
+	    	return hint;
 	    }
 
 	    public String getFilePath() {
-	      return filePath;
-	    }
+	    	return filePath;
+		}
 
 	    public int getLine() {
-	      return line;
+	    	return line;
 	    }
+	    
+	    public String getDescription() {
+	    	return description;
+	    }
+
 
 	    @Override
 	    public String toString() {
 	      StringBuilder s = new StringBuilder();
-	      s.append(type);
+	      s.append(module);
+	      s.append("|");
+	      s.append(decl);
+	      s.append("|");
+	      s.append(hint);
 	      s.append("|");
 	      s.append(description);
 	      s.append("|");
@@ -171,15 +195,35 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 	
 	private class HaskellLintAnalysisResultsParser {
 
-		public List<HaskellLintError> parse(final File file) throws XMLStreamException {
+	    //private static final String HLINT_REPORT_FILE_PATH = "/hlintReport.json";
+	
+		public List<HaskellLintError> parse(final File file) throws ParseException {
 			LOGGER.info("Parsing file {}", file.getAbsolutePath());
-
-		      // as the goal of this example is not to demonstrate how to parse an xml file we return an hard coded list of HaskellError
-			
-		      HaskellLintError HaskellError1 = new HaskellLintError("ExampleRule1", "More precise description of the error", "src/MyClass.haskell", 5);
-		      HaskellLintError HaskellError2 = new HaskellLintError("ExampleRule2", "More precise description of the error", "src/MyClass.haskell", 9);
-
-		      return Arrays.asList(HaskellError1, HaskellError2);
+			List<HaskellLintError> errorsAsList = new ArrayList<>();
+			try {
+				FileReader reader = new FileReader(file);
+	            JsonParser jsonParser = new JsonParser();
+				JsonArray jsonArray = (JsonArray) jsonParser.parse(reader);
+				
+				Iterator<JsonElement> i = jsonArray.iterator();
+				while (i.hasNext()) {
+					JsonObject innerObj = (JsonObject) i.next();
+					errorsAsList.add(new HaskellLintError(
+							innerObj.get("module").getAsString()
+							, innerObj.get("decl").getAsString()
+							, innerObj.get("hint").getAsString()
+							, innerObj.get("file").getAsString()
+							, Integer.parseInt(innerObj.get("startLine").getAsString())
+							, "Found : \n" + innerObj.get("from").getAsString() + "\nWhy not :" + innerObj.get("to").getAsString() + "\n" 
+							+ innerObj.get("note").getAsString()));
+				}
+			} catch (FileNotFoundException ex) {
+				ex.printStackTrace();
+			} catch (NullPointerException ex) {
+				ex.printStackTrace();
+			}
+		
+		      return errorsAsList;
 		    }
 		}
 	
