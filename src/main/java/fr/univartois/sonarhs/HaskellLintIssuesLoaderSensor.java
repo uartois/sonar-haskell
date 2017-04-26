@@ -37,7 +37,7 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 
 	  private static final Logger LOGGER = Loggers.get(HaskellLintIssuesLoaderSensor.class);
 
-	  protected static final String REPORT_PATH_KEY = "sonar.haskelllint.reportPath";
+	  //protected static final String REPORT_PATH_KEY = "sonar.haskelllint.reportPath";
 
 	  protected final Settings settings;
 	  protected final FileSystem fileSystem;
@@ -53,13 +53,9 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 	    descriptor.name("HaskellLint Issues Loader Sensor");
 	    descriptor.onlyOnLanguage(HaskellLanguage.KEY);	
 	}
-
-	protected String reportPathKey() {
-		return REPORT_PATH_KEY;
-	}
 	
 	protected String getReportPath() {
-		String reportPath = settings.getString(reportPathKey());
+		String reportPath = settings.getString(HaskellProperties.REPORT_PATH_KEY);
 		if (!StringUtils.isEmpty(reportPath)) {
 			return reportPath;
 		} else {
@@ -76,7 +72,7 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 	        try {
 	          parseAndSaveResults(analysisResultsFile);
 	        } catch (ParseException e) {
-	          throw new IllegalStateException("Unable to parse the provided HaskellLint file", e);
+	          throw new IllegalStateException("Unable to parse the provided HaskellLint report file", e);
 	        }
 	    }
 	}
@@ -97,7 +93,6 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 		LOGGER.debug("inputFile null ? " + (inputFile == null));
 
 		if (inputFile != null) {
-			//saveIssue(inputFile, error.getLine(), GateRuleKey.getKeyFromError(error), error.getDescription());
 			saveIssue(inputFile, error.getLine(), error.getHint(), error.getDescription());  
 		} else {
 			LOGGER.error("Not able to find a InputFile with " + error.getFilePath());
@@ -180,7 +175,6 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 	
 	private class HaskellLintAnalysisResultsParser {
 
-	    //private static final String HLINT_REPORT_FILE_PATH = "/hlintReport.json";
 	
 		public List<HaskellLintError> parse(final File file) throws ParseException {
 			LOGGER.info("Parsing file {}", file.getAbsolutePath());
