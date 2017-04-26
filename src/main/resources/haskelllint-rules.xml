@@ -4,9 +4,9 @@
 	io
 	-->
 	<rule>
-		<key>print</key>
+		<key>Use print</key>
 		<name>Use print</name>
-		<internalKey>print</internalKey>
+		<internalKey>Use print</internalKey>
 		<description>Use print</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -18,9 +18,9 @@
 	</rule>
 	
 	<rule>
-		<key>putStr</key>
+		<key>Use putStr</key>
 		<name>Use putStr</name>
-		<internalKey>putStr</internalKey>
+		<internalKey>Use putStr</internalKey>
 		<description>Use putStr</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -31,9 +31,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>getChar</key>
+		<key>Use getChar</key>
 		<name>Use getChar</name>
-		<internalKey>getChar</internalKey>
+		<internalKey>Use getChar</internalKey>
 		<description>Use getChar</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -44,9 +44,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>getLine</key>
+		<key>Use getLine</key>
 		<name>Use getLine</name>
-		<internalKey>getLine</internalKey>
+		<internalKey>Use getLine</internalKey>
 		<description>Use getLine</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -57,9 +57,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>getContents</key>
+		<key>Use getContents</key>
 		<name>Use getContents</name>
-		<internalKey>getContents</internalKey>
+		<internalKey>Use getContents</internalKey>
 		<description>Use getContents</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -70,9 +70,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>putChar</key>
+		<key>Use putChar</key>
 		<name>Use putChar</name>
-		<internalKey>putChar</internalKey>
+		<internalKey>Use putChar</internalKey>
 		<description>Use putChar</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -83,9 +83,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>putStrLn</key>
+		<key>Use putStrLn</key>
 		<name>Use putStrLn</name>
-		<internalKey>putStrLn</internalKey>
+		<internalKey>Use putStrLn</internalKey>
 		<description>Use putStrLn</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -96,9 +96,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>hReady</key>
+		<key>Use hReady</key>
 		<name>Use hReady</name>
-		<internalKey>hReady</internalKey>
+		<internalKey>Use hReady</internalKey>
 		<description>Use hReady</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -109,9 +109,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>hPrint</key>
+		<key>Use hPrint</key>
 		<name>Use hPrint</name>
-		<internalKey>hPrint</internalKey>
+		<internalKey>Use hPrint</internalKey>
 		<description>Use hPrint</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -122,9 +122,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>isEOF</key>
+		<key>Use isEOF</key>
 		<name>Use isEOF</name>
-		<internalKey>isEOF</internalKey>
+		<internalKey>Use isEOF</internalKey>
 		<description>Use isEOF</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -139,9 +139,9 @@
 	exit
 	-->
 	<rule>
-		<key>exitSuccess</key>
+		<key>Use exitSuccess</key>
 		<name>Use exitSuccess</name>
-		<internalKey>exitSuccess</internalKey>
+		<internalKey>Use exitSuccess</internalKey>
 		<description>Use exitSuccess</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -156,9 +156,9 @@
 	ord
 	-->
 	<rule>
-		<key>minimum</key>
+		<key>Use minimum</key>
 		<name>Use minimum</name>
-		<internalKey>minimum</internalKey>
+		<internalKey>Use minimum</internalKey>
 		<description>Use minimum</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -169,9 +169,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>maximum</key>
+		<key>Use maximum</key>
 		<name>Use maximum</name>
-		<internalKey>maximum</internalKey>
+		<internalKey>Use maximum</internalKey>
 		<description>Use maximum</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -182,9 +182,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>minimumBy</key>
+		<key>Use minimumBy</key>
 		<name>Use minimumBy</name>
-		<internalKey>minimumBy</internalKey>
+		<internalKey>Use minimumBy</internalKey>
 		<description>Use minimumBy</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -195,9 +195,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>maximumBy</key>
+		<key>Use maximumBy</key>
 		<name>Use maximumBy</name>
-		<internalKey>maximumBy</internalKey>
+		<internalKey>Use maximumBy</internalKey>
 		<description>Use maximumBy</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -208,9 +208,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>avoidReverse</key>
+		<key>Use avoidReverse</key>
 		<name>Avoid reverse</name>
-		<internalKey>avoidReverse</internalKey>
+		<internalKey>Use avoidReverse</internalKey>
 		<description>Avoid reverse</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -225,9 +225,9 @@
 	READ/SHOW
 	-->
 	<rule>
-		<key>show</key>
+		<key>Use show</key>
 		<name>Use show</name>
-		<internalKey>show</internalKey>
+		<internalKey>Use show</internalKey>
 		<description>Use show</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -238,9 +238,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>shows</key>
+		<key>Use shows</key>
 		<name>Use shows</name>
-		<internalKey>shows</internalKey>
+		<internalKey>Use shows</internalKey>
 		<description>Use shows</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -251,9 +251,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>reads</key>
+		<key>Use reads</key>
 		<name>Use reads</name>
-		<internalKey>reads</internalKey>
+		<internalKey>Use reads</internalKey>
 		<description>Use reads</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -264,9 +264,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>showHex</key>
+		<key>Use showHex</key>
 		<name>Use showHex</name>
-		<internalKey>showHex</internalKey>
+		<internalKey>Use showHex</internalKey>
 		<description>Use showHex</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -277,9 +277,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>showOct</key>
+		<key>Use showOct</key>
 		<name>Use showOct</name>
-		<internalKey>showOct</internalKey>
+		<internalKey>Use showOct</internalKey>
 		<description>Use showOct</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -294,9 +294,9 @@
 	list
 	-->
 	<rule>
-		<key>concatMap</key>
+		<key>Use concatMap</key>
 		<name>Use concatMap</name>
-		<internalKey>concatMap</internalKey>
+		<internalKey>Use concatMap</internalKey>
 		<description>Use concatMap</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -307,9 +307,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>mapOnce</key>
+		<key>Use mapOnce</key>
 		<name>Use map once</name>
-		<internalKey>mapOnce</internalKey>
+		<internalKey>Use mapOnce</internalKey>
 		<description>Use map once</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -320,9 +320,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>head</key>
+		<key>Use head</key>
 		<name>Use head</name>
-		<internalKey>head</internalKey>
+		<internalKey>Use head</internalKey>
 		<description>Use head</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -333,9 +333,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>replicate</key>
+		<key>Use replicate</key>
 		<name>Use replicate</name>
-		<internalKey>replicate</internalKey>
+		<internalKey>Use replicate</internalKey>
 		<description>Use replicate</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -346,9 +346,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>repeat</key>
+		<key>Use repeat</key>
 		<name>Use repeat</name>
-		<internalKey>repeat</internalKey>
+		<internalKey>Use repeat</internalKey>
 		<description>Use repeat</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -359,9 +359,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>last</key>
+		<key>Use last</key>
 		<name>Use last</name>
-		<internalKey>last</internalKey>
+		<internalKey>Use last</internalKey>
 		<description>Use last</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -372,9 +372,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>init</key>
+		<key>Use init</key>
 		<name>Use init</name>
-		<internalKey>init</internalKey>
+		<internalKey>Use init</internalKey>
 		<description>Use init</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -385,9 +385,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>isSuffixOf</key>
+		<key>Use isSuffixOf</key>
 		<name>Use isSuffixOf</name>
-		<internalKey>isSuffixOf</internalKey>
+		<internalKey>Use isSuffixOf</internalKey>
 		<description>Use isSuffixOf</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -398,9 +398,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>concat</key>
+		<key>Use concat</key>
 		<name>Use concat</name>
-		<internalKey>concat</internalKey>
+		<internalKey>Use concat</internalKey>
 		<description>Use concat</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -411,9 +411,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>foldl1</key>
+		<key>Use foldl1</key>
 		<name>Use foldl1</name>
-		<internalKey>foldl1</internalKey>
+		<internalKey>Use foldl1</internalKey>
 		<description>Use foldl1</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -424,9 +424,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>foldr1</key>
+		<key>Use foldr1</key>
 		<name>Use foldr1</name>
-		<internalKey>foldr1</internalKey>
+		<internalKey>Use foldr1</internalKey>
 		<description>Use foldr1</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -437,9 +437,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>break</key>
+		<key>Use break</key>
 		<name>Use break</name>
-		<internalKey>break</internalKey>
+		<internalKey>Use break</internalKey>
 		<description>Use break</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -450,9 +450,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>span</key>
+		<key>Use span</key>
 		<name>Use span</name>
-		<internalKey>span</internalKey>
+		<internalKey>Use span</internalKey>
 		<description>Use span</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -463,9 +463,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>takeWhile</key>
+		<key>Use takeWhile</key>
 		<name>Use takeWhile</name>
-		<internalKey>takeWhile</internalKey>
+		<internalKey>Use takeWhile</internalKey>
 		<description>Use takeWhile</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -476,9 +476,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>dropWhile</key>
+		<key>Use dropWhile</key>
 		<name>Use dropWhile</name>
-		<internalKey>dropWhile</internalKey>
+		<internalKey>Use dropWhile</internalKey>
 		<description>Use dropWhile</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -489,9 +489,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>unlines</key>
+		<key>Use unlines</key>
 		<name>Use Unlines</name>
-		<internalKey>unlines</internalKey>
+		<internalKey>Use unlines</internalKey>
 		<description>Use unlines</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -502,9 +502,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>id</key>
+		<key>Use id</key>
 		<name>Use id</name>
-		<internalKey>id</internalKey>
+		<internalKey>Use id</internalKey>
 		<description>Use id</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -515,9 +515,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>any</key>
+		<key>Use any</key>
 		<name>Use any</name>
-		<internalKey>any</internalKey>
+		<internalKey>Use any</internalKey>
 		<description>Use any</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -528,9 +528,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>all</key>
+		<key>Use all</key>
 		<name>Use all</name>
-		<internalKey>all</internalKey>
+		<internalKey>Use all</internalKey>
 		<description>Use all</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -541,9 +541,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>zip</key>
+		<key>Use zip</key>
 		<name>Use zip</name>
-		<internalKey>zip</internalKey>
+		<internalKey>Use zip</internalKey>
 		<description>Use zip</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -554,9 +554,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>zip3</key>
+		<key>Use zip3</key>
 		<name>Use zip3</name>
-		<internalKey>zip3</internalKey>
+		<internalKey>Use zip3</internalKey>
 		<description>Use zip3</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -567,9 +567,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>null</key>
+		<key>Use null</key>
 		<name>Use null</name>
-		<internalKey>null</internalKey>
+		<internalKey>Use null</internalKey>
 		<description>Use null</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -580,9 +580,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>bracket</key>
+		<key>Use bracket</key>
 		<name>Redundant bracket</name>
-		<internalKey>bracket</internalKey>
+		<internalKey>Use bracket</internalKey>
 		<description>Redundant bracket</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -593,9 +593,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>doublePoint</key>
+		<key>Use doublePoint</key>
 		<name>Use :</name>
-		<internalKey>doublePoint</internalKey>
+		<internalKey>Use doublePoint</internalKey>
 		<description>Use :</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -606,9 +606,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>zipWith</key>
+		<key>Use zipWith</key>
 		<name>Use zipWith</name>
-		<internalKey>zipWith</internalKey>
+		<internalKey>Use zipWith</internalKey>
 		<description>Use zipWith</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -619,9 +619,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>notElem</key>
+		<key>Use notElem</key>
 		<name>Use notElem</name>
-		<internalKey>notElem</internalKey>
+		<internalKey>Use notElem</internalKey>
 		<description>Use notElem</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -632,9 +632,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>infix</key>
+		<key>Use infix</key>
 		<name>Use infix</name>
-		<internalKey>infix</internalKey>
+		<internalKey>Use infix</internalKey>
 		<description>Use infix</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -645,9 +645,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>.</key>
+		<key>Use .</key>
 		<name>Use .</name>
-		<internalKey>.</internalKey>
+		<internalKey>Use .</internalKey>
 		<description>Use .</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -658,9 +658,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>unwords</key>
+		<key>Use unwords</key>
 		<name>Use unwords</name>
-		<internalKey>unwords</internalKey>
+		<internalKey>Use unwords</internalKey>
 		<description>Use unwords</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -671,9 +671,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>intercalate</key>
+		<key>Use intercalate</key>
 		<name>Use intercalate</name>
-		<internalKey>intercalate</internalKey>
+		<internalKey>Use intercalate</internalKey>
 		<description>Use intercalate</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -684,9 +684,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>or</key>
+		<key>Use or</key>
 		<name>Use or</name>
-		<internalKey>or</internalKey>
+		<internalKey>Use or</internalKey>
 		<description>Use or</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -697,9 +697,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>and</key>
+		<key>Use and</key>
 		<name>Use and</name>
-		<internalKey>and</internalKey>
+		<internalKey>Use and</internalKey>
 		<description>Use and</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -710,9 +710,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>elem</key>
+		<key>Use elem</key>
 		<name>Use elem</name>
-		<internalKey>elem</internalKey>
+		<internalKey>Use elem</internalKey>
 		<description>Use elem</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -723,9 +723,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>section</key>
+		<key>Use section</key>
 		<name>Use section</name>
-		<internalKey>section</internalKey>
+		<internalKey>Use section</internalKey>
 		<description>Use section</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -736,9 +736,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>elemIndex</key>
+		<key>Use elemIndex</key>
 		<name>Use elemIndex</name>
-		<internalKey>elemIndex</internalKey>
+		<internalKey>Use elemIndex</internalKey>
 		<description>Use elemIndex</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -749,9 +749,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>elemIndices</key>
+		<key>Use elemIndices</key>
 		<name>Use elemIndices</name>
-		<internalKey>elemIndices</internalKey>
+		<internalKey>Use elemIndices</internalKey>
 		<description>Use elemIndices</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -762,9 +762,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>lengthAlwaysNon-negative</key>
+		<key>Use lengthAlwaysNon-negative</key>
 		<name>Length always non-negative</name>
-		<internalKey>lengthAlwaysNon-negative</internalKey>
+		<internalKey>Use lengthAlwaysNon-negative</internalKey>
 		<description>Length always non-negative</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -775,9 +775,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>foldl</key>
+		<key>Use foldl</key>
 		<name>Use foldl</name>
-		<internalKey>foldl</internalKey>
+		<internalKey>Use foldl</internalKey>
 		<description>Use foldl</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -788,9 +788,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>foldr</key>
+		<key>Use foldr</key>
 		<name>Use foldr</name>
-		<internalKey>foldr</internalKey>
+		<internalKey>Use foldr</internalKey>
 		<description>Use foldr</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -805,9 +805,9 @@
 	by
 	-->
 	<rule>
-		<key>delete</key>
+		<key>Use delete</key>
 		<name>Use delete</name>
-		<internalKey>delete</internalKey>
+		<internalKey>Use delete</internalKey>
 		<description>Use delete</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -818,9 +818,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>group</key>
+		<key>Use group</key>
 		<name>Use group</name>
-		<internalKey>group</internalKey>
+		<internalKey>Use group</internalKey>
 		<description>Use group</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -831,9 +831,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>insert</key>
+		<key>Use insert</key>
 		<name>Use insert</name>
-		<internalKey>insert</internalKey>
+		<internalKey>Use insert</internalKey>
 		<description>Use insert</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -844,9 +844,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>intersect</key>
+		<key>Use intersect</key>
 		<name>Use intersect</name>
-		<internalKey>intersect</internalKey>
+		<internalKey>Use intersect</internalKey>
 		<description>Use intersect</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -857,9 +857,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>nub</key>
+		<key>Use nub</key>
 		<name>Use nub</name>
-		<internalKey>nub</internalKey>
+		<internalKey>Use nub</internalKey>
 		<description>Use nub</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -870,9 +870,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>sort</key>
+		<key>Use sort</key>
 		<name>Use sort</name>
-		<internalKey>sort</internalKey>
+		<internalKey>Use sort</internalKey>
 		<description>Use sort</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -883,9 +883,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>union</key>
+		<key>Use union</key>
 		<name>Use union</name>
-		<internalKey>union</internalKey>
+		<internalKey>Use union</internalKey>
 		<description>Use union</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -900,9 +900,9 @@
 	folds
 	-->
 	<rule>
-		<key>sequence_</key>
+		<key>Use sequence_</key>
 		<name>Use sequence_</name>
-		<internalKey>sequence_</internalKey>
+		<internalKey>Use sequence_</internalKey>
 		<description>Use sequence_</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -913,9 +913,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>sum</key>
+		<key>Use sum</key>
 		<name>Use sum</name>
-		<internalKey>sum</internalKey>
+		<internalKey>Use sum</internalKey>
 		<description>Use sum</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -926,9 +926,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>product</key>
+		<key>Use product</key>
 		<name>Use product</name>
-		<internalKey>product</internalKey>
+		<internalKey>Use product</internalKey>
 		<description>Use product</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -944,9 +944,9 @@
 	function
 	-->
 	<rule>
-		<key>const</key>
+		<key>Use const</key>
 		<name>Use const</name>
-		<internalKey>const</internalKey>
+		<internalKey>Use const</internalKey>
 		<description>Use const</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -957,9 +957,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>snd</key>
+		<key>Use snd</key>
 		<name>Use snd</name>
-		<internalKey>snd</internalKey>
+		<internalKey>Use snd</internalKey>
 		<description>Use snd</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -970,9 +970,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>fst</key>
+		<key>Use fst</key>
 		<name>Use fst</name>
-		<internalKey>fst</internalKey>
+		<internalKey>Use fst</internalKey>
 		<description>Use fst</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -983,9 +983,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>curry</key>
+		<key>Use curry</key>
 		<name>Use curry</name>
-		<internalKey>curry</internalKey>
+		<internalKey>Use curry</internalKey>
 		<description>Use curry</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -996,9 +996,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>uncurry</key>
+		<key>Use uncurry</key>
 		<name>Use uncurry</name>
-		<internalKey>uncurry</internalKey>
+		<internalKey>Use uncurry</internalKey>
 		<description>Use uncurry</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1009,9 +1009,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>dollar</key>
+		<key>Use dollar</key>
 		<name>Redundant $</name>
-		<internalKey>dollar</internalKey>
+		<internalKey>Use dollar</internalKey>
 		<description>Redundant $</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1022,9 +1022,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>flip</key>
+		<key>Use flip</key>
 		<name>Redundant flip</name>
-		<internalKey>flip</internalKey>
+		<internalKey>Use flip</internalKey>
 		<description>Redundant flip</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1035,9 +1035,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>on</key>
+		<key>Use on</key>
 		<name>Use on</name>
-		<internalKey>on</internalKey>
+		<internalKey>Use on</internalKey>
 		<description>Use on</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1053,9 +1053,9 @@
 	char
 	-->
 	<rule>
-		<key>isAsciiLower</key>
+		<key>Use isAsciiLower</key>
 		<name>Use isAsciiLower</name>
-		<internalKey>isAsciiLower</internalKey>
+		<internalKey>Use isAsciiLower</internalKey>
 		<description>Use isAsciiLower</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1066,9 +1066,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>isAsciiUpper</key>
+		<key>Use isAsciiUpper</key>
 		<name>Use isAsciiUpper</name>
-		<internalKey>isAsciiUpper</internalKey>
+		<internalKey>Use isAsciiUpper</internalKey>
 		<description>Use isAsciiUpper</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1079,9 +1079,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>isDigit</key>
+		<key>Use isDigit</key>
 		<name>Use isDigit</name>
-		<internalKey>isDigit</internalKey>
+		<internalKey>Use isDigit</internalKey>
 		<description>Use isDigit</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1092,9 +1092,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>isOctDigit</key>
+		<key>Use isOctDigit</key>
 		<name>Use isOctDigit</name>
-		<internalKey>isOctDigit</internalKey>
+		<internalKey>Use isOctDigit</internalKey>
 		<description>Use isOctDigit</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1105,9 +1105,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>isAlpha</key>
+		<key>Use isAlpha</key>
 		<name>Use isAlpha</name>
-		<internalKey>isAlpha</internalKey>
+		<internalKey>Use isAlpha</internalKey>
 		<description>Use isAlpha</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1123,9 +1123,9 @@
 	bool
 	-->
 	<rule>
-		<key>equalEqual</key>
+		<key>Use equalEqual</key>
 		<name>Redundant ==</name>
-		<internalKey>equalEqual</internalKey>
+		<internalKey>Use equalEqual</internalKey>
 		<description>Redundant ==</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1136,9 +1136,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>slashEqual</key>
+		<key>Use slashEqual</key>
 		<name>Redundant /=</name>
-		<internalKey>slashEqual</internalKey>
+		<internalKey>Use slashEqual</internalKey>
 		<description>Redundant /=</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1149,9 +1149,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>if</key>
+		<key>Use if</key>
 		<name>Redundant if</name>
-		<internalKey>if</internalKey>
+		<internalKey>Use if</internalKey>
 		<description>Redundant if</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1167,9 +1167,9 @@
 	arrow
 	-->
 	<rule>
-		<key>second</key>
+		<key>Use second</key>
 		<name>Use second</name>
-		<internalKey>second</internalKey>
+		<internalKey>Use second</internalKey>
 		<description>Use second</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1180,9 +1180,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>andAndAnd</key>
+		<key>Use andAndAnd</key>
 		<name>Use &amp;&amp;&amp;</name>
-		<internalKey>andAndAnd</internalKey>
+		<internalKey>Use andAndAnd</internalKey>
 		<description>Use &amp;&amp;&amp;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1193,9 +1193,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>starStarStar</key>
+		<key>Use starStarStar</key>
 		<name>Use ***</name>
-		<internalKey>starStarStar</internalKey>
+		<internalKey>Use starStarStar</internalKey>
 		<description>Use ***</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1206,9 +1206,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>first</key>
+		<key>Use first</key>
 		<name>Use first</name>
-		<internalKey>first</internalKey>
+		<internalKey>Use first</internalKey>
 		<description>Use first</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1219,9 +1219,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>pair</key>
+		<key>Use pair</key>
 		<name>Redundant pair</name>
-		<internalKey>pair</internalKey>
+		<internalKey>Use pair</internalKey>
 		<description>Redundant pair</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1237,9 +1237,9 @@
 	functor
 	-->
 	<rule>
-		<key>functor law</key>
+		<key>Use functor law</key>
 		<name>Functor law</name>
-		<internalKey>functor law</internalKey>
+		<internalKey>Use functor law</internalKey>
 		<description>Functor law</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1255,9 +1255,9 @@
 	monad
 	-->
 	<rule>
-		<key>monadLawLeft</key>
+		<key>Use monadLawLeft</key>
 		<name>Monad law, left identity</name>
-		<internalKey>monadLawLeft</internalKey>
+		<internalKey>Use monadLawLeft</internalKey>
 		<description>Monad law, left identity</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1268,9 +1268,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>monadLawRight</key>
+		<key>Use monadLawRight</key>
 		<name>Monad law, right identity</name>
-		<internalKey>monad law right</internalKey>
+		<internalKey>Use monad law right</internalKey>
 		<description>Monad law, right identity</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1281,9 +1281,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>liftM</key>
+		<key>Use liftM</key>
 		<name>Use liftM</name>
-		<internalKey>liftM</internalKey>
+		<internalKey>Use liftM</internalKey>
 		<description>Use liftM</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1294,9 +1294,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>when</key>
+		<key>Use when</key>
 		<name>Use when</name>
-		<internalKey>when</internalKey>
+		<internalKey>Use when</internalKey>
 		<description>Use when</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1307,9 +1307,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>unless</key>
+		<key>Use unless</key>
 		<name>Use unless</name>
-		<internalKey>unless</internalKey>
+		<internalKey>Use unless</internalKey>
 		<description>Use unless</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1320,9 +1320,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>mapM</key>
+		<key>Use mapM</key>
 		<name>Use mapM</name>
-		<internalKey>mapM</internalKey>
+		<internalKey>Use mapM</internalKey>
 		<description>Use mapM</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1333,9 +1333,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>mapM_</key>
+		<key>Use mapM_</key>
 		<name>Use mapM_</name>
-		<internalKey>mapM_</internalKey>
+		<internalKey>Use mapM_</internalKey>
 		<description>Use mapM_</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1346,9 +1346,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>forM</key>
+		<key>Use forM</key>
 		<name>Use forM</name>
-		<internalKey>forM</internalKey>
+		<internalKey>Use forM</internalKey>
 		<description>Use forM</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1359,9 +1359,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>forM_</key>
+		<key>Use forM_</key>
 		<name>Use forM_</name>
-		<internalKey>forM_</internalKey>
+		<internalKey>Use forM_</internalKey>
 		<description>Use forM_</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1372,9 +1372,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>join</key>
+		<key>Use join</key>
 		<name>Use join</name>
-		<internalKey>join</internalKey>
+		<internalKey>Use join</internalKey>
 		<description>Use join</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1385,9 +1385,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>void</key>
+		<key>Use void</key>
 		<name>Use void</name>
-		<internalKey>void</internalKey>
+		<internalKey>Use void</internalKey>
 		<description>Use void</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1398,9 +1398,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>infEqualInf</key>
+		<key>Use infEqualInf</key>
 		<name>Use &lt;=&lt;</name>
-		<internalKey>infEqualInf</internalKey>
+		<internalKey>Use infEqualInf</internalKey>
 		<description>Use &lt;=&lt;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1411,9 +1411,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>supEqualSup</key>
+		<key>Use supEqualSup</key>
 		<name>Use &gt;=&gt;</name>
-		<internalKey>supEqualSup</internalKey>
+		<internalKey>Use supEqualSup</internalKey>
 		<description>Use &gt;=&gt;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1424,9 +1424,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>equalInfInf</key>
+		<key>Use equalInfInf</key>
 		<name>Use =&lt;&lt;</name>
-		<internalKey>equalInfInf</internalKey>
+		<internalKey>Use equalInfInf</internalKey>
 		<description>Use =&lt;&lt;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1437,9 +1437,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>supSupEqual</key>
+		<key>Use supSupEqual</key>
 		<name>Use &gt;&gt;=</name>
-		<internalKey>supSupEqual</internalKey>
+		<internalKey>Use supSupEqual</internalKey>
 		<description>Use &gt;&gt;=</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1450,9 +1450,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>forever</key>
+		<key>Use forever</key>
 		<name>Use forever</name>
-		<internalKey>forever</internalKey>
+		<internalKey>Use forever</internalKey>
 		<description>Use forever</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1463,9 +1463,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>ap</key>
+		<key>Use ap</key>
 		<name>Use ap</name>
-		<internalKey>ap</internalKey>
+		<internalKey>Use ap</internalKey>
 		<description>Use ap</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1476,9 +1476,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>zipWithM</key>
+		<key>Use zipWithM</key>
 		<name>Use zipWithM</name>
-		<internalKey>zipWithM</internalKey>
+		<internalKey>Use zipWithM</internalKey>
 		<description>Use zipWithM</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1495,9 +1495,9 @@
 	state-monad
 	-->
 	<rule>
-		<key>evalState</key>
+		<key>Use evalState</key>
 		<name>Use evalState</name>
-		<internalKey>evalState</internalKey>
+		<internalKey>Use evalState</internalKey>
 		<description>Use evalState</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1508,9 +1508,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>exitState</key>
+		<key>Use exitState</key>
 		<name>Use exitState</name>
-		<internalKey>exitState</internalKey>
+		<internalKey>Use exitState</internalKey>
 		<description>Use exitState</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1526,9 +1526,9 @@
 	monad-list
 	-->
 	<rule>
-		<key>mapAndUnzipM</key>
+		<key>Use mapAndUnzipM</key>
 		<name>Use mapAndUnzipM</name>
-		<internalKey>mapAndUnzipM</internalKey>
+		<internalKey>Use mapAndUnzipM</internalKey>
 		<description>Use mapAndUnzipM</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1539,9 +1539,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>zipWithM_</key>
+		<key>Use zipWithM_</key>
 		<name>Use zipWithM_</name>
-		<internalKey>zipWithM_</internalKey>
+		<internalKey>Use zipWithM_</internalKey>
 		<description>Use zipWithM_</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1552,9 +1552,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>replicateM</key>
+		<key>Use replicateM</key>
 		<name>Use replicateM</name>
-		<internalKey>replicateM</internalKey>
+		<internalKey>Use replicateM</internalKey>
 		<description>Use replicateM</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1565,9 +1565,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>replicateM_</key>
+		<key>Use replicateM_</key>
 		<name>Use replicateM_</name>
-		<internalKey>replicateM_</internalKey>
+		<internalKey>Use replicateM_</internalKey>
 		<description>Use replicateM_</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1584,9 +1584,9 @@
 	APPLICATIVE / TRAVERSABLE
 	-->
 	<rule>
-		<key>for</key>
+		<key>Use for</key>
 		<name>Use for</name>
-		<internalKey>for</internalKey>
+		<internalKey>Use for</internalKey>
 		<description>Use for</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1597,9 +1597,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>for_</key>
+		<key>Use for_</key>
 		<name>Use for_</name>
-		<internalKey>for_</internalKey>
+		<internalKey>Use for_</internalKey>
 		<description>Use for_</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1610,9 +1610,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>traverse</key>
+		<key>Use traverse</key>
 		<name>Use traverse</name>
-		<internalKey>traverse</internalKey>
+		<internalKey>Use traverse</internalKey>
 		<description>Use traverse</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1623,9 +1623,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>traverse_</key>
+		<key>Use traverse_</key>
 		<name>Use traverse_</name>
-		<internalKey>traverse_</internalKey>
+		<internalKey>Use traverse_</internalKey>
 		<description>Use traverse_</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1636,9 +1636,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>sequenceA_</key>
+		<key>Use sequenceA_</key>
 		<name>Use sequenceA_</name>
-		<internalKey>sequenceA_</internalKey>
+		<internalKey>Use sequenceA_</internalKey>
 		<description>Use sequenceA_</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1649,9 +1649,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>asum</key>
+		<key>Use asum</key>
 		<name>Use asum</name>
-		<internalKey>asum</internalKey>
+		<internalKey>Use asum</internalKey>
 		<description>Use asum</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1662,9 +1662,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>infStarStarSup</key>
+		<key>Use infStarStarSup</key>
 		<name>Use &lt;**&gt;</name>
-		<internalKey>infStarStarSup</internalKey>
+		<internalKey>Use infStarStarSup</internalKey>
 		<description>Use &lt;**&gt;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1675,9 +1675,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>optional</key>
+		<key>Use optional</key>
 		<name>Use optional</name>
-		<internalKey>optional</internalKey>
+		<internalKey>Use optional</internalKey>
 		<description>Use optional</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1695,9 +1695,9 @@
 	list-comp
 	-->
 	<rule>
-		<key>listComprehension</key>
+		<key>Use listComprehension</key>
 		<name>Use list_comprehension</name>
-		<internalKey>listComprehension</internalKey>
+		<internalKey>Use listComprehension</internalKey>
 		<description>Use list_comprehension</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1708,9 +1708,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>redundantListComprehension</key>
+		<key>Use redundantListComprehension</key>
 		<name>Redundant list_comprehension</name>
-		<internalKey>redundantListComprehension</internalKey>
+		<internalKey>Use redundantListComprehension</internalKey>
 		<description>Redundant list_comprehension</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1728,9 +1728,9 @@
 	maybe
 	-->
 	<rule>
-		<key>fromMayBe</key>
+		<key>Use fromMayBe</key>
 		<name>Use fromMayBe</name>
-		<internalKey>fromMayBe</internalKey>
+		<internalKey>Use fromMayBe</internalKey>
 		<description>Use fromMayBe</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1741,9 +1741,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>isJust</key>
+		<key>Use isJust</key>
 		<name>Use isJust</name>
-		<internalKey>isJust</internalKey>
+		<internalKey>Use isJust</internalKey>
 		<description>Use isJust</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1754,9 +1754,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>isNothing</key>
+		<key>Use isNothing</key>
 		<name>Use isNothing</name>
-		<internalKey>isNothing</internalKey>
+		<internalKey>Use isNothing</internalKey>
 		<description>Use isNothing</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1767,9 +1767,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>mapMayBe</key>
+		<key>Use mapMayBe</key>
 		<name>Use mapMayBe</name>
-		<internalKey>mapMayBe</internalKey>
+		<internalKey>Use mapMayBe</internalKey>
 		<description>Use mapMayBe</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1780,9 +1780,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>fmap</key>
+		<key>Use fmap</key>
 		<name>Use fmap</name>
-		<internalKey>fmap</internalKey>
+		<internalKey>Use fmap</internalKey>
 		<description>Use fmap</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1793,9 +1793,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>catMayBes</key>
+		<key>Use catMayBes</key>
 		<name>Use catMayBes</name>
-		<internalKey>catMayBes</internalKey>
+		<internalKey>Use catMayBes</internalKey>
 		<description>Use catMayBes</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1812,9 +1812,9 @@
 	either
 	-->
 	<rule>
-		<key>lefts</key>
+		<key>Use lefts</key>
 		<name>Use lefts</name>
-		<internalKey>lefts</internalKey>
+		<internalKey>Use lefts</internalKey>
 		<description>Use lefts</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1825,9 +1825,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>rights</key>
+		<key>Use rights</key>
 		<name>Use rights</name>
-		<internalKey>rights</internalKey>
+		<internalKey>Use rights</internalKey>
 		<description>Use rights</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1845,9 +1845,9 @@
 	maths
 	-->
 	<rule>
-		<key>sqrt</key>
+		<key>Use sqrt</key>
 		<name>Use sqrt</name>
-		<internalKey>sqrt</internalKey>
+		<internalKey>Use sqrt</internalKey>
 		<description>Use sqrt</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1858,9 +1858,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>floor</key>
+		<key>Use floor</key>
 		<name>Use floor</name>
-		<internalKey>floor</internalKey>
+		<internalKey>Use floor</internalKey>
 		<description>Use floor</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1878,9 +1878,9 @@
 	exception
 	-->
 	<rule>
-		<key>handle</key>
+		<key>Use handle</key>
 		<name>Use handle</name>
-		<internalKey>handle</internalKey>
+		<internalKey>Use handle</internalKey>
 		<description>Use handle</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1891,9 +1891,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>handleJust</key>
+		<key>Use handleJust</key>
 		<name>Use handleJust</name>
-		<internalKey>handleJust</internalKey>
+		<internalKey>Use handleJust</internalKey>
 		<description>Use handleJust</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1904,9 +1904,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>catchJust</key>
+		<key>Use catchJust</key>
 		<name>Use catchJust</name>
-		<internalKey>catchJust</internalKey>
+		<internalKey>Use catchJust</internalKey>
 		<description>Use catchJust</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1917,9 +1917,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>withFile</key>
+		<key>Use withFile</key>
 		<name>Use withFile</name>
-		<internalKey>withFile</internalKey>
+		<internalKey>Use withFile</internalKey>
 		<description>Use withFilet</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1930,9 +1930,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>withBinaryFile</key>
+		<key>Use withBinaryFile</key>
 		<name>Use withBinaryFile</name>
-		<internalKey>withBinaryFile</internalKey>
+		<internalKey>Use withBinaryFile</internalKey>
 		<description>Use withBinaryFilet</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1943,9 +1943,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>error</key>
+		<key>Use error</key>
 		<name>Use error</name>
-		<internalKey>error</internalKey>
+		<internalKey>Use error</internalKey>
 		<description>Use error</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1956,9 +1956,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>nonTermination</key>
+		<key>Use nonTermination</key>
 		<name>Use nonTermination</name>
-		<internalKey>nonTermination</internalKey>
+		<internalKey>Use nonTermination</internalKey>
 		<description>Use nonTermination</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1969,9 +1969,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>nestedAtomically</key>
+		<key>Use nestedAtomically</key>
 		<name>Use nestedAtomically</name>
-		<internalKey>nestedAtomically</internalKey>
+		<internalKey>Use nestedAtomically</internalKey>
 		<description>Use nestedAtomically</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1989,9 +1989,9 @@
 	weak-pointers
 	-->
 	<rule>
-		<key>mkWeakPtr</key>
+		<key>Use mkWeakPtr</key>
 		<name>Use mkWeakPtr</name>
-		<internalKey>mkWeakPtr</internalKey>
+		<internalKey>Use mkWeakPtr</internalKey>
 		<description>Use mkWeakPtr</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -2002,9 +2002,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>mkWeakPair</key>
+		<key>Use mkWeakPair</key>
 		<name>Use mkWeakPair</name>
-		<internalKey>mkWeakPair</internalKey>
+		<internalKey>Use mkWeakPair</internalKey>
 		<description>Use mkWeakPair</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -2022,9 +2022,9 @@
 	foldable
 	-->
 	<rule>
-		<key>foldable.forM_</key>
+		<key>Use foldable.forM_</key>
 		<name>Use Foldable.forM_</name>
-		<internalKey>foldable.forM_</internalKey>
+		<internalKey>Use foldable.forM_</internalKey>
 		<description>Use Foldable.forM_</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -2043,9 +2043,9 @@
 	evaluate
 	-->
 	<rule>
-		<key>evaluate</key>
+		<key>Use evaluate</key>
 		<name>Evaluate</name>
-		<internalKey>evaluate</internalKey>
+		<internalKey>Use evaluate</internalKey>
 		<description>Use Evaluate</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -2063,9 +2063,9 @@
 	OTHER
 	-->
 	<rule>
-		<key>ExampleRule2</key>
+		<key>Use ExampleRule2</key>
 		<name>Example Rule 2</name>
-		<internalKey>ExampleRule2</internalKey>
+		<internalKey>Use ExampleRule2</internalKey>
 		<description>This is an example of rule2 defined thru the XML.
 		</description>
 		<severity>MAJOR</severity>
@@ -2078,9 +2078,9 @@
         <remediationFunctionGapMultiplier>60min</remediationFunctionGapMultiplier>		
 	</rule>
 	<rule>
-		<key>ExampleRule3</key>
+		<key>Use ExampleRule3</key>
 		<name>Example Rule 3</name> 
-		<internalKey>ExampleRule3</internalKey>
+		<internalKey>Use ExampleRule3</internalKey>
 		<description>This is an example of rule3 defined thru the XML.
 		</description>
 		<severity>CRITICAL</severity>

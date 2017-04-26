@@ -97,7 +97,8 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 		LOGGER.debug("inputFile null ? " + (inputFile == null));
 
 		if (inputFile != null) {
-			saveIssue(inputFile, error.getLine(), GateRuleKey.getKeyFromError(error), error.getDescription());
+			//saveIssue(inputFile, error.getLine(), GateRuleKey.getKeyFromError(error), error.getDescription());
+			saveIssue(inputFile, error.getLine(), error.getHint(), error.getDescription());  
 		} else {
 			LOGGER.error("Not able to find a InputFile with " + error.getFilePath());
 		}
@@ -133,30 +134,18 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 	
 	public class HaskellLintError {
 
-		private final String module;
-		private final String decl;
 		private final String hint;
 		private final String filePath;//file
 		private final int line;//startLine
 		private final String description;//from to
 
-		public HaskellLintError(final String module, final String decl, final String hint, final String filePath, final int line, final String description) {
-			this.module = module;
-			this.decl = decl;
+		public HaskellLintError(final String hint, final String filePath, final int line, final String description) {
 			this.hint = hint;
 			this.description = description;
 			this.filePath = filePath;
 			this.line = line;
 		}
 	
-	    public String getModule() {
-	    	return module;
-		}
-	    
-	    public String getDecl() {
-		    return decl;
-		}
-		
 	    public String getHint() {
 	    	return hint;
 	    }
@@ -177,10 +166,6 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 	    @Override
 	    public String toString() {
 	      StringBuilder s = new StringBuilder();
-	      s.append(module);
-	      s.append("|");
-	      s.append(decl);
-	      s.append("|");
 	      s.append(hint);
 	      s.append("|");
 	      s.append(description);
@@ -209,12 +194,13 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 				while (i.hasNext()) {
 					JsonObject innerObj = (JsonObject) i.next();
 					errorsAsList.add(new HaskellLintError(
-							innerObj.get("module").getAsString()
-							, innerObj.get("decl").getAsString()
-							, innerObj.get("hint").getAsString()
+							innerObj.get("hint").getAsString()
 							, innerObj.get("file").getAsString()
 							, Integer.parseInt(innerObj.get("startLine").getAsString())
-							, "Found : \n" + innerObj.get("from").getAsString() + "\nWhy not :" + innerObj.get("to").getAsString() + "\n" 
+							, "Module :" + innerObj.get("module").getAsString() 
+							+ "\nDecl :" + innerObj.get("decl").getAsString() 
+							+ "\nFound : \t" + innerObj.get("from").getAsString() 
+							+ "\nWhy not : " + innerObj.get("to").getAsString() + "\n" 
 							+ innerObj.get("note").getAsString()));
 				}
 			} catch (FileNotFoundException ex) {
