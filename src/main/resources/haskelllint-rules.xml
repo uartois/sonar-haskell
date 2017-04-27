@@ -1,4 +1,23 @@
 <haskelllint-rules>
+	
+	<!--
+	TEST
+	-->
+	<rule>
+		<key>rule test</key>
+		<name>Example Rule test</name>
+		<internalKey>rule test</internalKey>
+		<description>This is an example of rule test
+		</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>BETA</status>
+		<type>CODE_SMELL</type>
+		<tag>test</tag>
+        <remediationFunction>LINEAR</remediationFunction>
+        <remediationFunctionGapMultiplier>60min</remediationFunctionGapMultiplier>		
+	</rule>
+
 
 	<!--
 	io
@@ -208,9 +227,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use avoidReverse</key>
+		<key>Avoid reverse</key>
 		<name>Avoid reverse</name>
-		<internalKey>Use avoidReverse</internalKey>
+		<internalKey>Avoid reverse</internalKey>
 		<description>Avoid reverse</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -307,9 +326,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use mapOnce</key>
+		<key>Use map once</key>
 		<name>Use map once</name>
-		<internalKey>Use mapOnce</internalKey>
+		<internalKey>Use map once</internalKey>
 		<description>Use map once</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -580,9 +599,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use bracket</key>
+		<key>Redundant bracket</key>
 		<name>Redundant bracket</name>
-		<internalKey>Use bracket</internalKey>
+		<internalKey>Redundant bracket</internalKey>
 		<description>Redundant bracket</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -593,9 +612,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use doublePoint</key>
+		<key>Use :</key>
 		<name>Use :</name>
-		<internalKey>Use doublePoint</internalKey>
+		<internalKey>Use :</internalKey>
 		<description>Use :</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -762,9 +781,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use lengthAlwaysNon-negative</key>
+		<key>Length always non-negative</key>
 		<name>Length always non-negative</name>
-		<internalKey>Use lengthAlwaysNon-negative</internalKey>
+		<internalKey>Length always non-negative</internalKey>
 		<description>Length always non-negative</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1009,9 +1028,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use dollar</key>
+		<key>Redundant $</key>
 		<name>Redundant $</name>
-		<internalKey>Use dollar</internalKey>
+		<internalKey>Redundant $</internalKey>
 		<description>Redundant $</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1022,9 +1041,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use flip</key>
+		<key>Redundant flip</key>
 		<name>Redundant flip</name>
-		<internalKey>Use flip</internalKey>
+		<internalKey>Redundant flip</internalKey>
 		<description>Redundant flip</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1123,9 +1142,9 @@
 	bool
 	-->
 	<rule>
-		<key>Use equalEqual</key>
+		<key>Redundant ==</key>
 		<name>Redundant ==</name>
-		<internalKey>Use equalEqual</internalKey>
+		<internalKey>Redundant ==</internalKey>
 		<description>Redundant ==</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1136,9 +1155,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use slashEqual</key>
+		<key>Redundant /=</key>
 		<name>Redundant /=</name>
-		<internalKey>Use slashEqual</internalKey>
+		<internalKey>Redundant /=</internalKey>
 		<description>Redundant /=</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1149,9 +1168,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use if</key>
+		<key>Redundant if</key>
 		<name>Redundant if</name>
-		<internalKey>Use if</internalKey>
+		<internalKey>Redundant if</internalKey>
 		<description>Redundant if</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1180,9 +1199,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use andAndAnd</key>
+		<key>Use &amp;&amp;&amp;</key>
 		<name>Use &amp;&amp;&amp;</name>
-		<internalKey>Use andAndAnd</internalKey>
+		<internalKey>Use &amp;&amp;&amp;</internalKey>
 		<description>Use &amp;&amp;&amp;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1193,9 +1212,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use starStarStar</key>
+		<key>Use ***</key>
 		<name>Use ***</name>
-		<internalKey>Use starStarStar</internalKey>
+		<internalKey>Use ***</internalKey>
 		<description>Use ***</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1219,9 +1238,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use pair</key>
+		<key>Redundant pair</key>
 		<name>Redundant pair</name>
-		<internalKey>Use pair</internalKey>
+		<internalKey>Redundant pair</internalKey>
 		<description>Redundant pair</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1237,9 +1256,9 @@
 	functor
 	-->
 	<rule>
-		<key>Use functor law</key>
+		<key>Functor law</key>
 		<name>Functor law</name>
-		<internalKey>Use functor law</internalKey>
+		<internalKey>Functor law</internalKey>
 		<description>Functor law</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1255,9 +1274,9 @@
 	monad
 	-->
 	<rule>
-		<key>Use monadLawLeft</key>
+		<key>Monad law, left identity</key>
 		<name>Monad law, left identity</name>
-		<internalKey>Use monadLawLeft</internalKey>
+		<internalKey>Monad law, left identity</internalKey>
 		<description>Monad law, left identity</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1268,9 +1287,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use monadLawRight</key>
+		<key>Monad law, right identity</key>
 		<name>Monad law, right identity</name>
-		<internalKey>Use monad law right</internalKey>
+		<internalKey>Monad law, right identity</internalKey>
 		<description>Monad law, right identity</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1398,9 +1417,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use infEqualInf</key>
+		<key>Use &lt;=&lt;</key>
 		<name>Use &lt;=&lt;</name>
-		<internalKey>Use infEqualInf</internalKey>
+		<internalKey>Use &lt;=&lt;</internalKey>
 		<description>Use &lt;=&lt;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1411,9 +1430,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use supEqualSup</key>
+		<key>Use &gt;=&gt;</key>
 		<name>Use &gt;=&gt;</name>
-		<internalKey>Use supEqualSup</internalKey>
+		<internalKey>Use &gt;=&gt;</internalKey>
 		<description>Use &gt;=&gt;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1424,9 +1443,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use equalInfInf</key>
+		<key>Use =&lt;&lt;</key>
 		<name>Use =&lt;&lt;</name>
-		<internalKey>Use equalInfInf</internalKey>
+		<internalKey>Use =&lt;&lt;</internalKey>
 		<description>Use =&lt;&lt;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1437,9 +1456,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use supSupEqual</key>
+		<key>Use &gt;&gt;=</key>
 		<name>Use &gt;&gt;=</name>
-		<internalKey>Use supSupEqual</internalKey>
+		<internalKey>Use &gt;&gt;=</internalKey>
 		<description>Use &gt;&gt;=</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1662,9 +1681,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use infStarStarSup</key>
+		<key>Use &lt;**&gt;</key>
 		<name>Use &lt;**&gt;</name>
-		<internalKey>Use infStarStarSup</internalKey>
+		<internalKey>Use &lt;**&gt;</internalKey>
 		<description>Use &lt;**&gt;</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1695,9 +1714,9 @@
 	list-comp
 	-->
 	<rule>
-		<key>Use listComprehension</key>
+		<key>Use list_comprehension</key>
 		<name>Use list_comprehension</name>
-		<internalKey>Use listComprehension</internalKey>
+		<internalKey>Use list_comprehension</internalKey>
 		<description>Use list_comprehension</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -1708,9 +1727,9 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use redundantListComprehension</key>
+		<key>Redundant list_comprehension</key>
 		<name>Redundant list_comprehension</name>
-		<internalKey>Use redundantListComprehension</internalKey>
+		<internalKey>Redundant list_comprehension</internalKey>
 		<description>Redundant list_comprehension</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -2022,9 +2041,9 @@
 	foldable
 	-->
 	<rule>
-		<key>Use foldable.forM_</key>
+		<key>Use Foldable.forM_</key>
 		<name>Use Foldable.forM_</name>
-		<internalKey>Use foldable.forM_</internalKey>
+		<internalKey>Use Foldable.forM_</internalKey>
 		<description>Use Foldable.forM_</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
@@ -2043,9 +2062,9 @@
 	evaluate
 	-->
 	<rule>
-		<key>Use evaluate</key>
+		<key>Evaluate</key>
 		<name>Evaluate</name>
-		<internalKey>Use evaluate</internalKey>
+		<internalKey>Evaluate</internalKey>
 		<description>Use Evaluate</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>

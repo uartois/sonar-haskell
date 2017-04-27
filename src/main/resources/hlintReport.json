@@ -1,4 +1,22 @@
 [
+		
+	{
+		"module":"Main",
+		"decl":"pPDB",
+		"severity":"Warning",
+		"hint":"rule test",
+		"file":"test3.hs",
+		"startLine":49,
+		"startColumn":8,
+		"endLine":50,
+		"endColumn":46,
+		"from":"catMaybes <$> (many $ (Just <$> pAtom) <|> (Nothing <$ pLine))",
+		"to":"catMaybes <$> many ((Just <$> pAtom) <|> (Nothing <$ pLine))",
+		"note":[]
+	}
+	
+	,
+	
 	{
 		"module":"Main",
 		"decl":"pAtom",
