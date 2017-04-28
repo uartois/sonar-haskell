@@ -1,7 +1,5 @@
 package fr.univartois.sonarhs;
 
-import static org.sonar.api.rules.RulePriority.MINOR;
-
 import static fr.univartois.sonarhs.HaskellLintRulesDefinition.REPO_KEY;
 import static fr.univartois.sonarhs.HaskellLintRulesDefinition.REPO_NAME;
 
@@ -68,7 +66,7 @@ public class HaskellQualityProfile extends ProfileDefinition{
 		profile.activateRule(Rule.create(REPO_KEY,"Use zip",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"Use zip3",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"Use null",REPO_NAME), null);
-		profile.activateRule(Rule.create(REPO_KEY,"Redundant bracket",REPO_NAME), MINOR);
+		profile.activateRule(Rule.create(REPO_KEY,"Redundant bracket",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"Use :",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"Use zipWith",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"Use notElem",REPO_NAME), null);
