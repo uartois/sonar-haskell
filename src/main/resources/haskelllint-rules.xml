@@ -1,22 +1,4 @@
 <haskelllint-rules>
-	
-	<!--
-	TEST
-	-->
-	<rule>
-		<key>rule test</key>
-		<name>Example Rule test</name>
-		<internalKey>rule test</internalKey>
-		<description>This is an example of rule test
-		</description>
-		<severity>MAJOR</severity>
-		<cardinality>SINGLE</cardinality>
-		<status>BETA</status>
-		<type>CODE_SMELL</type>
-		<tag>test</tag>
-        <remediationFunction>LINEAR</remediationFunction>
-        <remediationFunctionGapMultiplier>60min</remediationFunctionGapMultiplier>		
-	</rule>
 
 
 	<!--
@@ -26,7 +8,7 @@
 		<key>Use print</key>
 		<name>Use print</name>
 		<internalKey>Use print</internalKey>
-		<description>Use print</description>
+		<description>Use print : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -40,7 +22,7 @@
 		<key>Use putStr</key>
 		<name>Use putStr</name>
 		<internalKey>Use putStr</internalKey>
-		<description>Use putStr</description>
+		<description>Use putStr : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -53,7 +35,7 @@
 		<key>Use getChar</key>
 		<name>Use getChar</name>
 		<internalKey>Use getChar</internalKey>
-		<description>Use getChar</description>
+		<description>Use getChar : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -66,7 +48,7 @@
 		<key>Use getLine</key>
 		<name>Use getLine</name>
 		<internalKey>Use getLine</internalKey>
-		<description>Use getLine</description>
+		<description>Use getLine : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -79,7 +61,7 @@
 		<key>Use getContents</key>
 		<name>Use getContents</name>
 		<internalKey>Use getContents</internalKey>
-		<description>Use getContents</description>
+		<description>Use getContents : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -92,7 +74,7 @@
 		<key>Use putChar</key>
 		<name>Use putChar</name>
 		<internalKey>Use putChar</internalKey>
-		<description>Use putChar</description>
+		<description>Use putChar : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -105,7 +87,7 @@
 		<key>Use putStrLn</key>
 		<name>Use putStrLn</name>
 		<internalKey>Use putStrLn</internalKey>
-		<description>Use putStrLn</description>
+		<description>Use putStrLn : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -118,7 +100,7 @@
 		<key>Use hReady</key>
 		<name>Use hReady</name>
 		<internalKey>Use hReady</internalKey>
-		<description>Use hReady</description>
+		<description>Use hReady : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -131,7 +113,7 @@
 		<key>Use hPrint</key>
 		<name>Use hPrint</name>
 		<internalKey>Use hPrint</internalKey>
-		<description>Use hPrint</description>
+		<description>Use hPrint : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -144,7 +126,7 @@
 		<key>Use isEOF</key>
 		<name>Use isEOF</name>
 		<internalKey>Use isEOF</internalKey>
-		<description>Use isEOF</description>
+		<description>Use isEOF : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -161,7 +143,7 @@
 		<key>Use exitSuccess</key>
 		<name>Use exitSuccess</name>
 		<internalKey>Use exitSuccess</internalKey>
-		<description>Use exitSuccess</description>
+		<description>Use exitSuccess : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -178,7 +160,7 @@
 		<key>Use minimum</key>
 		<name>Use minimum</name>
 		<internalKey>Use minimum</internalKey>
-		<description>Use minimum</description>
+		<description>Use minimum : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -191,7 +173,7 @@
 		<key>Use maximum</key>
 		<name>Use maximum</name>
 		<internalKey>Use maximum</internalKey>
-		<description>Use maximum</description>
+		<description>Use maximum : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -204,7 +186,7 @@
 		<key>Use minimumBy</key>
 		<name>Use minimumBy</name>
 		<internalKey>Use minimumBy</internalKey>
-		<description>Use minimumBy</description>
+		<description>Use minimumBy : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -217,7 +199,7 @@
 		<key>Use maximumBy</key>
 		<name>Use maximumBy</name>
 		<internalKey>Use maximumBy</internalKey>
-		<description>Use maximumBy</description>
+		<description>Use maximumBy : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -230,7 +212,7 @@
 		<key>Avoid reverse</key>
 		<name>Avoid reverse</name>
 		<internalKey>Avoid reverse</internalKey>
-		<description>Avoid reverse</description>
+		<description>Avoid reverse : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -247,7 +229,7 @@
 		<key>Use show</key>
 		<name>Use show</name>
 		<internalKey>Use show</internalKey>
-		<description>Use show</description>
+		<description>Use show : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -260,7 +242,7 @@
 		<key>Use shows</key>
 		<name>Use shows</name>
 		<internalKey>Use shows</internalKey>
-		<description>Use shows</description>
+		<description>Use shows : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -273,7 +255,7 @@
 		<key>Use reads</key>
 		<name>Use reads</name>
 		<internalKey>Use reads</internalKey>
-		<description>Use reads</description>
+		<description>Use reads : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -286,7 +268,7 @@
 		<key>Use showHex</key>
 		<name>Use showHex</name>
 		<internalKey>Use showHex</internalKey>
-		<description>Use showHex</description>
+		<description>Use showHex : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -299,7 +281,7 @@
 		<key>Use showOct</key>
 		<name>Use showOct</name>
 		<internalKey>Use showOct</internalKey>
-		<description>Use showOct</description>
+		<description>Use showOct : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -316,7 +298,7 @@
 		<key>Use concatMap</key>
 		<name>Use concatMap</name>
 		<internalKey>Use concatMap</internalKey>
-		<description>Use concatMap</description>
+		<description>Use concatMap : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -329,7 +311,7 @@
 		<key>Use map once</key>
 		<name>Use map once</name>
 		<internalKey>Use map once</internalKey>
-		<description>Use map once</description>
+		<description>Use map once : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -342,7 +324,7 @@
 		<key>Use head</key>
 		<name>Use head</name>
 		<internalKey>Use head</internalKey>
-		<description>Use head</description>
+		<description>Use head : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -355,7 +337,7 @@
 		<key>Use replicate</key>
 		<name>Use replicate</name>
 		<internalKey>Use replicate</internalKey>
-		<description>Use replicate</description>
+		<description>Use replicate : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -368,7 +350,7 @@
 		<key>Use repeat</key>
 		<name>Use repeat</name>
 		<internalKey>Use repeat</internalKey>
-		<description>Use repeat</description>
+		<description>Use repeat : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -381,7 +363,7 @@
 		<key>Use last</key>
 		<name>Use last</name>
 		<internalKey>Use last</internalKey>
-		<description>Use last</description>
+		<description>Use last : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -394,7 +376,7 @@
 		<key>Use init</key>
 		<name>Use init</name>
 		<internalKey>Use init</internalKey>
-		<description>Use init</description>
+		<description>Use init : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -407,7 +389,7 @@
 		<key>Use isSuffixOf</key>
 		<name>Use isSuffixOf</name>
 		<internalKey>Use isSuffixOf</internalKey>
-		<description>Use isSuffixOf</description>
+		<description>Use isSuffixOf : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -420,7 +402,7 @@
 		<key>Use concat</key>
 		<name>Use concat</name>
 		<internalKey>Use concat</internalKey>
-		<description>Use concat</description>
+		<description>Use concat : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -433,7 +415,7 @@
 		<key>Use foldl1</key>
 		<name>Use foldl1</name>
 		<internalKey>Use foldl1</internalKey>
-		<description>Use foldl1</description>
+		<description>Use foldl1 : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -446,7 +428,7 @@
 		<key>Use foldr1</key>
 		<name>Use foldr1</name>
 		<internalKey>Use foldr1</internalKey>
-		<description>Use foldr1</description>
+		<description>Use foldr1 : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -459,7 +441,7 @@
 		<key>Use break</key>
 		<name>Use break</name>
 		<internalKey>Use break</internalKey>
-		<description>Use break</description>
+		<description>Use break : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -472,7 +454,7 @@
 		<key>Use span</key>
 		<name>Use span</name>
 		<internalKey>Use span</internalKey>
-		<description>Use span</description>
+		<description>Use span : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -485,7 +467,7 @@
 		<key>Use takeWhile</key>
 		<name>Use takeWhile</name>
 		<internalKey>Use takeWhile</internalKey>
-		<description>Use takeWhile</description>
+		<description>Use takeWhile : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -498,7 +480,7 @@
 		<key>Use dropWhile</key>
 		<name>Use dropWhile</name>
 		<internalKey>Use dropWhile</internalKey>
-		<description>Use dropWhile</description>
+		<description>Use dropWhile : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -511,7 +493,7 @@
 		<key>Use unlines</key>
 		<name>Use Unlines</name>
 		<internalKey>Use unlines</internalKey>
-		<description>Use unlines</description>
+		<description>Use unlines : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -524,7 +506,7 @@
 		<key>Use id</key>
 		<name>Use id</name>
 		<internalKey>Use id</internalKey>
-		<description>Use id</description>
+		<description>Use id : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -537,7 +519,7 @@
 		<key>Use any</key>
 		<name>Use any</name>
 		<internalKey>Use any</internalKey>
-		<description>Use any</description>
+		<description>Use any : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -550,7 +532,7 @@
 		<key>Use all</key>
 		<name>Use all</name>
 		<internalKey>Use all</internalKey>
-		<description>Use all</description>
+		<description>Use all : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -563,7 +545,7 @@
 		<key>Use zip</key>
 		<name>Use zip</name>
 		<internalKey>Use zip</internalKey>
-		<description>Use zip</description>
+		<description>Use zip : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -576,7 +558,7 @@
 		<key>Use zip3</key>
 		<name>Use zip3</name>
 		<internalKey>Use zip3</internalKey>
-		<description>Use zip3</description>
+		<description>Use zip3 : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -589,7 +571,7 @@
 		<key>Use null</key>
 		<name>Use null</name>
 		<internalKey>Use null</internalKey>
-		<description>Use null</description>
+		<description>Use null : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -602,7 +584,7 @@
 		<key>Redundant bracket</key>
 		<name>Redundant bracket</name>
 		<internalKey>Redundant bracket</internalKey>
-		<description>Redundant bracket</description>
+		<description>Redundant bracket : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -615,7 +597,7 @@
 		<key>Use :</key>
 		<name>Use :</name>
 		<internalKey>Use :</internalKey>
-		<description>Use :</description>
+		<description>Use : : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -628,7 +610,7 @@
 		<key>Use zipWith</key>
 		<name>Use zipWith</name>
 		<internalKey>Use zipWith</internalKey>
-		<description>Use zipWith</description>
+		<description>Use zipWith : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -641,7 +623,7 @@
 		<key>Use notElem</key>
 		<name>Use notElem</name>
 		<internalKey>Use notElem</internalKey>
-		<description>Use notElem</description>
+		<description>Use notElem : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -654,7 +636,7 @@
 		<key>Use infix</key>
 		<name>Use infix</name>
 		<internalKey>Use infix</internalKey>
-		<description>Use infix</description>
+		<description>Use infix : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -667,7 +649,7 @@
 		<key>Use .</key>
 		<name>Use .</name>
 		<internalKey>Use .</internalKey>
-		<description>Use .</description>
+		<description>Use . : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -680,7 +662,7 @@
 		<key>Use unwords</key>
 		<name>Use unwords</name>
 		<internalKey>Use unwords</internalKey>
-		<description>Use unwords</description>
+		<description>Use unwords : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -693,7 +675,7 @@
 		<key>Use intercalate</key>
 		<name>Use intercalate</name>
 		<internalKey>Use intercalate</internalKey>
-		<description>Use intercalate</description>
+		<description>Use intercalate : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -706,7 +688,7 @@
 		<key>Use or</key>
 		<name>Use or</name>
 		<internalKey>Use or</internalKey>
-		<description>Use or</description>
+		<description>Use or : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -719,7 +701,7 @@
 		<key>Use and</key>
 		<name>Use and</name>
 		<internalKey>Use and</internalKey>
-		<description>Use and</description>
+		<description>Use and : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -732,7 +714,7 @@
 		<key>Use elem</key>
 		<name>Use elem</name>
 		<internalKey>Use elem</internalKey>
-		<description>Use elem</description>
+		<description>Use elem : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -745,7 +727,7 @@
 		<key>Use section</key>
 		<name>Use section</name>
 		<internalKey>Use section</internalKey>
-		<description>Use section</description>
+		<description>Use section : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -758,7 +740,7 @@
 		<key>Use elemIndex</key>
 		<name>Use elemIndex</name>
 		<internalKey>Use elemIndex</internalKey>
-		<description>Use elemIndex</description>
+		<description>Use elemIndex : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -771,7 +753,7 @@
 		<key>Use elemIndices</key>
 		<name>Use elemIndices</name>
 		<internalKey>Use elemIndices</internalKey>
-		<description>Use elemIndices</description>
+		<description>Use elemIndices : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -784,7 +766,7 @@
 		<key>Length always non-negative</key>
 		<name>Length always non-negative</name>
 		<internalKey>Length always non-negative</internalKey>
-		<description>Length always non-negative</description>
+		<description>Length always non-negative : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -797,7 +779,7 @@
 		<key>Use foldl</key>
 		<name>Use foldl</name>
 		<internalKey>Use foldl</internalKey>
-		<description>Use foldl</description>
+		<description>Use foldl : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -810,7 +792,7 @@
 		<key>Use foldr</key>
 		<name>Use foldr</name>
 		<internalKey>Use foldr</internalKey>
-		<description>Use foldr</description>
+		<description>Use foldr : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -827,7 +809,7 @@
 		<key>Use delete</key>
 		<name>Use delete</name>
 		<internalKey>Use delete</internalKey>
-		<description>Use delete</description>
+		<description>Use delete : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -840,7 +822,7 @@
 		<key>Use group</key>
 		<name>Use group</name>
 		<internalKey>Use group</internalKey>
-		<description>Use group</description>
+		<description>Use group : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -853,7 +835,7 @@
 		<key>Use insert</key>
 		<name>Use insert</name>
 		<internalKey>Use insert</internalKey>
-		<description>Use insert</description>
+		<description>Use insert : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -866,7 +848,7 @@
 		<key>Use intersect</key>
 		<name>Use intersect</name>
 		<internalKey>Use intersect</internalKey>
-		<description>Use intersect</description>
+		<description>Use intersect : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -879,7 +861,7 @@
 		<key>Use nub</key>
 		<name>Use nub</name>
 		<internalKey>Use nub</internalKey>
-		<description>Use nub</description>
+		<description>Use nub : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -892,7 +874,7 @@
 		<key>Use sort</key>
 		<name>Use sort</name>
 		<internalKey>Use sort</internalKey>
-		<description>Use sort</description>
+		<description>Use sort : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -905,7 +887,7 @@
 		<key>Use union</key>
 		<name>Use union</name>
 		<internalKey>Use union</internalKey>
-		<description>Use union</description>
+		<description>Use union : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -922,7 +904,7 @@
 		<key>Use sequence_</key>
 		<name>Use sequence_</name>
 		<internalKey>Use sequence_</internalKey>
-		<description>Use sequence_</description>
+		<description>Use sequence_ : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -935,7 +917,7 @@
 		<key>Use sum</key>
 		<name>Use sum</name>
 		<internalKey>Use sum</internalKey>
-		<description>Use sum</description>
+		<description>Use sum : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -948,7 +930,7 @@
 		<key>Use product</key>
 		<name>Use product</name>
 		<internalKey>Use product</internalKey>
-		<description>Use product</description>
+		<description>Use product : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -966,7 +948,7 @@
 		<key>Use const</key>
 		<name>Use const</name>
 		<internalKey>Use const</internalKey>
-		<description>Use const</description>
+		<description>Use const : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -979,7 +961,7 @@
 		<key>Use snd</key>
 		<name>Use snd</name>
 		<internalKey>Use snd</internalKey>
-		<description>Use snd</description>
+		<description>Use snd : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -992,7 +974,7 @@
 		<key>Use fst</key>
 		<name>Use fst</name>
 		<internalKey>Use fst</internalKey>
-		<description>Use fst</description>
+		<description>Use fst : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1005,7 +987,7 @@
 		<key>Use curry</key>
 		<name>Use curry</name>
 		<internalKey>Use curry</internalKey>
-		<description>Use curry</description>
+		<description>Use curry : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1018,7 +1000,7 @@
 		<key>Use uncurry</key>
 		<name>Use uncurry</name>
 		<internalKey>Use uncurry</internalKey>
-		<description>Use uncurry</description>
+		<description>Use uncurry : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1031,7 +1013,7 @@
 		<key>Redundant $</key>
 		<name>Redundant $</name>
 		<internalKey>Redundant $</internalKey>
-		<description>Redundant $</description>
+		<description>Redundant $ : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1044,7 +1026,7 @@
 		<key>Redundant flip</key>
 		<name>Redundant flip</name>
 		<internalKey>Redundant flip</internalKey>
-		<description>Redundant flip</description>
+		<description>Redundant flip : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1057,7 +1039,7 @@
 		<key>Use on</key>
 		<name>Use on</name>
 		<internalKey>Use on</internalKey>
-		<description>Use on</description>
+		<description>Use on : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1075,7 +1057,7 @@
 		<key>Use isAsciiLower</key>
 		<name>Use isAsciiLower</name>
 		<internalKey>Use isAsciiLower</internalKey>
-		<description>Use isAsciiLower</description>
+		<description>Use isAsciiLower : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1088,7 +1070,7 @@
 		<key>Use isAsciiUpper</key>
 		<name>Use isAsciiUpper</name>
 		<internalKey>Use isAsciiUpper</internalKey>
-		<description>Use isAsciiUpper</description>
+		<description>Use isAsciiUpper : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1101,7 +1083,7 @@
 		<key>Use isDigit</key>
 		<name>Use isDigit</name>
 		<internalKey>Use isDigit</internalKey>
-		<description>Use isDigit</description>
+		<description>Use isDigit : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1114,7 +1096,7 @@
 		<key>Use isOctDigit</key>
 		<name>Use isOctDigit</name>
 		<internalKey>Use isOctDigit</internalKey>
-		<description>Use isOctDigit</description>
+		<description>Use isOctDigit : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1127,7 +1109,7 @@
 		<key>Use isAlpha</key>
 		<name>Use isAlpha</name>
 		<internalKey>Use isAlpha</internalKey>
-		<description>Use isAlpha</description>
+		<description>Use isAlpha : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1145,7 +1127,7 @@
 		<key>Redundant ==</key>
 		<name>Redundant ==</name>
 		<internalKey>Redundant ==</internalKey>
-		<description>Redundant ==</description>
+		<description>Redundant == : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1158,7 +1140,7 @@
 		<key>Redundant /=</key>
 		<name>Redundant /=</name>
 		<internalKey>Redundant /=</internalKey>
-		<description>Redundant /=</description>
+		<description>Redundant /= : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1171,7 +1153,7 @@
 		<key>Redundant if</key>
 		<name>Redundant if</name>
 		<internalKey>Redundant if</internalKey>
-		<description>Redundant if</description>
+		<description>Redundant if : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1189,7 +1171,7 @@
 		<key>Use second</key>
 		<name>Use second</name>
 		<internalKey>Use second</internalKey>
-		<description>Use second</description>
+		<description>Use second : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1202,7 +1184,7 @@
 		<key>Use &amp;&amp;&amp;</key>
 		<name>Use &amp;&amp;&amp;</name>
 		<internalKey>Use &amp;&amp;&amp;</internalKey>
-		<description>Use &amp;&amp;&amp;</description>
+		<description>Use &amp;&amp;&amp; : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1215,7 +1197,7 @@
 		<key>Use ***</key>
 		<name>Use ***</name>
 		<internalKey>Use ***</internalKey>
-		<description>Use ***</description>
+		<description>Use *** : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1228,7 +1210,7 @@
 		<key>Use first</key>
 		<name>Use first</name>
 		<internalKey>Use first</internalKey>
-		<description>Use first</description>
+		<description>Use first : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1241,7 +1223,7 @@
 		<key>Redundant pair</key>
 		<name>Redundant pair</name>
 		<internalKey>Redundant pair</internalKey>
-		<description>Redundant pair</description>
+		<description>Redundant pair : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1259,7 +1241,7 @@
 		<key>Functor law</key>
 		<name>Functor law</name>
 		<internalKey>Functor law</internalKey>
-		<description>Functor law</description>
+		<description>Functor law : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1277,7 +1259,7 @@
 		<key>Monad law, left identity</key>
 		<name>Monad law, left identity</name>
 		<internalKey>Monad law, left identity</internalKey>
-		<description>Monad law, left identity</description>
+		<description>Monad law, left identity : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1290,7 +1272,7 @@
 		<key>Monad law, right identity</key>
 		<name>Monad law, right identity</name>
 		<internalKey>Monad law, right identity</internalKey>
-		<description>Monad law, right identity</description>
+		<description>Monad law, right identity : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1303,7 +1285,7 @@
 		<key>Use liftM</key>
 		<name>Use liftM</name>
 		<internalKey>Use liftM</internalKey>
-		<description>Use liftM</description>
+		<description>Use liftM : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1316,7 +1298,7 @@
 		<key>Use when</key>
 		<name>Use when</name>
 		<internalKey>Use when</internalKey>
-		<description>Use when</description>
+		<description>Use when : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1329,7 +1311,7 @@
 		<key>Use unless</key>
 		<name>Use unless</name>
 		<internalKey>Use unless</internalKey>
-		<description>Use unless</description>
+		<description>Use unless : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1342,7 +1324,7 @@
 		<key>Use mapM</key>
 		<name>Use mapM</name>
 		<internalKey>Use mapM</internalKey>
-		<description>Use mapM</description>
+		<description>Use mapM : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1355,7 +1337,7 @@
 		<key>Use mapM_</key>
 		<name>Use mapM_</name>
 		<internalKey>Use mapM_</internalKey>
-		<description>Use mapM_</description>
+		<description>Use mapM_ : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1368,7 +1350,7 @@
 		<key>Use forM</key>
 		<name>Use forM</name>
 		<internalKey>Use forM</internalKey>
-		<description>Use forM</description>
+		<description>Use forM : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1381,7 +1363,7 @@
 		<key>Use forM_</key>
 		<name>Use forM_</name>
 		<internalKey>Use forM_</internalKey>
-		<description>Use forM_</description>
+		<description>Use forM_ : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1394,7 +1376,7 @@
 		<key>Use join</key>
 		<name>Use join</name>
 		<internalKey>Use join</internalKey>
-		<description>Use join</description>
+		<description>Use join : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1407,7 +1389,7 @@
 		<key>Use void</key>
 		<name>Use void</name>
 		<internalKey>Use void</internalKey>
-		<description>Use void</description>
+		<description>Use void : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1420,7 +1402,7 @@
 		<key>Use &lt;=&lt;</key>
 		<name>Use &lt;=&lt;</name>
 		<internalKey>Use &lt;=&lt;</internalKey>
-		<description>Use &lt;=&lt;</description>
+		<description>Use &lt;=&lt; : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1433,7 +1415,7 @@
 		<key>Use &gt;=&gt;</key>
 		<name>Use &gt;=&gt;</name>
 		<internalKey>Use &gt;=&gt;</internalKey>
-		<description>Use &gt;=&gt;</description>
+		<description>Use &gt;=&gt; : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1446,7 +1428,7 @@
 		<key>Use =&lt;&lt;</key>
 		<name>Use =&lt;&lt;</name>
 		<internalKey>Use =&lt;&lt;</internalKey>
-		<description>Use =&lt;&lt;</description>
+		<description>Use =&lt;&lt; : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1459,7 +1441,7 @@
 		<key>Use &gt;&gt;=</key>
 		<name>Use &gt;&gt;=</name>
 		<internalKey>Use &gt;&gt;=</internalKey>
-		<description>Use &gt;&gt;=</description>
+		<description>Use &gt;&gt;= : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1472,7 +1454,7 @@
 		<key>Use forever</key>
 		<name>Use forever</name>
 		<internalKey>Use forever</internalKey>
-		<description>Use forever</description>
+		<description>Use forever : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1485,7 +1467,7 @@
 		<key>Use ap</key>
 		<name>Use ap</name>
 		<internalKey>Use ap</internalKey>
-		<description>Use ap</description>
+		<description>Use ap : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1498,7 +1480,7 @@
 		<key>Use zipWithM</key>
 		<name>Use zipWithM</name>
 		<internalKey>Use zipWithM</internalKey>
-		<description>Use zipWithM</description>
+		<description>Use zipWithM : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1517,7 +1499,7 @@
 		<key>Use evalState</key>
 		<name>Use evalState</name>
 		<internalKey>Use evalState</internalKey>
-		<description>Use evalState</description>
+		<description>Use evalState : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1530,7 +1512,7 @@
 		<key>Use exitState</key>
 		<name>Use exitState</name>
 		<internalKey>Use exitState</internalKey>
-		<description>Use exitState</description>
+		<description>Use exitState : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1548,7 +1530,7 @@
 		<key>Use mapAndUnzipM</key>
 		<name>Use mapAndUnzipM</name>
 		<internalKey>Use mapAndUnzipM</internalKey>
-		<description>Use mapAndUnzipM</description>
+		<description>Use mapAndUnzipM : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1561,7 +1543,7 @@
 		<key>Use zipWithM_</key>
 		<name>Use zipWithM_</name>
 		<internalKey>Use zipWithM_</internalKey>
-		<description>Use zipWithM_</description>
+		<description>Use zipWithM_ : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1574,7 +1556,7 @@
 		<key>Use replicateM</key>
 		<name>Use replicateM</name>
 		<internalKey>Use replicateM</internalKey>
-		<description>Use replicateM</description>
+		<description>Use replicateM : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1587,7 +1569,7 @@
 		<key>Use replicateM_</key>
 		<name>Use replicateM_</name>
 		<internalKey>Use replicateM_</internalKey>
-		<description>Use replicateM_</description>
+		<description>Use replicateM_ : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1606,7 +1588,7 @@
 		<key>Use for</key>
 		<name>Use for</name>
 		<internalKey>Use for</internalKey>
-		<description>Use for</description>
+		<description>Use for : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1619,7 +1601,7 @@
 		<key>Use for_</key>
 		<name>Use for_</name>
 		<internalKey>Use for_</internalKey>
-		<description>Use for_</description>
+		<description>Use for_ : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1632,7 +1614,7 @@
 		<key>Use traverse</key>
 		<name>Use traverse</name>
 		<internalKey>Use traverse</internalKey>
-		<description>Use traverse</description>
+		<description>Use traverse : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1645,7 +1627,7 @@
 		<key>Use traverse_</key>
 		<name>Use traverse_</name>
 		<internalKey>Use traverse_</internalKey>
-		<description>Use traverse_</description>
+		<description>Use traverse_ : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1658,7 +1640,7 @@
 		<key>Use sequenceA_</key>
 		<name>Use sequenceA_</name>
 		<internalKey>Use sequenceA_</internalKey>
-		<description>Use sequenceA_</description>
+		<description>Use sequenceA_ : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1671,7 +1653,7 @@
 		<key>Use asum</key>
 		<name>Use asum</name>
 		<internalKey>Use asum</internalKey>
-		<description>Use asum</description>
+		<description>Use asum : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1684,7 +1666,7 @@
 		<key>Use &lt;**&gt;</key>
 		<name>Use &lt;**&gt;</name>
 		<internalKey>Use &lt;**&gt;</internalKey>
-		<description>Use &lt;**&gt;</description>
+		<description>Use &lt;**&gt; : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1697,7 +1679,7 @@
 		<key>Use optional</key>
 		<name>Use optional</name>
 		<internalKey>Use optional</internalKey>
-		<description>Use optional</description>
+		<description>Use optional : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1717,7 +1699,7 @@
 		<key>Use list_comprehension</key>
 		<name>Use list_comprehension</name>
 		<internalKey>Use list_comprehension</internalKey>
-		<description>Use list_comprehension</description>
+		<description>Use list_comprehension : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1730,7 +1712,7 @@
 		<key>Redundant list_comprehension</key>
 		<name>Redundant list_comprehension</name>
 		<internalKey>Redundant list_comprehension</internalKey>
-		<description>Redundant list_comprehension</description>
+		<description>Redundant list_comprehension : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1750,7 +1732,7 @@
 		<key>Use fromMayBe</key>
 		<name>Use fromMayBe</name>
 		<internalKey>Use fromMayBe</internalKey>
-		<description>Use fromMayBe</description>
+		<description>Use fromMayBe : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1763,7 +1745,7 @@
 		<key>Use isJust</key>
 		<name>Use isJust</name>
 		<internalKey>Use isJust</internalKey>
-		<description>Use isJust</description>
+		<description>Use isJust : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1776,7 +1758,7 @@
 		<key>Use isNothing</key>
 		<name>Use isNothing</name>
 		<internalKey>Use isNothing</internalKey>
-		<description>Use isNothing</description>
+		<description>Use isNothing : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1789,7 +1771,7 @@
 		<key>Use mapMayBe</key>
 		<name>Use mapMayBe</name>
 		<internalKey>Use mapMayBe</internalKey>
-		<description>Use mapMayBe</description>
+		<description>Use mapMayBe : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1802,7 +1784,7 @@
 		<key>Use fmap</key>
 		<name>Use fmap</name>
 		<internalKey>Use fmap</internalKey>
-		<description>Use fmap</description>
+		<description>Use fmap : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1815,7 +1797,7 @@
 		<key>Use catMayBes</key>
 		<name>Use catMayBes</name>
 		<internalKey>Use catMayBes</internalKey>
-		<description>Use catMayBes</description>
+		<description>Use catMayBes : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1834,7 +1816,7 @@
 		<key>Use lefts</key>
 		<name>Use lefts</name>
 		<internalKey>Use lefts</internalKey>
-		<description>Use lefts</description>
+		<description>Use lefts : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1847,7 +1829,7 @@
 		<key>Use rights</key>
 		<name>Use rights</name>
 		<internalKey>Use rights</internalKey>
-		<description>Use rights</description>
+		<description>Use rights : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1867,7 +1849,7 @@
 		<key>Use sqrt</key>
 		<name>Use sqrt</name>
 		<internalKey>Use sqrt</internalKey>
-		<description>Use sqrt</description>
+		<description>Use sqrt : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1880,7 +1862,7 @@
 		<key>Use floor</key>
 		<name>Use floor</name>
 		<internalKey>Use floor</internalKey>
-		<description>Use floor</description>
+		<description>Use floor : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1900,7 +1882,7 @@
 		<key>Use handle</key>
 		<name>Use handle</name>
 		<internalKey>Use handle</internalKey>
-		<description>Use handle</description>
+		<description>Use handle : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1913,7 +1895,7 @@
 		<key>Use handleJust</key>
 		<name>Use handleJust</name>
 		<internalKey>Use handleJust</internalKey>
-		<description>Use handleJust</description>
+		<description>Use handleJust : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1926,7 +1908,7 @@
 		<key>Use catchJust</key>
 		<name>Use catchJust</name>
 		<internalKey>Use catchJust</internalKey>
-		<description>Use catchJust</description>
+		<description>Use catchJust : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1939,7 +1921,7 @@
 		<key>Use withFile</key>
 		<name>Use withFile</name>
 		<internalKey>Use withFile</internalKey>
-		<description>Use withFilet</description>
+		<description>Use withFilet : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1952,7 +1934,7 @@
 		<key>Use withBinaryFile</key>
 		<name>Use withBinaryFile</name>
 		<internalKey>Use withBinaryFile</internalKey>
-		<description>Use withBinaryFilet</description>
+		<description>Use withBinaryFilet : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1965,7 +1947,7 @@
 		<key>Use error</key>
 		<name>Use error</name>
 		<internalKey>Use error</internalKey>
-		<description>Use error</description>
+		<description>Use error : A complete description will come up soon.</description>
 		<severity>MINOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1978,7 +1960,7 @@
 		<key>Use nonTermination</key>
 		<name>Use nonTermination</name>
 		<internalKey>Use nonTermination</internalKey>
-		<description>Use nonTermination</description>
+		<description>Use nonTermination : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -1991,7 +1973,7 @@
 		<key>Use nestedAtomically</key>
 		<name>Use nestedAtomically</name>
 		<internalKey>Use nestedAtomically</internalKey>
-		<description>Use nestedAtomically</description>
+		<description>Use nestedAtomically : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -2011,7 +1993,7 @@
 		<key>Use mkWeakPtr</key>
 		<name>Use mkWeakPtr</name>
 		<internalKey>Use mkWeakPtr</internalKey>
-		<description>Use mkWeakPtr</description>
+		<description>Use mkWeakPtr : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -2024,7 +2006,7 @@
 		<key>Use mkWeakPair</key>
 		<name>Use mkWeakPair</name>
 		<internalKey>Use mkWeakPair</internalKey>
-		<description>Use mkWeakPair</description>
+		<description>Use mkWeakPair : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -2044,7 +2026,7 @@
 		<key>Use Foldable.forM_</key>
 		<name>Use Foldable.forM_</name>
 		<internalKey>Use Foldable.forM_</internalKey>
-		<description>Use Foldable.forM_</description>
+		<description>Use Foldable.forM_ : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -2065,7 +2047,7 @@
 		<key>Evaluate</key>
 		<name>Evaluate</name>
 		<internalKey>Evaluate</internalKey>
-		<description>Use Evaluate</description>
+		<description>Use Evaluate : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>
@@ -2076,39 +2058,4 @@
 	</rule>
 	
 	
-	
-
-	<!--
-	OTHER
-	-->
-	<rule>
-		<key>Use ExampleRule2</key>
-		<name>Example Rule 2</name>
-		<internalKey>Use ExampleRule2</internalKey>
-		<description>This is an example of rule2 defined thru the XML.
-		</description>
-		<severity>MAJOR</severity>
-		<cardinality>SINGLE</cardinality>
-		<status>BETA</status>
-		<type>CODE_SMELL</type>
-		<tag>example</tag>
-		<tag>convention</tag>
-        <remediationFunction>LINEAR</remediationFunction>
-        <remediationFunctionGapMultiplier>60min</remediationFunctionGapMultiplier>		
-	</rule>
-	<rule>
-		<key>Use ExampleRule3</key>
-		<name>Example Rule 3</name> 
-		<internalKey>Use ExampleRule3</internalKey>
-		<description>This is an example of rule3 defined thru the XML.
-		</description>
-		<severity>CRITICAL</severity>
-		<cardinality>SINGLE</cardinality>
-		<status>DEPRECATED</status>
-		<type>VULNERABILITY</type>
-		<tag>example</tag>
-	    <remediationFunction>LINEAR_OFFSET</remediationFunction>
-	    <remediationFunctionGapMultiplier>10min</remediationFunctionGapMultiplier>
-	    <remediationFunctionBaseEffort>30min</remediationFunctionBaseEffort>		
-	</rule>
 </haskelllint-rules>

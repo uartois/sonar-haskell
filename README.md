@@ -1,3 +1,40 @@
-# Projet plugin SonarQube pour Haskell
+# SonarQube plugin for Haskell
 
-Le but de ce projet est de réaliser un plugin Sonarqube pour le language [Haskell](https://www.haskell.org)
+The purpose of this project is to build a code analyzer for [Haskell](https://www.haskell.org)
+
+It integrates hlint reports into SonarQube dashboard.
+
+The user must generate a Json hint report for his code. This report is thus integrated to SonarQube using sonar-scanner.
+
+# Installation
+
+- Download the latest version of the artefact
+- Stop Sonarqube server
+- Copy the jat file in $SONAR_PATH/extensions/plugins
+- Start Sonarqube server
+    
+# Use the plugin
+- Create a sonar-project.properties file
+```
+sonar.projectKey=my:project
+sonar.projectName=My project
+sonar.projectVersion=1.0
+sonar.golint.reportPath=hlintReport.json
+sonar.sources=./
+```
+
+- Install hlint
+```
+cabal update
+cabal install hlint
+```
+
+- Product the hlint report of your code to be analyzed, save it using in a file named hlintReport.json   
+```
+hlint YOUR_CODE.hs --json > hlintReport.json
+```
+
+- Start analyzes 
+```
+sonar-scanner
+```
