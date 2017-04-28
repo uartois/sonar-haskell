@@ -9,11 +9,7 @@ import java.io.FileReader;
 import java.text.ParseException;
 import java.util.Iterator;
 
-import org.sonar.api.internal.apachecommons.lang.StringUtils;
-import org.sonar.api.internal.google.gson.JsonArray;
-import org.sonar.api.internal.google.gson.JsonElement;
-import org.sonar.api.internal.google.gson.JsonObject;
-import org.sonar.api.internal.google.gson.JsonParser;
+import org.apache.commons.lang3.StringUtils;
 import org.sonar.api.batch.fs.FileSystem;
 import org.sonar.api.batch.fs.InputFile;
 import org.sonar.api.batch.sensor.Sensor;
@@ -25,6 +21,11 @@ import org.sonar.api.config.Settings;
 import org.sonar.api.rule.RuleKey;
 import org.sonar.api.utils.log.Logger;
 import org.sonar.api.utils.log.Loggers;
+
+import com.google.gson.JsonParser;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
 
 
 
@@ -193,8 +194,7 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 							, "Module :" + innerObj.get("module").getAsString() 
 							+ "\nDecl :" + innerObj.get("decl").getAsString() 
 							+ "\nFound : \t" + innerObj.get("from").getAsString() 
-							+ "\nWhy not : " + innerObj.get("to").getAsString() + "\n" 
-							+ innerObj.get("note").getAsString()));
+							+ "\nWhy not : " + innerObj.get("to").getAsString()));
 				}
 			} catch (FileNotFoundException ex) {
 				ex.printStackTrace();
