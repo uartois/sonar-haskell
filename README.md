@@ -19,7 +19,7 @@ The user must generate a jason hint report for his code. This report is thus int
 sonar.projectKey=my:project
 sonar.projectName=My project
 sonar.projectVersion=1.0
-sonar.golint.reportPath=hlintReport.json
+sonar.haskelllint.reportPath=hlintReport.json
 sonar.sources=./
 ```
 
@@ -29,12 +29,13 @@ cabal update
 cabal install hlint
 ```
 
-- Product the hlint report of your code to be analyzed, save it using in a file named hlintReport.json   
+- Produce the hlint report of your code to be analyzed, and save it using in a file named hlintReport.json   
 ```
 hlint YOUR_CODE.hs --json > hlintReport.json
+hlint . --json > hlintReport.json
 ```
 
-- Start analyzes 
+- Start the analysis with sonar scanner 
 ```
 sonar-scanner
 ```
