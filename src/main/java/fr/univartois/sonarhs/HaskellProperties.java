@@ -5,7 +5,7 @@ import java.util.List;
 import org.sonar.api.config.PropertyDefinition;
 
 public class HaskellProperties {
-	public static final String REPORT_PATH_KEY = "sonar.haskelllint.reportPath";
+	public static final String REPORT_PATH_KEY = "sonar.hlint.reportPath";
 	public static final String REPORT_PATH_DEFAULT = "hlintReport.json";
 	public static final String COVERAGE_REPORT_PATH_KEY = "sonar.coverage.reportPath";
 	public static final String COVERAGE_REPORT_PATH_DEFAULT = "coverage.out";

@@ -4,7 +4,7 @@ The purpose of this project is to build a code analyzer for [Haskell](https://ww
 
 It integrates `hlint` reports into SonarQube dashboard.
 
-The user must generate a jason hint report for his code. This report is thus integrated to SonarQube using sonar-scanner.
+The user must generate a jason hlint report for his code. This report is thus integrated to SonarQube using sonar-scanner.
 
 # Installation
 
@@ -19,7 +19,7 @@ The user must generate a jason hint report for his code. This report is thus int
 sonar.projectKey=my:project
 sonar.projectName=My project
 sonar.projectVersion=1.0
-sonar.haskelllint.reportPath=hlintReport.json
+sonar.hlint.reportPath=hlintReport.json
 sonar.sources=./
 ```
 
