@@ -192,7 +192,7 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 							, innerObj.get("file").getAsString()
 							, Integer.parseInt(innerObj.get("startLine").getAsString())
 							, "Expression found : " + innerObj.get("from").getAsString() 
-							+ " --Should be replaced by : " + innerObj.get("to").getAsString()));
+							+ " Should be replaced by : " + innerObj.get("to").getAsString()));
 				}
 			} catch (FileNotFoundException ex) {
 				ex.printStackTrace();

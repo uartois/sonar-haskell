@@ -170,6 +170,15 @@ public class HaskellQualityProfile extends ProfileDefinition{
 		profile.activateRule(Rule.create(REPO_KEY,"Use Foldable.forM_",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"Evaluate",REPO_NAME), null);
 		
+		profile.activateRule(Rule.create(REPO_KEY,"Use lambda",REPO_NAME), null);
+		profile.activateRule(Rule.create(REPO_KEY,"Used otherwise as a pattern",REPO_NAME), null);
+		profile.activateRule(Rule.create(REPO_KEY,"Use guards",REPO_NAME), null);
+		profile.activateRule(Rule.create(REPO_KEY,"Redundant do",REPO_NAME), null);
+		profile.activateRule(Rule.create(REPO_KEY,"Use list literal pattern",REPO_NAME), null);
+		profile.activateRule(Rule.create(REPO_KEY,"Use list literal",REPO_NAME), null);
+		profile.activateRule(Rule.create(REPO_KEY,"Eta reduce",REPO_NAME), null);
+		profile.activateRule(Rule.create(REPO_KEY,"Use map",REPO_NAME), null);
+		
 		LOGGER.info((new StringBuilder()).append("Profil generated: ").append(profile.getActiveRules()).toString());
 		return profile;
 	}

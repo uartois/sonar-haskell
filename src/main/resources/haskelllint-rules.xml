@@ -2058,4 +2058,115 @@
 	</rule>
 	
 	
+	
+	
+		
+	<!--
+	other
+	-->
+	<rule>
+		<key>Use lambda</key>
+		<name>Use lambda</name>
+		<internalKey>Use lambda</internalKey>
+		<description>Use lambda : A complete description will come up soon.</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>BUG</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>Used otherwise as a pattern</key>
+		<name>Used otherwise as a pattern</name>
+		<internalKey>Used otherwise as a pattern</internalKey>
+		<description>Used otherwise as a pattern : A complete description will come up soon.</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>CODE_SMELL</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>Use guards</key>
+		<name>Use guards</name>
+		<internalKey>Use guards</internalKey>
+		<description>Use guards : A complete description will come up soon.</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>CODE_SMELL</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>Redundant do</key>
+		<name>Redundant do</name>
+		<internalKey>Redundant do</internalKey>
+		<description>Redundant do : A complete description will come up soon.</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>CODE_SMELL</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>Use list literal pattern</key>
+		<name>Use list literal pattern</name>
+		<internalKey>Use list literal pattern</internalKey>
+		<description>Use list literal pattern : A complete description will come up soon.</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>CODE_SMELL</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>Use list literal</key>
+		<name>Use list literal</name>
+		<internalKey>Use list literal</internalKey>
+		<description>Use list literal : A complete description will come up soon.</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>CODE_SMELL</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>Eta reduce</key>
+		<name>Eta reduce</name>
+		<internalKey>Eta reduce</internalKey>
+		<description>Eta reduce : A complete description will come up soon.</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>CODE_SMELL</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>Use map</key>
+		<name>Use map</name>
+		<internalKey>Use map</internalKey>
+		<description>Use map : A complete description will come up soon.</description>
+		<severity>MINOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>CODE_SMELL</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
+	</rule>
+	
 </haskelllint-rules>
