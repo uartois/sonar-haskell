@@ -2065,10 +2065,10 @@
 	other
 	-->
 	<rule>
-		<key>Use lambda</key>
-		<name>Use lambda</name>
-		<internalKey>Use lambda</internalKey>
-		<description>Use lambda : A complete description will come up soon.</description>
+		<key>Avoid lambda</key>
+		<name>Avoid lambda</name>
+		<internalKey>Avoid lambda</internalKey>
+		<description>Avoid lambda : A complete description will come up soon.</description>
 		<severity>MAJOR</severity>
 		<cardinality>SINGLE</cardinality>
 		<status>READY</status>

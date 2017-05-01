@@ -11,6 +11,7 @@ import org.sonar.api.utils.ValidationMessages;
 import org.sonar.api.utils.log.Logger;
 import org.sonar.api.utils.log.Loggers;
 
+
 public class HaskellQualityProfile extends ProfileDefinition{
 
 	@Override
@@ -170,7 +171,7 @@ public class HaskellQualityProfile extends ProfileDefinition{
 		profile.activateRule(Rule.create(REPO_KEY,"Use Foldable.forM_",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"Evaluate",REPO_NAME), null);
 		
-		profile.activateRule(Rule.create(REPO_KEY,"Use lambda",REPO_NAME), null);
+		profile.activateRule(Rule.create(REPO_KEY,"Avoid lambda",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"Used otherwise as a pattern",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"Use guards",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"Redundant do",REPO_NAME), null);

@@ -6,6 +6,7 @@ import java.util.List;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.text.ParseException;
 import java.util.Iterator;
 
@@ -22,11 +23,9 @@ import org.sonar.api.rule.RuleKey;
 import org.sonar.api.utils.log.Logger;
 import org.sonar.api.utils.log.Loggers;
 
-import com.google.gson.JsonParser;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 
 
 /**
@@ -181,18 +180,25 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 			List<HaskellLintError> errorsAsList = new ArrayList<>();
 			try {
 				FileReader reader = new FileReader(file);
-	            JsonParser jsonParser = new JsonParser();
-				JsonArray jsonArray = (JsonArray) jsonParser.parse(reader);
+	            JSONParser jsonParser = new JSONParser();
+				JSONArray jsonArray = null;
+				try {
+				    jsonArray = (JSONArray) jsonParser.parse(reader);
+				} catch (IOException e) {
+				    e.printStackTrace();
+				} catch (org.json.simple.parser.ParseException e) {
+				    e.printStackTrace();
+				}
 				
-				Iterator<JsonElement> i = jsonArray.iterator();
+				Iterator i = jsonArray.iterator();
 				while (i.hasNext()) {
-					JsonObject innerObj = (JsonObject) i.next();
+					JSONObject innerObj = (JSONObject) i.next();
 					errorsAsList.add(new HaskellLintError(
-							innerObj.get("hint").getAsString()
-							, innerObj.get("file").getAsString()
-							, Integer.parseInt(innerObj.get("startLine").getAsString())
-							, "Expression found : " + innerObj.get("from").getAsString() 
-							+ " Should be replaced by : " + innerObj.get("to").getAsString()));
+							innerObj.get("hint").toString()
+							, innerObj.get("file").toString()
+							, Integer.parseInt(innerObj.get("startLine").toString())
+							, "Expression found : " + innerObj.get("from").toString() 
+							+ " Should be replaced by : " + innerObj.get("to").toString()));
 				}
 			} catch (FileNotFoundException ex) {
 				ex.printStackTrace();
