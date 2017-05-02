@@ -5,7 +5,7 @@
 	io
 	-->
 	<rule>
-		<key>Use print</key>
+		<key>hlint:Use print</key>
 		<name>Use print</name>
 		<internalKey>Use print</internalKey>
 		<description>Use print : A complete description will come up soon.</description>
@@ -19,7 +19,7 @@
 	</rule>
 	
 	<rule>
-		<key>Use putStr</key>
+		<key>hlint:Use putStr</key>
 		<name>Use putStr</name>
 		<internalKey>Use putStr</internalKey>
 		<description>Use putStr : A complete description will come up soon.</description>
@@ -32,7 +32,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use getChar</key>
+		<key>hlint:Use getChar</key>
 		<name>Use getChar</name>
 		<internalKey>Use getChar</internalKey>
 		<description>Use getChar : A complete description will come up soon.</description>
@@ -45,7 +45,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use getLine</key>
+		<key>hlint:Use getLine</key>
 		<name>Use getLine</name>
 		<internalKey>Use getLine</internalKey>
 		<description>Use getLine : A complete description will come up soon.</description>
@@ -58,7 +58,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use getContents</key>
+		<key>hlint:Use getContents</key>
 		<name>Use getContents</name>
 		<internalKey>Use getContents</internalKey>
 		<description>Use getContents : A complete description will come up soon.</description>
@@ -71,7 +71,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use putChar</key>
+		<key>hlint:Use putChar</key>
 		<name>Use putChar</name>
 		<internalKey>Use putChar</internalKey>
 		<description>Use putChar : A complete description will come up soon.</description>
@@ -84,7 +84,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use putStrLn</key>
+		<key>hlint:Use putStrLn</key>
 		<name>Use putStrLn</name>
 		<internalKey>Use putStrLn</internalKey>
 		<description>Use putStrLn : A complete description will come up soon.</description>
@@ -97,7 +97,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use hReady</key>
+		<key>hlint:Use hReady</key>
 		<name>Use hReady</name>
 		<internalKey>Use hReady</internalKey>
 		<description>Use hReady : A complete description will come up soon.</description>
@@ -110,7 +110,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use hPrint</key>
+		<key>hlint:Use hPrint</key>
 		<name>Use hPrint</name>
 		<internalKey>Use hPrint</internalKey>
 		<description>Use hPrint : A complete description will come up soon.</description>
@@ -123,7 +123,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use isEOF</key>
+		<key>hlint:Use isEOF</key>
 		<name>Use isEOF</name>
 		<internalKey>Use isEOF</internalKey>
 		<description>Use isEOF : A complete description will come up soon.</description>
@@ -140,7 +140,7 @@
 	exit
 	-->
 	<rule>
-		<key>Use exitSuccess</key>
+		<key>hlint:Use exitSuccess</key>
 		<name>Use exitSuccess</name>
 		<internalKey>Use exitSuccess</internalKey>
 		<description>Use exitSuccess : A complete description will come up soon.</description>
@@ -157,7 +157,7 @@
 	ord
 	-->
 	<rule>
-		<key>Use minimum</key>
+		<key>hlint:Use minimum</key>
 		<name>Use minimum</name>
 		<internalKey>Use minimum</internalKey>
 		<description>Use minimum : A complete description will come up soon.</description>
@@ -170,7 +170,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use maximum</key>
+		<key>hlint:Use maximum</key>
 		<name>Use maximum</name>
 		<internalKey>Use maximum</internalKey>
 		<description>Use maximum : A complete description will come up soon.</description>
@@ -183,7 +183,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use minimumBy</key>
+		<key>hlint:Use minimumBy</key>
 		<name>Use minimumBy</name>
 		<internalKey>Use minimumBy</internalKey>
 		<description>Use minimumBy : A complete description will come up soon.</description>
@@ -196,7 +196,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use maximumBy</key>
+		<key>hlint:Use maximumBy</key>
 		<name>Use maximumBy</name>
 		<internalKey>Use maximumBy</internalKey>
 		<description>Use maximumBy : A complete description will come up soon.</description>
@@ -209,7 +209,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Avoid reverse</key>
+		<key>hlint:Avoid reverse</key>
 		<name>Avoid reverse</name>
 		<internalKey>Avoid reverse</internalKey>
 		<description>Avoid reverse : A complete description will come up soon.</description>
@@ -226,7 +226,7 @@
 	READ/SHOW
 	-->
 	<rule>
-		<key>Use show</key>
+		<key>hlint:Use show</key>
 		<name>Use show</name>
 		<internalKey>Use show</internalKey>
 		<description>Use show : A complete description will come up soon.</description>
@@ -239,7 +239,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use shows</key>
+		<key>hlint:Use shows</key>
 		<name>Use shows</name>
 		<internalKey>Use shows</internalKey>
 		<description>Use shows : A complete description will come up soon.</description>
@@ -252,7 +252,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use reads</key>
+		<key>hlint:Use reads</key>
 		<name>Use reads</name>
 		<internalKey>Use reads</internalKey>
 		<description>Use reads : A complete description will come up soon.</description>
@@ -265,7 +265,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use showHex</key>
+		<key>hlint:Use showHex</key>
 		<name>Use showHex</name>
 		<internalKey>Use showHex</internalKey>
 		<description>Use showHex : A complete description will come up soon.</description>
@@ -278,7 +278,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use showOct</key>
+		<key>hlint:Use showOct</key>
 		<name>Use showOct</name>
 		<internalKey>Use showOct</internalKey>
 		<description>Use showOct : A complete description will come up soon.</description>
@@ -295,7 +295,7 @@
 	list
 	-->
 	<rule>
-		<key>Use concatMap</key>
+		<key>hlint:Use concatMap</key>
 		<name>Use concatMap</name>
 		<internalKey>Use concatMap</internalKey>
 		<description>Use concatMap : A complete description will come up soon.</description>
@@ -308,7 +308,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use map once</key>
+		<key>hlint:Use map once</key>
 		<name>Use map once</name>
 		<internalKey>Use map once</internalKey>
 		<description>Use map once : A complete description will come up soon.</description>
@@ -321,7 +321,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use head</key>
+		<key>hlint:Use head</key>
 		<name>Use head</name>
 		<internalKey>Use head</internalKey>
 		<description>Use head : A complete description will come up soon.</description>
@@ -334,7 +334,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use replicate</key>
+		<key>hlint:Use replicate</key>
 		<name>Use replicate</name>
 		<internalKey>Use replicate</internalKey>
 		<description>Use replicate : A complete description will come up soon.</description>
@@ -347,7 +347,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use repeat</key>
+		<key>hlint:Use repeat</key>
 		<name>Use repeat</name>
 		<internalKey>Use repeat</internalKey>
 		<description>Use repeat : A complete description will come up soon.</description>
@@ -360,7 +360,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use last</key>
+		<key>hlint:Use last</key>
 		<name>Use last</name>
 		<internalKey>Use last</internalKey>
 		<description>Use last : A complete description will come up soon.</description>
@@ -373,7 +373,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use init</key>
+		<key>hlint:Use init</key>
 		<name>Use init</name>
 		<internalKey>Use init</internalKey>
 		<description>Use init : A complete description will come up soon.</description>
@@ -386,7 +386,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use isSuffixOf</key>
+		<key>hlint:Use isSuffixOf</key>
 		<name>Use isSuffixOf</name>
 		<internalKey>Use isSuffixOf</internalKey>
 		<description>Use isSuffixOf : A complete description will come up soon.</description>
@@ -399,7 +399,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use concat</key>
+		<key>hlint:Use concat</key>
 		<name>Use concat</name>
 		<internalKey>Use concat</internalKey>
 		<description>Use concat : A complete description will come up soon.</description>
@@ -412,7 +412,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use foldl1</key>
+		<key>hlint:Use foldl1</key>
 		<name>Use foldl1</name>
 		<internalKey>Use foldl1</internalKey>
 		<description>Use foldl1 : A complete description will come up soon.</description>
@@ -425,7 +425,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use foldr1</key>
+		<key>hlint:Use foldr1</key>
 		<name>Use foldr1</name>
 		<internalKey>Use foldr1</internalKey>
 		<description>Use foldr1 : A complete description will come up soon.</description>
@@ -438,7 +438,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use break</key>
+		<key>hlint:Use break</key>
 		<name>Use break</name>
 		<internalKey>Use break</internalKey>
 		<description>Use break : A complete description will come up soon.</description>
@@ -451,7 +451,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use span</key>
+		<key>hlint:Use span</key>
 		<name>Use span</name>
 		<internalKey>Use span</internalKey>
 		<description>Use span : A complete description will come up soon.</description>
@@ -464,7 +464,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use takeWhile</key>
+		<key>hlint:Use takeWhile</key>
 		<name>Use takeWhile</name>
 		<internalKey>Use takeWhile</internalKey>
 		<description>Use takeWhile : A complete description will come up soon.</description>
@@ -477,7 +477,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use dropWhile</key>
+		<key>hlint:Use dropWhile</key>
 		<name>Use dropWhile</name>
 		<internalKey>Use dropWhile</internalKey>
 		<description>Use dropWhile : A complete description will come up soon.</description>
@@ -490,7 +490,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use unlines</key>
+		<key>hlint:Use unlines</key>
 		<name>Use Unlines</name>
 		<internalKey>Use unlines</internalKey>
 		<description>Use unlines : A complete description will come up soon.</description>
@@ -503,7 +503,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use id</key>
+		<key>hlint:Use id</key>
 		<name>Use id</name>
 		<internalKey>Use id</internalKey>
 		<description>Use id : A complete description will come up soon.</description>
@@ -516,7 +516,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use any</key>
+		<key>hlint:Use any</key>
 		<name>Use any</name>
 		<internalKey>Use any</internalKey>
 		<description>Use any : A complete description will come up soon.</description>
@@ -529,7 +529,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use all</key>
+		<key>hlint:Use all</key>
 		<name>Use all</name>
 		<internalKey>Use all</internalKey>
 		<description>Use all : A complete description will come up soon.</description>
@@ -542,7 +542,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use zip</key>
+		<key>hlint:Use zip</key>
 		<name>Use zip</name>
 		<internalKey>Use zip</internalKey>
 		<description>Use zip : A complete description will come up soon.</description>
@@ -555,7 +555,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use zip3</key>
+		<key>hlint:Use zip3</key>
 		<name>Use zip3</name>
 		<internalKey>Use zip3</internalKey>
 		<description>Use zip3 : A complete description will come up soon.</description>
@@ -568,7 +568,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use null</key>
+		<key>hlint:Use null</key>
 		<name>Use null</name>
 		<internalKey>Use null</internalKey>
 		<description>Use null : A complete description will come up soon.</description>
@@ -581,7 +581,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Redundant bracket</key>
+		<key>hlint:Redundant bracket</key>
 		<name>Redundant bracket</name>
 		<internalKey>Redundant bracket</internalKey>
 		<description>Redundant bracket : A complete description will come up soon.</description>
@@ -594,7 +594,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use :</key>
+		<key>hlint:Use :</key>
 		<name>Use :</name>
 		<internalKey>Use :</internalKey>
 		<description>Use : : A complete description will come up soon.</description>
@@ -607,7 +607,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use zipWith</key>
+		<key>hlint:Use zipWith</key>
 		<name>Use zipWith</name>
 		<internalKey>Use zipWith</internalKey>
 		<description>Use zipWith : A complete description will come up soon.</description>
@@ -620,7 +620,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use notElem</key>
+		<key>hlint:Use notElem</key>
 		<name>Use notElem</name>
 		<internalKey>Use notElem</internalKey>
 		<description>Use notElem : A complete description will come up soon.</description>
@@ -633,7 +633,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use infix</key>
+		<key>hlint:Use infix</key>
 		<name>Use infix</name>
 		<internalKey>Use infix</internalKey>
 		<description>Use infix : A complete description will come up soon.</description>
@@ -646,7 +646,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use .</key>
+		<key>hlint:Use .</key>
 		<name>Use .</name>
 		<internalKey>Use .</internalKey>
 		<description>Use . : A complete description will come up soon.</description>
@@ -659,7 +659,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use unwords</key>
+		<key>hlint:Use unwords</key>
 		<name>Use unwords</name>
 		<internalKey>Use unwords</internalKey>
 		<description>Use unwords : A complete description will come up soon.</description>
@@ -672,7 +672,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use intercalate</key>
+		<key>hlint:Use intercalate</key>
 		<name>Use intercalate</name>
 		<internalKey>Use intercalate</internalKey>
 		<description>Use intercalate : A complete description will come up soon.</description>
@@ -685,7 +685,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use or</key>
+		<key>hlint:Use or</key>
 		<name>Use or</name>
 		<internalKey>Use or</internalKey>
 		<description>Use or : A complete description will come up soon.</description>
@@ -698,7 +698,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use and</key>
+		<key>hlint:Use and</key>
 		<name>Use and</name>
 		<internalKey>Use and</internalKey>
 		<description>Use and : A complete description will come up soon.</description>
@@ -711,7 +711,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use elem</key>
+		<key>hlint:Use elem</key>
 		<name>Use elem</name>
 		<internalKey>Use elem</internalKey>
 		<description>Use elem : A complete description will come up soon.</description>
@@ -724,7 +724,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use section</key>
+		<key>hlint:Use section</key>
 		<name>Use section</name>
 		<internalKey>Use section</internalKey>
 		<description>Use section : A complete description will come up soon.</description>
@@ -737,7 +737,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use elemIndex</key>
+		<key>hlint:Use elemIndex</key>
 		<name>Use elemIndex</name>
 		<internalKey>Use elemIndex</internalKey>
 		<description>Use elemIndex : A complete description will come up soon.</description>
@@ -750,7 +750,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use elemIndices</key>
+		<key>hlint:Use elemIndices</key>
 		<name>Use elemIndices</name>
 		<internalKey>Use elemIndices</internalKey>
 		<description>Use elemIndices : A complete description will come up soon.</description>
@@ -763,7 +763,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Length always non-negative</key>
+		<key>hlint:Length always non-negative</key>
 		<name>Length always non-negative</name>
 		<internalKey>Length always non-negative</internalKey>
 		<description>Length always non-negative : A complete description will come up soon.</description>
@@ -776,7 +776,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use foldl</key>
+		<key>hlint:Use foldl</key>
 		<name>Use foldl</name>
 		<internalKey>Use foldl</internalKey>
 		<description>Use foldl : A complete description will come up soon.</description>
@@ -789,7 +789,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use foldr</key>
+		<key>hlint:Use foldr</key>
 		<name>Use foldr</name>
 		<internalKey>Use foldr</internalKey>
 		<description>Use foldr : A complete description will come up soon.</description>
@@ -806,7 +806,7 @@
 	by
 	-->
 	<rule>
-		<key>Use delete</key>
+		<key>hlint:Use delete</key>
 		<name>Use delete</name>
 		<internalKey>Use delete</internalKey>
 		<description>Use delete : A complete description will come up soon.</description>
@@ -819,7 +819,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use group</key>
+		<key>hlint:Use group</key>
 		<name>Use group</name>
 		<internalKey>Use group</internalKey>
 		<description>Use group : A complete description will come up soon.</description>
@@ -832,7 +832,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use insert</key>
+		<key>hlint:Use insert</key>
 		<name>Use insert</name>
 		<internalKey>Use insert</internalKey>
 		<description>Use insert : A complete description will come up soon.</description>
@@ -845,7 +845,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use intersect</key>
+		<key>hlint:Use intersect</key>
 		<name>Use intersect</name>
 		<internalKey>Use intersect</internalKey>
 		<description>Use intersect : A complete description will come up soon.</description>
@@ -858,7 +858,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use nub</key>
+		<key>hlint:Use nub</key>
 		<name>Use nub</name>
 		<internalKey>Use nub</internalKey>
 		<description>Use nub : A complete description will come up soon.</description>
@@ -871,7 +871,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use sort</key>
+		<key>hlint:Use sort</key>
 		<name>Use sort</name>
 		<internalKey>Use sort</internalKey>
 		<description>Use sort : A complete description will come up soon.</description>
@@ -884,7 +884,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use union</key>
+		<key>hlint:Use union</key>
 		<name>Use union</name>
 		<internalKey>Use union</internalKey>
 		<description>Use union : A complete description will come up soon.</description>
@@ -901,7 +901,7 @@
 	folds
 	-->
 	<rule>
-		<key>Use sequence_</key>
+		<key>hlint:Use sequence_</key>
 		<name>Use sequence_</name>
 		<internalKey>Use sequence_</internalKey>
 		<description>Use sequence_ : A complete description will come up soon.</description>
@@ -914,7 +914,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use sum</key>
+		<key>hlint:Use sum</key>
 		<name>Use sum</name>
 		<internalKey>Use sum</internalKey>
 		<description>Use sum : A complete description will come up soon.</description>
@@ -927,7 +927,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use product</key>
+		<key>hlint:Use product</key>
 		<name>Use product</name>
 		<internalKey>Use product</internalKey>
 		<description>Use product : A complete description will come up soon.</description>
@@ -945,7 +945,7 @@
 	function
 	-->
 	<rule>
-		<key>Use const</key>
+		<key>hlint:Use const</key>
 		<name>Use const</name>
 		<internalKey>Use const</internalKey>
 		<description>Use const : A complete description will come up soon.</description>
@@ -958,7 +958,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use snd</key>
+		<key>hlint:Use snd</key>
 		<name>Use snd</name>
 		<internalKey>Use snd</internalKey>
 		<description>Use snd : A complete description will come up soon.</description>
@@ -971,7 +971,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use fst</key>
+		<key>hlint:Use fst</key>
 		<name>Use fst</name>
 		<internalKey>Use fst</internalKey>
 		<description>Use fst : A complete description will come up soon.</description>
@@ -984,7 +984,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use curry</key>
+		<key>hlint:Use curry</key>
 		<name>Use curry</name>
 		<internalKey>Use curry</internalKey>
 		<description>Use curry : A complete description will come up soon.</description>
@@ -997,7 +997,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use uncurry</key>
+		<key>hlint:Use uncurry</key>
 		<name>Use uncurry</name>
 		<internalKey>Use uncurry</internalKey>
 		<description>Use uncurry : A complete description will come up soon.</description>
@@ -1010,7 +1010,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Redundant $</key>
+		<key>hlint:Redundant $</key>
 		<name>Redundant $</name>
 		<internalKey>Redundant $</internalKey>
 		<description>Redundant $ : A complete description will come up soon.</description>
@@ -1023,7 +1023,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Redundant flip</key>
+		<key>hlint:Redundant flip</key>
 		<name>Redundant flip</name>
 		<internalKey>Redundant flip</internalKey>
 		<description>Redundant flip : A complete description will come up soon.</description>
@@ -1036,7 +1036,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use on</key>
+		<key>hlint:Use on</key>
 		<name>Use on</name>
 		<internalKey>Use on</internalKey>
 		<description>Use on : A complete description will come up soon.</description>
@@ -1054,7 +1054,7 @@
 	char
 	-->
 	<rule>
-		<key>Use isAsciiLower</key>
+		<key>hlint:Use isAsciiLower</key>
 		<name>Use isAsciiLower</name>
 		<internalKey>Use isAsciiLower</internalKey>
 		<description>Use isAsciiLower : A complete description will come up soon.</description>
@@ -1067,7 +1067,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use isAsciiUpper</key>
+		<key>hlint:Use isAsciiUpper</key>
 		<name>Use isAsciiUpper</name>
 		<internalKey>Use isAsciiUpper</internalKey>
 		<description>Use isAsciiUpper : A complete description will come up soon.</description>
@@ -1080,7 +1080,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use isDigit</key>
+		<key>hlint:Use isDigit</key>
 		<name>Use isDigit</name>
 		<internalKey>Use isDigit</internalKey>
 		<description>Use isDigit : A complete description will come up soon.</description>
@@ -1093,7 +1093,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use isOctDigit</key>
+		<key>hlint:Use isOctDigit</key>
 		<name>Use isOctDigit</name>
 		<internalKey>Use isOctDigit</internalKey>
 		<description>Use isOctDigit : A complete description will come up soon.</description>
@@ -1106,7 +1106,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Use isAlpha</key>
+		<key>hlint:Use isAlpha</key>
 		<name>Use isAlpha</name>
 		<internalKey>Use isAlpha</internalKey>
 		<description>Use isAlpha : A complete description will come up soon.</description>
@@ -1124,7 +1124,7 @@
 	bool
 	-->
 	<rule>
-		<key>Redundant ==</key>
+		<key>hlint:Redundant ==</key>
 		<name>Redundant ==</name>
 		<internalKey>Redundant ==</internalKey>
 		<description>Redundant == : A complete description will come up soon.</description>
@@ -1137,7 +1137,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Redundant /=</key>
+		<key>hlint:Redundant /=</key>
 		<name>Redundant /=</name>
 		<internalKey>Redundant /=</internalKey>
 		<description>Redundant /= : A complete description will come up soon.</description>
@@ -1150,7 +1150,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>	
 	<rule>
-		<key>Redundant if</key>
+		<key>hlint:Redundant if</key>
 		<name>Redundant if</name>
 		<internalKey>Redundant if</internalKey>
 		<description>Redundant if : A complete description will come up soon.</description>
@@ -1168,7 +1168,7 @@
 	arrow
 	-->
 	<rule>
-		<key>Use second</key>
+		<key>hlint:Use second</key>
 		<name>Use second</name>
 		<internalKey>Use second</internalKey>
 		<description>Use second : A complete description will come up soon.</description>
@@ -1181,7 +1181,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use &amp;&amp;&amp;</key>
+		<key>hlint:Use &amp;&amp;&amp;</key>
 		<name>Use &amp;&amp;&amp;</name>
 		<internalKey>Use &amp;&amp;&amp;</internalKey>
 		<description>Use &amp;&amp;&amp; : A complete description will come up soon.</description>
@@ -1194,7 +1194,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use ***</key>
+		<key>hlint:Use ***</key>
 		<name>Use ***</name>
 		<internalKey>Use ***</internalKey>
 		<description>Use *** : A complete description will come up soon.</description>
@@ -1207,7 +1207,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use first</key>
+		<key>hlint:Use first</key>
 		<name>Use first</name>
 		<internalKey>Use first</internalKey>
 		<description>Use first : A complete description will come up soon.</description>
@@ -1220,7 +1220,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Redundant pair</key>
+		<key>hlint:Redundant pair</key>
 		<name>Redundant pair</name>
 		<internalKey>Redundant pair</internalKey>
 		<description>Redundant pair : A complete description will come up soon.</description>
@@ -1238,7 +1238,7 @@
 	functor
 	-->
 	<rule>
-		<key>Functor law</key>
+		<key>hlint:Functor law</key>
 		<name>Functor law</name>
 		<internalKey>Functor law</internalKey>
 		<description>Functor law : A complete description will come up soon.</description>
@@ -1256,7 +1256,7 @@
 	monad
 	-->
 	<rule>
-		<key>Monad law, left identity</key>
+		<key>hlint:Monad law, left identity</key>
 		<name>Monad law, left identity</name>
 		<internalKey>Monad law, left identity</internalKey>
 		<description>Monad law, left identity : A complete description will come up soon.</description>
@@ -1269,7 +1269,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Monad law, right identity</key>
+		<key>hlint:Monad law, right identity</key>
 		<name>Monad law, right identity</name>
 		<internalKey>Monad law, right identity</internalKey>
 		<description>Monad law, right identity : A complete description will come up soon.</description>
@@ -1282,7 +1282,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use liftM</key>
+		<key>hlint:Use liftM</key>
 		<name>Use liftM</name>
 		<internalKey>Use liftM</internalKey>
 		<description>Use liftM : A complete description will come up soon.</description>
@@ -1295,7 +1295,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use when</key>
+		<key>hlint:Use when</key>
 		<name>Use when</name>
 		<internalKey>Use when</internalKey>
 		<description>Use when : A complete description will come up soon.</description>
@@ -1308,7 +1308,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use unless</key>
+		<key>hlint:Use unless</key>
 		<name>Use unless</name>
 		<internalKey>Use unless</internalKey>
 		<description>Use unless : A complete description will come up soon.</description>
@@ -1321,7 +1321,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use mapM</key>
+		<key>hlint:Use mapM</key>
 		<name>Use mapM</name>
 		<internalKey>Use mapM</internalKey>
 		<description>Use mapM : A complete description will come up soon.</description>
@@ -1334,7 +1334,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use mapM_</key>
+		<key>hlint:Use mapM_</key>
 		<name>Use mapM_</name>
 		<internalKey>Use mapM_</internalKey>
 		<description>Use mapM_ : A complete description will come up soon.</description>
@@ -1347,7 +1347,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use forM</key>
+		<key>hlint:Use forM</key>
 		<name>Use forM</name>
 		<internalKey>Use forM</internalKey>
 		<description>Use forM : A complete description will come up soon.</description>
@@ -1360,7 +1360,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use forM_</key>
+		<key>hlint:Use forM_</key>
 		<name>Use forM_</name>
 		<internalKey>Use forM_</internalKey>
 		<description>Use forM_ : A complete description will come up soon.</description>
@@ -1373,7 +1373,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use join</key>
+		<key>hlint:Use join</key>
 		<name>Use join</name>
 		<internalKey>Use join</internalKey>
 		<description>Use join : A complete description will come up soon.</description>
@@ -1386,7 +1386,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use void</key>
+		<key>hlint:Use void</key>
 		<name>Use void</name>
 		<internalKey>Use void</internalKey>
 		<description>Use void : A complete description will come up soon.</description>
@@ -1399,7 +1399,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use &lt;=&lt;</key>
+		<key>hlint:Use &lt;=&lt;</key>
 		<name>Use &lt;=&lt;</name>
 		<internalKey>Use &lt;=&lt;</internalKey>
 		<description>Use &lt;=&lt; : A complete description will come up soon.</description>
@@ -1412,7 +1412,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use &gt;=&gt;</key>
+		<key>hlint:Use &gt;=&gt;</key>
 		<name>Use &gt;=&gt;</name>
 		<internalKey>Use &gt;=&gt;</internalKey>
 		<description>Use &gt;=&gt; : A complete description will come up soon.</description>
@@ -1425,7 +1425,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use =&lt;&lt;</key>
+		<key>hlint:Use =&lt;&lt;</key>
 		<name>Use =&lt;&lt;</name>
 		<internalKey>Use =&lt;&lt;</internalKey>
 		<description>Use =&lt;&lt; : A complete description will come up soon.</description>
@@ -1438,7 +1438,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use &gt;&gt;=</key>
+		<key>hlint:Use &gt;&gt;=</key>
 		<name>Use &gt;&gt;=</name>
 		<internalKey>Use &gt;&gt;=</internalKey>
 		<description>Use &gt;&gt;= : A complete description will come up soon.</description>
@@ -1451,7 +1451,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use forever</key>
+		<key>hlint:Use forever</key>
 		<name>Use forever</name>
 		<internalKey>Use forever</internalKey>
 		<description>Use forever : A complete description will come up soon.</description>
@@ -1464,7 +1464,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use ap</key>
+		<key>hlint:Use ap</key>
 		<name>Use ap</name>
 		<internalKey>Use ap</internalKey>
 		<description>Use ap : A complete description will come up soon.</description>
@@ -1477,7 +1477,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use zipWithM</key>
+		<key>hlint:Use zipWithM</key>
 		<name>Use zipWithM</name>
 		<internalKey>Use zipWithM</internalKey>
 		<description>Use zipWithM : A complete description will come up soon.</description>
@@ -1496,7 +1496,7 @@
 	state-monad
 	-->
 	<rule>
-		<key>Use evalState</key>
+		<key>hlint:Use evalState</key>
 		<name>Use evalState</name>
 		<internalKey>Use evalState</internalKey>
 		<description>Use evalState : A complete description will come up soon.</description>
@@ -1509,7 +1509,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use exitState</key>
+		<key>hlint:Use exitState</key>
 		<name>Use exitState</name>
 		<internalKey>Use exitState</internalKey>
 		<description>Use exitState : A complete description will come up soon.</description>
@@ -1527,7 +1527,7 @@
 	monad-list
 	-->
 	<rule>
-		<key>Use mapAndUnzipM</key>
+		<key>hlint:Use mapAndUnzipM</key>
 		<name>Use mapAndUnzipM</name>
 		<internalKey>Use mapAndUnzipM</internalKey>
 		<description>Use mapAndUnzipM : A complete description will come up soon.</description>
@@ -1540,7 +1540,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use zipWithM_</key>
+		<key>hlint:Use zipWithM_</key>
 		<name>Use zipWithM_</name>
 		<internalKey>Use zipWithM_</internalKey>
 		<description>Use zipWithM_ : A complete description will come up soon.</description>
@@ -1553,7 +1553,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use replicateM</key>
+		<key>hlint:Use replicateM</key>
 		<name>Use replicateM</name>
 		<internalKey>Use replicateM</internalKey>
 		<description>Use replicateM : A complete description will come up soon.</description>
@@ -1566,7 +1566,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use replicateM_</key>
+		<key>hlint:Use replicateM_</key>
 		<name>Use replicateM_</name>
 		<internalKey>Use replicateM_</internalKey>
 		<description>Use replicateM_ : A complete description will come up soon.</description>
@@ -1585,7 +1585,7 @@
 	APPLICATIVE / TRAVERSABLE
 	-->
 	<rule>
-		<key>Use for</key>
+		<key>hlint:Use for</key>
 		<name>Use for</name>
 		<internalKey>Use for</internalKey>
 		<description>Use for : A complete description will come up soon.</description>
@@ -1598,7 +1598,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use for_</key>
+		<key>hlint:Use for_</key>
 		<name>Use for_</name>
 		<internalKey>Use for_</internalKey>
 		<description>Use for_ : A complete description will come up soon.</description>
@@ -1611,7 +1611,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use traverse</key>
+		<key>hlint:Use traverse</key>
 		<name>Use traverse</name>
 		<internalKey>Use traverse</internalKey>
 		<description>Use traverse : A complete description will come up soon.</description>
@@ -1624,7 +1624,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use traverse_</key>
+		<key>hlint:Use traverse_</key>
 		<name>Use traverse_</name>
 		<internalKey>Use traverse_</internalKey>
 		<description>Use traverse_ : A complete description will come up soon.</description>
@@ -1637,7 +1637,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use sequenceA_</key>
+		<key>hlint:Use sequenceA_</key>
 		<name>Use sequenceA_</name>
 		<internalKey>Use sequenceA_</internalKey>
 		<description>Use sequenceA_ : A complete description will come up soon.</description>
@@ -1650,7 +1650,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use asum</key>
+		<key>hlint:Use asum</key>
 		<name>Use asum</name>
 		<internalKey>Use asum</internalKey>
 		<description>Use asum : A complete description will come up soon.</description>
@@ -1663,7 +1663,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use &lt;**&gt;</key>
+		<key>hlint:Use &lt;**&gt;</key>
 		<name>Use &lt;**&gt;</name>
 		<internalKey>Use &lt;**&gt;</internalKey>
 		<description>Use &lt;**&gt; : A complete description will come up soon.</description>
@@ -1676,7 +1676,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use optional</key>
+		<key>hlint:Use optional</key>
 		<name>Use optional</name>
 		<internalKey>Use optional</internalKey>
 		<description>Use optional : A complete description will come up soon.</description>
@@ -1696,7 +1696,7 @@
 	list-comp
 	-->
 	<rule>
-		<key>Use list_comprehension</key>
+		<key>hlint:Use list_comprehension</key>
 		<name>Use list_comprehension</name>
 		<internalKey>Use list_comprehension</internalKey>
 		<description>Use list_comprehension : A complete description will come up soon.</description>
@@ -1709,7 +1709,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Redundant list_comprehension</key>
+		<key>hlint:Redundant list_comprehension</key>
 		<name>Redundant list_comprehension</name>
 		<internalKey>Redundant list_comprehension</internalKey>
 		<description>Redundant list_comprehension : A complete description will come up soon.</description>
@@ -1729,7 +1729,7 @@
 	maybe
 	-->
 	<rule>
-		<key>Use fromMayBe</key>
+		<key>hlint:Use fromMayBe</key>
 		<name>Use fromMayBe</name>
 		<internalKey>Use fromMayBe</internalKey>
 		<description>Use fromMayBe : A complete description will come up soon.</description>
@@ -1742,7 +1742,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use isJust</key>
+		<key>hlint:Use isJust</key>
 		<name>Use isJust</name>
 		<internalKey>Use isJust</internalKey>
 		<description>Use isJust : A complete description will come up soon.</description>
@@ -1755,7 +1755,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use isNothing</key>
+		<key>hlint:Use isNothing</key>
 		<name>Use isNothing</name>
 		<internalKey>Use isNothing</internalKey>
 		<description>Use isNothing : A complete description will come up soon.</description>
@@ -1768,7 +1768,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use mapMayBe</key>
+		<key>hlint:Use mapMayBe</key>
 		<name>Use mapMayBe</name>
 		<internalKey>Use mapMayBe</internalKey>
 		<description>Use mapMayBe : A complete description will come up soon.</description>
@@ -1781,7 +1781,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use fmap</key>
+		<key>hlint:Use fmap</key>
 		<name>Use fmap</name>
 		<internalKey>Use fmap</internalKey>
 		<description>Use fmap : A complete description will come up soon.</description>
@@ -1794,7 +1794,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use catMayBes</key>
+		<key>hlint:Use catMayBes</key>
 		<name>Use catMayBes</name>
 		<internalKey>Use catMayBes</internalKey>
 		<description>Use catMayBes : A complete description will come up soon.</description>
@@ -1813,7 +1813,7 @@
 	either
 	-->
 	<rule>
-		<key>Use lefts</key>
+		<key>hlint:Use lefts</key>
 		<name>Use lefts</name>
 		<internalKey>Use lefts</internalKey>
 		<description>Use lefts : A complete description will come up soon.</description>
@@ -1826,7 +1826,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use rights</key>
+		<key>hlint:Use rights</key>
 		<name>Use rights</name>
 		<internalKey>Use rights</internalKey>
 		<description>Use rights : A complete description will come up soon.</description>
@@ -1846,7 +1846,7 @@
 	maths
 	-->
 	<rule>
-		<key>Use sqrt</key>
+		<key>hlint:Use sqrt</key>
 		<name>Use sqrt</name>
 		<internalKey>Use sqrt</internalKey>
 		<description>Use sqrt : A complete description will come up soon.</description>
@@ -1859,7 +1859,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use floor</key>
+		<key>hlint:Use floor</key>
 		<name>Use floor</name>
 		<internalKey>Use floor</internalKey>
 		<description>Use floor : A complete description will come up soon.</description>
@@ -1879,7 +1879,7 @@
 	exception
 	-->
 	<rule>
-		<key>Use handle</key>
+		<key>hlint:Use handle</key>
 		<name>Use handle</name>
 		<internalKey>Use handle</internalKey>
 		<description>Use handle : A complete description will come up soon.</description>
@@ -1892,7 +1892,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use handleJust</key>
+		<key>hlint:Use handleJust</key>
 		<name>Use handleJust</name>
 		<internalKey>Use handleJust</internalKey>
 		<description>Use handleJust : A complete description will come up soon.</description>
@@ -1905,7 +1905,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use catchJust</key>
+		<key>hlint:Use catchJust</key>
 		<name>Use catchJust</name>
 		<internalKey>Use catchJust</internalKey>
 		<description>Use catchJust : A complete description will come up soon.</description>
@@ -1918,7 +1918,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use withFile</key>
+		<key>hlint:Use withFile</key>
 		<name>Use withFile</name>
 		<internalKey>Use withFile</internalKey>
 		<description>Use withFilet : A complete description will come up soon.</description>
@@ -1931,7 +1931,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use withBinaryFile</key>
+		<key>hlint:Use withBinaryFile</key>
 		<name>Use withBinaryFile</name>
 		<internalKey>Use withBinaryFile</internalKey>
 		<description>Use withBinaryFilet : A complete description will come up soon.</description>
@@ -1944,7 +1944,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use error</key>
+		<key>hlint:Use error</key>
 		<name>Use error</name>
 		<internalKey>Use error</internalKey>
 		<description>Use error : A complete description will come up soon.</description>
@@ -1957,7 +1957,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use nonTermination</key>
+		<key>hlint:Use nonTermination</key>
 		<name>Use nonTermination</name>
 		<internalKey>Use nonTermination</internalKey>
 		<description>Use nonTermination : A complete description will come up soon.</description>
@@ -1970,7 +1970,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use nestedAtomically</key>
+		<key>hlint:Use nestedAtomically</key>
 		<name>Use nestedAtomically</name>
 		<internalKey>Use nestedAtomically</internalKey>
 		<description>Use nestedAtomically : A complete description will come up soon.</description>
@@ -1990,7 +1990,7 @@
 	weak-pointers
 	-->
 	<rule>
-		<key>Use mkWeakPtr</key>
+		<key>hlint:Use mkWeakPtr</key>
 		<name>Use mkWeakPtr</name>
 		<internalKey>Use mkWeakPtr</internalKey>
 		<description>Use mkWeakPtr : A complete description will come up soon.</description>
@@ -2003,7 +2003,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use mkWeakPair</key>
+		<key>hlint:Use mkWeakPair</key>
 		<name>Use mkWeakPair</name>
 		<internalKey>Use mkWeakPair</internalKey>
 		<description>Use mkWeakPair : A complete description will come up soon.</description>
@@ -2023,7 +2023,7 @@
 	foldable
 	-->
 	<rule>
-		<key>Use Foldable.forM_</key>
+		<key>hlint:Use Foldable.forM_</key>
 		<name>Use Foldable.forM_</name>
 		<internalKey>Use Foldable.forM_</internalKey>
 		<description>Use Foldable.forM_ : A complete description will come up soon.</description>
@@ -2044,7 +2044,7 @@
 	evaluate
 	-->
 	<rule>
-		<key>Evaluate</key>
+		<key>hlint:Evaluate</key>
 		<name>Evaluate</name>
 		<internalKey>Evaluate</internalKey>
 		<description>Use Evaluate : A complete description will come up soon.</description>
@@ -2065,7 +2065,7 @@
 	other
 	-->
 	<rule>
-		<key>Avoid lambda</key>
+		<key>hlint:Avoid lambda</key>
 		<name>Avoid lambda</name>
 		<internalKey>Avoid lambda</internalKey>
 		<description>Avoid lambda : A complete description will come up soon.</description>
@@ -2078,7 +2078,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Used otherwise as a pattern</key>
+		<key>hlint:Used otherwise as a pattern</key>
 		<name>Used otherwise as a pattern</name>
 		<internalKey>Used otherwise as a pattern</internalKey>
 		<description>Used otherwise as a pattern : A complete description will come up soon.</description>
@@ -2091,7 +2091,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use guards</key>
+		<key>hlint:Use guards</key>
 		<name>Use guards</name>
 		<internalKey>Use guards</internalKey>
 		<description>Use guards : A complete description will come up soon.</description>
@@ -2104,7 +2104,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Redundant do</key>
+		<key>hlint:Redundant do</key>
 		<name>Redundant do</name>
 		<internalKey>Redundant do</internalKey>
 		<description>Redundant do : A complete description will come up soon.</description>
@@ -2117,7 +2117,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use list literal pattern</key>
+		<key>hlint:Use list literal pattern</key>
 		<name>Use list literal pattern</name>
 		<internalKey>Use list literal pattern</internalKey>
 		<description>Use list literal pattern : A complete description will come up soon.</description>
@@ -2130,7 +2130,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use list literal</key>
+		<key>hlint:Use list literal</key>
 		<name>Use list literal</name>
 		<internalKey>Use list literal</internalKey>
 		<description>Use list literal : A complete description will come up soon.</description>
@@ -2143,7 +2143,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Eta reduce</key>
+		<key>hlint:Eta reduce</key>
 		<name>Eta reduce</name>
 		<internalKey>Eta reduce</internalKey>
 		<description>Eta reduce : A complete description will come up soon.</description>
@@ -2156,7 +2156,7 @@
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
 	<rule>
-		<key>Use map</key>
+		<key>hlint:Use map</key>
 		<name>Use map</name>
 		<internalKey>Use map</internalKey>
 		<description>Use map : A complete description will come up soon.</description>

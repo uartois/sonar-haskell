@@ -194,7 +194,7 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 				while (i.hasNext()) {
 					JSONObject innerObj = (JSONObject) i.next();
 					errorsAsList.add(new HaskellLintError(
-							innerObj.get("hint").toString()
+							"hlint:" + innerObj.get("hint").toString()
 							, innerObj.get("file").toString()
 							, Integer.parseInt(innerObj.get("startLine").toString())
 							, "Expression found : " + innerObj.get("from").toString() 
