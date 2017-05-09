@@ -7,7 +7,7 @@
 	<rule>
 		<key>hlint:Use print</key>
 		<name>Use print</name>
-		<internalKey>Use print</internalKey>
+		<internalKey>hlint:Use print</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -62,7 +62,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use putStr</key>
 		<name>Use putStr</name>
-		<internalKey>Use putStr</internalKey>
+		<internalKey>hlint:Use putStr</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -116,7 +116,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use getChar</key>
 		<name>Use getChar</name>
-		<internalKey>Use getChar</internalKey>
+		<internalKey>hlint:Use getChar</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -170,7 +170,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use getLine</key>
 		<name>Use getLine</name>
-		<internalKey>Use getLine</internalKey>
+		<internalKey>hlint:Use getLine</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -224,7 +224,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use getContents</key>
 		<name>Use getContents</name>
-		<internalKey>Use getContents</internalKey>
+		<internalKey>hlint:Use getContents</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -278,7 +278,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use putChar</key>
 		<name>Use putChar</name>
-		<internalKey>Use putChar</internalKey>
+		<internalKey>hlint:Use putChar</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -332,7 +332,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use putStrLn</key>
 		<name>Use putStrLn</name>
-		<internalKey>Use putStrLn</internalKey>
+		<internalKey>hlint:Use putStrLn</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -386,7 +386,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use hReady</key>
 		<name>Use hReady</name>
-		<internalKey>Use hReady</internalKey>
+		<internalKey>hlint:Use hReady</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -440,7 +440,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use hPrint</key>
 		<name>Use hPrint</name>
-		<internalKey>Use hPrint</internalKey>
+		<internalKey>hlint:Use hPrint</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -494,7 +494,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use isEOF</key>
 		<name>Use isEOF</name>
-		<internalKey>Use isEOF</internalKey>
+		<internalKey>hlint:Use isEOF</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -552,7 +552,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use exitSuccess</key>
 		<name>Use exitSuccess</name>
-		<internalKey>Use exitSuccess</internalKey>
+		<internalKey>hlint:Use exitSuccess</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -610,7 +610,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use minimum</key>
 		<name>Use minimum</name>
-		<internalKey>Use minimum</internalKey>
+		<internalKey>hlint:Use minimum</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -664,7 +664,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use maximum</key>
 		<name>Use maximum</name>
-		<internalKey>Use maximum</internalKey>
+		<internalKey>hlint:Use maximum</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -718,7 +718,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use minimumBy</key>
 		<name>Use minimumBy</name>
-		<internalKey>Use minimumBy</internalKey>
+		<internalKey>hlint:Use minimumBy</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -772,7 +772,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use maximumBy</key>
 		<name>Use maximumBy</name>
-		<internalKey>Use maximumBy</internalKey>
+		<internalKey>hlint:Use maximumBy</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -826,7 +826,7 @@ function fun() {
 	<rule>
 		<key>hlint:Avoid reverse</key>
 		<name>Avoid reverse</name>
-		<internalKey>Avoid reverse</internalKey>
+		<internalKey>hlint:Avoid reverse</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -884,7 +884,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use show</key>
 		<name>Use show</name>
-		<internalKey>Use show</internalKey>
+		<internalKey>hlint:Use show</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -938,7 +938,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use shows</key>
 		<name>Use shows</name>
-		<internalKey>Use shows</internalKey>
+		<internalKey>hlint:Use shows</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -992,7 +992,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use reads</key>
 		<name>Use reads</name>
-		<internalKey>Use reads</internalKey>
+		<internalKey>hlint:Use reads</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1046,7 +1046,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use showHex</key>
 		<name>Use showHex</name>
-		<internalKey>Use showHex</internalKey>
+		<internalKey>hlint:Use showHex</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1100,7 +1100,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use showOct</key>
 		<name>Use showOct</name>
-		<internalKey>Use showOct</internalKey>
+		<internalKey>hlint:Use showOct</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1158,7 +1158,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use concatMap</key>
 		<name>Use concatMap</name>
-		<internalKey>Use concatMap</internalKey>
+		<internalKey>hlint:Use concatMap</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1212,7 +1212,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use map once</key>
 		<name>Use map once</name>
-		<internalKey>Use map once</internalKey>
+		<internalKey>hlint:Use map once</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1266,7 +1266,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use head</key>
 		<name>Use head</name>
-		<internalKey>Use head</internalKey>
+		<internalKey>hlint:Use head</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1320,7 +1320,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use replicate</key>
 		<name>Use replicate</name>
-		<internalKey>Use replicate</internalKey>
+		<internalKey>hlint:Use replicate</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1374,7 +1374,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use repeat</key>
 		<name>Use repeat</name>
-		<internalKey>Use repeat</internalKey>
+		<internalKey>hlint:Use repeat</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1428,7 +1428,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use last</key>
 		<name>Use last</name>
-		<internalKey>Use last</internalKey>
+		<internalKey>hlint:Use last</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1482,7 +1482,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use init</key>
 		<name>Use init</name>
-		<internalKey>Use init</internalKey>
+		<internalKey>hlint:Use init</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1536,7 +1536,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use isSuffixOf</key>
 		<name>Use isSuffixOf</name>
-		<internalKey>Use isSuffixOf</internalKey>
+		<internalKey>hlint:Use isSuffixOf</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1590,7 +1590,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use concat</key>
 		<name>Use concat</name>
-		<internalKey>Use concat</internalKey>
+		<internalKey>hlint:Use concat</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1644,7 +1644,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use foldl1</key>
 		<name>Use foldl1</name>
-		<internalKey>Use foldl1</internalKey>
+		<internalKey>hlint:Use foldl1</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1698,7 +1698,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use foldr1</key>
 		<name>Use foldr1</name>
-		<internalKey>Use foldr1</internalKey>
+		<internalKey>hlint:Use foldr1</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1752,7 +1752,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use break</key>
 		<name>Use break</name>
-		<internalKey>Use break</internalKey>
+		<internalKey>hlint:Use break</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1806,7 +1806,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use span</key>
 		<name>Use span</name>
-		<internalKey>Use span</internalKey>
+		<internalKey>hlint:Use span</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1860,7 +1860,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use takeWhile</key>
 		<name>Use takeWhile</name>
-		<internalKey>Use takeWhile</internalKey>
+		<internalKey>hlint:Use takeWhile</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1914,7 +1914,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use dropWhile</key>
 		<name>Use dropWhile</name>
-		<internalKey>Use dropWhile</internalKey>
+		<internalKey>hlint:Use dropWhile</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -1968,7 +1968,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use unlines</key>
 		<name>Use Unlines</name>
-		<internalKey>Use unlines</internalKey>
+		<internalKey>hlint:Use unlines</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2022,7 +2022,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use id</key>
 		<name>Use id</name>
-		<internalKey>Use id</internalKey>
+		<internalKey>hlint:Use id</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2076,7 +2076,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use any</key>
 		<name>Use any</name>
-		<internalKey>Use any</internalKey>
+		<internalKey>hlint:Use any</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2130,7 +2130,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use all</key>
 		<name>Use all</name>
-		<internalKey>Use all</internalKey>
+		<internalKey>hlint:Use all</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2184,7 +2184,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use zip</key>
 		<name>Use zip</name>
-		<internalKey>Use zip</internalKey>
+		<internalKey>hlint:Use zip</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2238,7 +2238,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use zip3</key>
 		<name>Use zip3</name>
-		<internalKey>Use zip3</internalKey>
+		<internalKey>hlint:Use zip3</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2292,7 +2292,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use null</key>
 		<name>Use null</name>
-		<internalKey>Use null</internalKey>
+		<internalKey>hlint:Use null</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2346,7 +2346,7 @@ function fun() {
 	<rule>
 		<key>hlint:Redundant bracket</key>
 		<name>Redundant bracket</name>
-		<internalKey>Redundant bracket</internalKey>
+		<internalKey>hlint:Redundant bracket</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2400,7 +2400,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use :</key>
 		<name>Use :</name>
-		<internalKey>Use :</internalKey>
+		<internalKey>hlint:Use :</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2454,7 +2454,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use zipWith</key>
 		<name>Use zipWith</name>
-		<internalKey>Use zipWith</internalKey>
+		<internalKey>hlint:Use zipWith</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2508,7 +2508,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use notElem</key>
 		<name>Use notElem</name>
-		<internalKey>Use notElem</internalKey>
+		<internalKey>hlint:Use notElem</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2562,7 +2562,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use infix</key>
 		<name>Use infix</name>
-		<internalKey>Use infix</internalKey>
+		<internalKey>hlint:Use infix</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2616,7 +2616,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use .</key>
 		<name>Use .</name>
-		<internalKey>Use .</internalKey>
+		<internalKey>hlint:Use .</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2670,7 +2670,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use unwords</key>
 		<name>Use unwords</name>
-		<internalKey>Use unwords</internalKey>
+		<internalKey>hlint:Use unwords</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2724,7 +2724,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use intercalate</key>
 		<name>Use intercalate</name>
-		<internalKey>Use intercalate</internalKey>
+		<internalKey>hlint:Use intercalate</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2778,7 +2778,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use or</key>
 		<name>Use or</name>
-		<internalKey>Use or</internalKey>
+		<internalKey>hlint:Use or</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2832,7 +2832,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use and</key>
 		<name>Use and</name>
-		<internalKey>Use and</internalKey>
+		<internalKey>hlint:Use and</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2886,7 +2886,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use elem</key>
 		<name>Use elem</name>
-		<internalKey>Use elem</internalKey>
+		<internalKey>hlint:Use elem</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2940,7 +2940,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use section</key>
 		<name>Use section</name>
-		<internalKey>Use section</internalKey>
+		<internalKey>hlint:Use section</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -2994,7 +2994,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use elemIndex</key>
 		<name>Use elemIndex</name>
-		<internalKey>Use elemIndex</internalKey>
+		<internalKey>hlint:Use elemIndex</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3048,7 +3048,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use elemIndices</key>
 		<name>Use elemIndices</name>
-		<internalKey>Use elemIndices</internalKey>
+		<internalKey>hlint:Use elemIndices</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3102,7 +3102,7 @@ function fun() {
 	<rule>
 		<key>hlint:Length always non-negative</key>
 		<name>Length always non-negative</name>
-		<internalKey>Length always non-negative</internalKey>
+		<internalKey>hlint:Length always non-negative</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3156,7 +3156,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use foldl</key>
 		<name>Use foldl</name>
-		<internalKey>Use foldl</internalKey>
+		<internalKey>hlint:Use foldl</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3210,7 +3210,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use foldr</key>
 		<name>Use foldr</name>
-		<internalKey>Use foldr</internalKey>
+		<internalKey>hlint:Use foldr</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3268,7 +3268,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use delete</key>
 		<name>Use delete</name>
-		<internalKey>Use delete</internalKey>
+		<internalKey>hlint:Use delete</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3322,7 +3322,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use group</key>
 		<name>Use group</name>
-		<internalKey>Use group</internalKey>
+		<internalKey>hlint:Use group</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3376,7 +3376,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use insert</key>
 		<name>Use insert</name>
-		<internalKey>Use insert</internalKey>
+		<internalKey>hlint:Use insert</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3430,7 +3430,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use intersect</key>
 		<name>Use intersect</name>
-		<internalKey>Use intersect</internalKey>
+		<internalKey>hlint:Use intersect</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3484,7 +3484,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use nub</key>
 		<name>Use nub</name>
-		<internalKey>Use nub</internalKey>
+		<internalKey>hlint:Use nub</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3538,7 +3538,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use sort</key>
 		<name>Use sort</name>
-		<internalKey>Use sort</internalKey>
+		<internalKey>hlint:Use sort</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3592,7 +3592,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use union</key>
 		<name>Use union</name>
-		<internalKey>Use union</internalKey>
+		<internalKey>hlint:Use union</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3650,7 +3650,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use sequence_</key>
 		<name>Use sequence_</name>
-		<internalKey>Use sequence_</internalKey>
+		<internalKey>hlint:Use sequence_</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3704,7 +3704,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use sum</key>
 		<name>Use sum</name>
-		<internalKey>Use sum</internalKey>
+		<internalKey>hlint:Use sum</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3758,7 +3758,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use product</key>
 		<name>Use product</name>
-		<internalKey>Use product</internalKey>
+		<internalKey>hlint:Use product</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3817,7 +3817,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use const</key>
 		<name>Use const</name>
-		<internalKey>Use const</internalKey>
+		<internalKey>hlint:Use const</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3871,7 +3871,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use snd</key>
 		<name>Use snd</name>
-		<internalKey>Use snd</internalKey>
+		<internalKey>hlint:Use snd</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3925,7 +3925,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use fst</key>
 		<name>Use fst</name>
-		<internalKey>Use fst</internalKey>
+		<internalKey>hlint:Use fst</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -3979,7 +3979,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use curry</key>
 		<name>Use curry</name>
-		<internalKey>Use curry</internalKey>
+		<internalKey>hlint:Use curry</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4033,7 +4033,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use uncurry</key>
 		<name>Use uncurry</name>
-		<internalKey>Use uncurry</internalKey>
+		<internalKey>hlint:Use uncurry</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4087,7 +4087,7 @@ function fun() {
 	<rule>
 		<key>hlint:Redundant $</key>
 		<name>Redundant $</name>
-		<internalKey>Redundant $</internalKey>
+		<internalKey>hlint:Redundant $</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4141,7 +4141,7 @@ function fun() {
 	<rule>
 		<key>hlint:Redundant flip</key>
 		<name>Redundant flip</name>
-		<internalKey>Redundant flip</internalKey>
+		<internalKey>hlint:Redundant flip</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4195,7 +4195,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use on</key>
 		<name>Use on</name>
-		<internalKey>Use on</internalKey>
+		<internalKey>hlint:Use on</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4254,7 +4254,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use isAsciiLower</key>
 		<name>Use isAsciiLower</name>
-		<internalKey>Use isAsciiLower</internalKey>
+		<internalKey>hlint:Use isAsciiLower</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4308,7 +4308,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use isAsciiUpper</key>
 		<name>Use isAsciiUpper</name>
-		<internalKey>Use isAsciiUpper</internalKey>
+		<internalKey>hlint:Use isAsciiUpper</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4362,7 +4362,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use isDigit</key>
 		<name>Use isDigit</name>
-		<internalKey>Use isDigit</internalKey>
+		<internalKey>hlint:Use isDigit</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4416,7 +4416,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use isOctDigit</key>
 		<name>Use isOctDigit</name>
-		<internalKey>Use isOctDigit</internalKey>
+		<internalKey>hlint:Use isOctDigit</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4470,7 +4470,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use isAlpha</key>
 		<name>Use isAlpha</name>
-		<internalKey>Use isAlpha</internalKey>
+		<internalKey>hlint:Use isAlpha</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4529,7 +4529,7 @@ function fun() {
 	<rule>
 		<key>hlint:Redundant ==</key>
 		<name>Redundant ==</name>
-		<internalKey>Redundant ==</internalKey>
+		<internalKey>hlint:Redundant ==</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4583,7 +4583,7 @@ function fun() {
 	<rule>
 		<key>hlint:Redundant /=</key>
 		<name>Redundant /=</name>
-		<internalKey>Redundant /=</internalKey>
+		<internalKey>hlint:Redundant /=</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4637,7 +4637,7 @@ function fun() {
 	<rule>
 		<key>hlint:Redundant if</key>
 		<name>Redundant if</name>
-		<internalKey>Redundant if</internalKey>
+		<internalKey>hlint:Redundant if</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4696,7 +4696,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use second</key>
 		<name>Use second</name>
-		<internalKey>Use second</internalKey>
+		<internalKey>hlint:Use second</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4750,7 +4750,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use &amp;&amp;&amp;</key>
 		<name>Use &amp;&amp;&amp;</name>
-		<internalKey>Use &amp;&amp;&amp;</internalKey>
+		<internalKey>hlint:Use &amp;&amp;&amp;</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4804,7 +4804,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use ***</key>
 		<name>Use ***</name>
-		<internalKey>Use ***</internalKey>
+		<internalKey>hlint:Use ***</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4858,7 +4858,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use first</key>
 		<name>Use first</name>
-		<internalKey>Use first</internalKey>
+		<internalKey>hlint:Use first</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4912,7 +4912,7 @@ function fun() {
 	<rule>
 		<key>hlint:Redundant pair</key>
 		<name>Redundant pair</name>
-		<internalKey>Redundant pair</internalKey>
+		<internalKey>hlint:Redundant pair</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -4971,7 +4971,7 @@ function fun() {
 	<rule>
 		<key>hlint:Functor law</key>
 		<name>Functor law</name>
-		<internalKey>Functor law</internalKey>
+		<internalKey>hlint:Functor law</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5030,7 +5030,7 @@ function fun() {
 	<rule>
 		<key>hlint:Monad law, left identity</key>
 		<name>Monad law, left identity</name>
-		<internalKey>Monad law, left identity</internalKey>
+		<internalKey>hlint:Monad law, left identity</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5084,7 +5084,7 @@ function fun() {
 	<rule>
 		<key>hlint:Monad law, right identity</key>
 		<name>Monad law, right identity</name>
-		<internalKey>Monad law, right identity</internalKey>
+		<internalKey>hlint:Monad law, right identity</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5138,7 +5138,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use liftM</key>
 		<name>Use liftM</name>
-		<internalKey>Use liftM</internalKey>
+		<internalKey>hlint:Use liftM</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5192,7 +5192,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use when</key>
 		<name>Use when</name>
-		<internalKey>Use when</internalKey>
+		<internalKey>hlint:Use when</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5246,7 +5246,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use unless</key>
 		<name>Use unless</name>
-		<internalKey>Use unless</internalKey>
+		<internalKey>hlint:Use unless</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5300,7 +5300,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use mapM</key>
 		<name>Use mapM</name>
-		<internalKey>Use mapM</internalKey>
+		<internalKey>hlint:Use mapM</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5354,7 +5354,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use mapM_</key>
 		<name>Use mapM_</name>
-		<internalKey>Use mapM_</internalKey>
+		<internalKey>hlint:Use mapM_</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5408,7 +5408,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use forM</key>
 		<name>Use forM</name>
-		<internalKey>Use forM</internalKey>
+		<internalKey>hlint:Use forM</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5462,7 +5462,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use forM_</key>
 		<name>Use forM_</name>
-		<internalKey>Use forM_</internalKey>
+		<internalKey>hlint:Use forM_</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5516,7 +5516,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use join</key>
 		<name>Use join</name>
-		<internalKey>Use join</internalKey>
+		<internalKey>hlint:Use join</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5570,7 +5570,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use void</key>
 		<name>Use void</name>
-		<internalKey>Use void</internalKey>
+		<internalKey>hlint:Use void</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5624,7 +5624,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use &lt;=&lt;</key>
 		<name>Use &lt;=&lt;</name>
-		<internalKey>Use &lt;=&lt;</internalKey>
+		<internalKey>hlint:Use &lt;=&lt;</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5678,7 +5678,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use &gt;=&gt;</key>
 		<name>Use &gt;=&gt;</name>
-		<internalKey>Use &gt;=&gt;</internalKey>
+		<internalKey>hlint:Use &gt;=&gt;</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5732,7 +5732,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use =&lt;&lt;</key>
 		<name>Use =&lt;&lt;</name>
-		<internalKey>Use =&lt;&lt;</internalKey>
+		<internalKey>hlint:Use =&lt;&lt;</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5786,7 +5786,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use &gt;&gt;=</key>
 		<name>Use &gt;&gt;=</name>
-		<internalKey>Use &gt;&gt;=</internalKey>
+		<internalKey>hlint:Use &gt;&gt;=</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5840,7 +5840,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use forever</key>
 		<name>Use forever</name>
-		<internalKey>Use forever</internalKey>
+		<internalKey>hlint:Use forever</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5894,7 +5894,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use ap</key>
 		<name>Use ap</name>
-		<internalKey>Use ap</internalKey>
+		<internalKey>hlint:Use ap</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -5948,7 +5948,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use zipWithM</key>
 		<name>Use zipWithM</name>
-		<internalKey>Use zipWithM</internalKey>
+		<internalKey>hlint:Use zipWithM</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6008,7 +6008,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use evalState</key>
 		<name>Use evalState</name>
-		<internalKey>Use evalState</internalKey>
+		<internalKey>hlint:Use evalState</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6062,7 +6062,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use exitState</key>
 		<name>Use exitState</name>
-		<internalKey>Use exitState</internalKey>
+		<internalKey>hlint:Use exitState</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6121,7 +6121,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use mapAndUnzipM</key>
 		<name>Use mapAndUnzipM</name>
-		<internalKey>Use mapAndUnzipM</internalKey>
+		<internalKey>hlint:Use mapAndUnzipM</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6175,7 +6175,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use zipWithM_</key>
 		<name>Use zipWithM_</name>
-		<internalKey>Use zipWithM_</internalKey>
+		<internalKey>hlint:Use zipWithM_</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6229,7 +6229,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use replicateM</key>
 		<name>Use replicateM</name>
-		<internalKey>Use replicateM</internalKey>
+		<internalKey>hlint:Use replicateM</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6283,7 +6283,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use replicateM_</key>
 		<name>Use replicateM_</name>
-		<internalKey>Use replicateM_</internalKey>
+		<internalKey>hlint:Use replicateM_</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6343,7 +6343,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use for</key>
 		<name>Use for</name>
-		<internalKey>Use for</internalKey>
+		<internalKey>hlint:Use for</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6397,7 +6397,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use for_</key>
 		<name>Use for_</name>
-		<internalKey>Use for_</internalKey>
+		<internalKey>hlint:Use for_</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6451,7 +6451,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use traverse</key>
 		<name>Use traverse</name>
-		<internalKey>Use traverse</internalKey>
+		<internalKey>hlint:Use traverse</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6505,7 +6505,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use traverse_</key>
 		<name>Use traverse_</name>
-		<internalKey>Use traverse_</internalKey>
+		<internalKey>hlint:Use traverse_</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6559,7 +6559,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use sequenceA_</key>
 		<name>Use sequenceA_</name>
-		<internalKey>Use sequenceA_</internalKey>
+		<internalKey>hlint:Use sequenceA_</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6613,7 +6613,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use asum</key>
 		<name>Use asum</name>
-		<internalKey>Use asum</internalKey>
+		<internalKey>hlint:Use asum</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6667,7 +6667,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use &lt;**&gt;</key>
 		<name>Use &lt;**&gt;</name>
-		<internalKey>Use &lt;**&gt;</internalKey>
+		<internalKey>hlint:Use &lt;**&gt;</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6721,7 +6721,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use optional</key>
 		<name>Use optional</name>
-		<internalKey>Use optional</internalKey>
+		<internalKey>hlint:Use optional</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6782,7 +6782,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use list_comprehension</key>
 		<name>Use list_comprehension</name>
-		<internalKey>Use list_comprehension</internalKey>
+		<internalKey>hlint:Use list_comprehension</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6836,7 +6836,7 @@ function fun() {
 	<rule>
 		<key>hlint:Redundant list_comprehension</key>
 		<name>Redundant list_comprehension</name>
-		<internalKey>Redundant list_comprehension</internalKey>
+		<internalKey>hlint:Redundant list_comprehension</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6897,7 +6897,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use fromMayBe</key>
 		<name>Use fromMayBe</name>
-		<internalKey>Use fromMayBe</internalKey>
+		<internalKey>hlint:Use fromMayBe</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -6951,7 +6951,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use isJust</key>
 		<name>Use isJust</name>
-		<internalKey>Use isJust</internalKey>
+		<internalKey>hlint:Use isJust</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7005,7 +7005,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use isNothing</key>
 		<name>Use isNothing</name>
-		<internalKey>Use isNothing</internalKey>
+		<internalKey>hlint:Use isNothing</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7059,7 +7059,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use mapMayBe</key>
 		<name>Use mapMayBe</name>
-		<internalKey>Use mapMayBe</internalKey>
+		<internalKey>hlint:Use mapMayBe</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7113,7 +7113,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use fmap</key>
 		<name>Use fmap</name>
-		<internalKey>Use fmap</internalKey>
+		<internalKey>hlint:Use fmap</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7167,7 +7167,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use catMayBes</key>
 		<name>Use catMayBes</name>
-		<internalKey>Use catMayBes</internalKey>
+		<internalKey>hlint:Use catMayBes</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7227,7 +7227,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use lefts</key>
 		<name>Use lefts</name>
-		<internalKey>Use lefts</internalKey>
+		<internalKey>hlint:Use lefts</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7281,7 +7281,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use rights</key>
 		<name>Use rights</name>
-		<internalKey>Use rights</internalKey>
+		<internalKey>hlint:Use rights</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7342,7 +7342,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use sqrt</key>
 		<name>Use sqrt</name>
-		<internalKey>Use sqrt</internalKey>
+		<internalKey>hlint:Use sqrt</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7396,7 +7396,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use floor</key>
 		<name>Use floor</name>
-		<internalKey>Use floor</internalKey>
+		<internalKey>hlint:Use floor</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7457,7 +7457,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use handle</key>
 		<name>Use handle</name>
-		<internalKey>Use handle</internalKey>
+		<internalKey>hlint:Use handle</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7511,7 +7511,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use handleJust</key>
 		<name>Use handleJust</name>
-		<internalKey>Use handleJust</internalKey>
+		<internalKey>hlint:Use handleJust</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7565,7 +7565,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use catchJust</key>
 		<name>Use catchJust</name>
-		<internalKey>Use catchJust</internalKey>
+		<internalKey>hlint:Use catchJust</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7619,7 +7619,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use withFile</key>
 		<name>Use withFile</name>
-		<internalKey>Use withFile</internalKey>
+		<internalKey>hlint:Use withFile</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7673,7 +7673,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use withBinaryFile</key>
 		<name>Use withBinaryFile</name>
-		<internalKey>Use withBinaryFile</internalKey>
+		<internalKey>hlint:Use withBinaryFile</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7727,7 +7727,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use error</key>
 		<name>Use error</name>
-		<internalKey>Use error</internalKey>
+		<internalKey>hlint:Use error</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7781,7 +7781,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use nonTermination</key>
 		<name>Use nonTermination</name>
-		<internalKey>Use nonTermination</internalKey>
+		<internalKey>hlint:Use nonTermination</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7835,7 +7835,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use nestedAtomically</key>
 		<name>Use nestedAtomically</name>
-		<internalKey>Use nestedAtomically</internalKey>
+		<internalKey>hlint:Use nestedAtomically</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7896,7 +7896,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use mkWeakPtr</key>
 		<name>Use mkWeakPtr</name>
-		<internalKey>Use mkWeakPtr</internalKey>
+		<internalKey>hlint:Use mkWeakPtr</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -7950,7 +7950,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use mkWeakPair</key>
 		<name>Use mkWeakPair</name>
-		<internalKey>Use mkWeakPair</internalKey>
+		<internalKey>hlint:Use mkWeakPair</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -8011,7 +8011,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use Foldable.forM_</key>
 		<name>Use Foldable.forM_</name>
-		<internalKey>Use Foldable.forM_</internalKey>
+		<internalKey>hlint:Use Foldable.forM_</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -8073,7 +8073,7 @@ function fun() {
 	<rule>
 		<key>hlint:Evaluate</key>
 		<name>Evaluate</name>
-		<internalKey>Evaluate</internalKey>
+		<internalKey>hlint:Evaluate</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -8135,7 +8135,7 @@ function fun() {
 	<rule>
 		<key>hlint:Avoid lambda</key>
 		<name>Avoid lambda</name>
-		<internalKey>Avoid lambda</internalKey>
+		<internalKey>hlint:Avoid lambda</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -8189,7 +8189,7 @@ function fun() {
 	<rule>
 		<key>hlint:Used otherwise as a pattern</key>
 		<name>Used otherwise as a pattern</name>
-		<internalKey>Used otherwise as a pattern</internalKey>
+		<internalKey>hlint:Used otherwise as a pattern</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -8243,7 +8243,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use guards</key>
 		<name>Use guards</name>
-		<internalKey>Use guards</internalKey>
+		<internalKey>hlint:Use guards</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -8297,7 +8297,7 @@ function fun() {
 	<rule>
 		<key>hlint:Redundant do</key>
 		<name>Redundant do</name>
-		<internalKey>Redundant do</internalKey>
+		<internalKey>hlint:Redundant do</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -8351,7 +8351,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use list literal pattern</key>
 		<name>Use list literal pattern</name>
-		<internalKey>Use list literal pattern</internalKey>
+		<internalKey>hlint:Use list literal pattern</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -8405,7 +8405,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use list literal</key>
 		<name>Use list literal</name>
-		<internalKey>Use list literal</internalKey>
+		<internalKey>hlint:Use list literal</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -8459,7 +8459,7 @@ function fun() {
 	<rule>
 		<key>hlint:Eta reduce</key>
 		<name>Eta reduce</name>
-		<internalKey>Eta reduce</internalKey>
+		<internalKey>hlint:Eta reduce</internalKey>
 		<description>
 		<![CDATA[
 			<p>
@@ -8513,7 +8513,7 @@ function fun() {
 	<rule>
 		<key>hlint:Use map</key>
 		<name>Use map</name>
-		<internalKey>Use map</internalKey>
+		<internalKey>hlint:Use map</internalKey>
 		<description>
 		<![CDATA[
 			<p>
