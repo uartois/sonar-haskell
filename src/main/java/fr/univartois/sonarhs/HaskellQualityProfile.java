@@ -135,7 +135,7 @@ public class HaskellQualityProfile extends ProfileDefinition{
 		profile.activateRule(Rule.create(REPO_KEY,"hlint:Use ap",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"hlint:Use zipWithM",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"hlint:Use evalState",REPO_NAME), null);
-		profile.activateRule(Rule.create(REPO_KEY,"hlint:Use exitState",REPO_NAME), null);
+		profile.activateRule(Rule.create(REPO_KEY,"hlint:Use execState",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"hlint:Use mapAndUnzipM",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"hlint:Use zipWithM_",REPO_NAME), null);
 		profile.activateRule(Rule.create(REPO_KEY,"hlint:Use replicateM",REPO_NAME), null);
