@@ -11,7 +11,7 @@ import static org.fest.assertions.Assertions.assertThat;
 public class SonarHaskellPluginTest {
 
     @Test
-    public void SonarHaskellPluginTester() {
+    public void testSonarHaskellPlugin() {
 	
 	Plugin.Context context = new Plugin.Context(SonarRuntimeImpl.forSonarQube(Version.create(6, 0), SonarQubeSide.SERVER));
 	new SonarHaskellPlugin().define(context);
