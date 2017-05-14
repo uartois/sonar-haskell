@@ -8,7 +8,24 @@
   <artifactId>sonar-haskell-plugin</artifactId>
   <version>1.0</version>
 
-  
+  <name>Haskell</name>
+  <description>Haskell Plugin for SonarQube based on hlint</description>
+  <organization>
+       <name>University of Artois</name>
+       <url>http://www.univ-artois.fr/</url>
+  </organization>
+  <url>https://github.com/uartois/sonar-haskell</url>
+  <issueManagement>
+         <url>https://github.com/uartois/sonar-haskell/issues</url>
+  </issueManagement>
+  <licenses>
+       <license>
+            <name>GNU LGPL 3.0</name>
+            <url>https://www.gnu.org/licenses/lgpl-3.0.en.html</url>
+            <distribution>manual</distribution>
+       </license>
+  </licenses>
+	  
   <!-- this is important for sonar-packaging-maven-plugin -->
   <packaging>sonar-plugin</packaging>
  
