@@ -17,7 +17,7 @@
  * along with Sonar-haskell.  If not, see <http://www.gnu.org/licenses/>.
  *  
  * Contributors:
- *              Mohamed Boutmati (mohamed_boumati@ens.univ-artois.fr)
+ *              Mohamed Boumati (mohamed_boumati@ens.univ-artois.fr)
  *******************************************************************************/
 package fr.univartois.sonarhs;
 
