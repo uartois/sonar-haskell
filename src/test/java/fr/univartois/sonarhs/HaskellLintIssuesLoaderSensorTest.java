@@ -22,11 +22,25 @@
 package fr.univartois.sonarhs;
 
 import org.junit.Test;
+import org.sonar.api.batch.fs.internal.DefaultFileSystem;
+import org.sonar.api.batch.sensor.internal.DefaultSensorDescriptor;
+import org.sonar.api.config.Settings;
+
+import static org.fest.assertions.Assertions.assertThat;
+
+import java.io.File;
 
 public class HaskellLintIssuesLoaderSensorTest {
-
+    
     @Test
-    public void emptyTest(){
+    public void testSensorDescription() {
 	
+      DefaultSensorDescriptor descriptor = new DefaultSensorDescriptor();
+      HaskellLintIssuesLoaderSensor sensor =  new HaskellLintIssuesLoaderSensor(new Settings(), new DefaultFileSystem((File) null));
+      sensor.describe(descriptor);
+
+      assertThat(descriptor.name()).isEqualTo("HaskellLint Issues Loader Sensor");
+      assertThat(descriptor.languages()).containsOnly("haskell");
     }
+    
 }
