@@ -48,7 +48,6 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-
 /**
  * The goal of this Sensor is to load the results of an analysis performed by an external tool named: hLint
  * Results are provided as an JSON file and are corresponding to the rules defined in 'haskelllint-rules.xml'.

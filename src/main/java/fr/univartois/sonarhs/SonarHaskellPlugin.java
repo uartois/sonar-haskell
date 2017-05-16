@@ -29,7 +29,7 @@ public class SonarHaskellPlugin implements Plugin{
 	public void define(Context context) {
 		
 	    context.addExtensions(HaskellLanguage.class, HaskellQualityProfile.class);
-	    context.addExtension(HaskellProperties.getProperties());
+	    context.addExtension(HaskellProperties.class);
 	    
 	    context.addExtensions(HaskellLintRulesDefinition.class, HaskellLintIssuesLoaderSensor.class);
 

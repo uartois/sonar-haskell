@@ -27,7 +27,6 @@ public class HaskellLanguage extends AbstractLanguage{
 
 	  public static final String NAME = "Haskell";
 	  public static final String KEY = "haskell";
-	
 
 	private static final String[] DEFAULT_FILE_SUFFIXES={"hs"};
 

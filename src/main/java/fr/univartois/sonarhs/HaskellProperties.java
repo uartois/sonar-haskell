@@ -25,6 +25,7 @@ import static java.util.Arrays.asList;
 import java.util.List;
 import org.sonar.api.config.PropertyDefinition;
 
+
 public class HaskellProperties {
 	public static final String REPORT_PATH_KEY = "sonar.hlint.reportPath";
 	public static final String REPORT_PATH_DEFAULT = "hlintReport.json";
