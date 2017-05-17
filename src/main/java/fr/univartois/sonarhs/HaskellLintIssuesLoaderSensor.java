@@ -192,6 +192,29 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 	    }
 	}
 	
+	
+	private String generateMessageForHints(final String hint,final String from,final String to){
+		
+		final String REDUCE_DUPLICATION_HINT = "Reduce duplication";
+		final String REDUNDANT_BRACKET_HINT = "Redundant bracket";
+		final String USE_FEWER_HINT = "Use fewer imports";
+		
+		if(hint.equals(REDUCE_DUPLICATION_HINT)){
+			return "Reduce This Code Duplication: " + to; 
+		}
+		
+		if(hint.equals(REDUNDANT_BRACKET_HINT)){
+			return "Remove Unnecessary Parentheses. Replace by:  " + to;
+		}
+		
+		if(hint.equals(USE_FEWER_HINT)){
+			return "Use: " + to + "  once only";
+		}
+		
+		return "Expression found: " + from 
+				+ " Should be replaced by: " + to;
+	}
+	
 	private class HaskellLintAnalysisResultsParser {
 
 	
@@ -217,8 +240,9 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 							"hlint:" + innerObj.get("hint").toString()
 							, innerObj.get("file").toString()
 							, Integer.parseInt(innerObj.get("startLine").toString())
-							, "Expression found: " + innerObj.get("from").toString() 
-							+ " Should be replaced by: " + innerObj.get("to").toString()));
+							,generateMessageForHints(innerObj.get("hint").toString(),
+									innerObj.get("from").toString(),
+									innerObj.get("to").toString())));
 				}
 			} catch (FileNotFoundException ex) {
 				ex.printStackTrace();
