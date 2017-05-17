@@ -5459,5 +5459,275 @@ foo f xs = map f xs
 		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
         <remediationFunctionBaseEffort>5min</remediationFunctionBaseEffort>
 	</rule>
+	<rule>
+		<key>hlint:Unused LANGUAGE pragma</key>
+		<name>Unused LANGUAGE pragma</name>
+		<internalKey>hlint:Unused LANGUAGE pragma</internalKey>
+		<description>
+		<![CDATA[
+			<p>
+				You may need to add DisambiguateRecordFields. 
+			</p>
+			<p>
+				To reduce redundancy, it is recommended to use less functions and target more appropriate ones. It makes the code clearer and simpler.
+			</p>
+			<h2>
+				Noncompliant Code Example
+			</h2>
+<pre>
+{-# LANGUAGE OverloadedStrings, RecordWildCards #-}
+</pre>
+			<h2>
+				Compliant Solution
+			</h2>
+<pre>
+{-# LANGUAGE OverloadedStrings #-}
+</pre>
+		]]>
+		</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>BETA</status>
+		<type>BUG</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>10min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>hlint:Use import/export shortcut</key>
+		<name>Use import/export shortcut</name>
+		<internalKey>hlint:Use import/export shortcut</internalKey>
+		<description>
+		<![CDATA[
+			<p>
+				The lack of visibility could confuse developers.   
+			</p>
+			<p>
+				You may need to use import/export shortcut to make the code clearer and simpler.
+			</p>
+			<h2>
+				Noncompliant Code Example
+			</h2>
+<pre>
+module MyModule.SubModule
+  ( module MyModule.SubModule.haskellCode
+  , module MyModule.SubModule.SubSubModule
+  )where
+    import MyModule.SubModule.haskellCode
+    import MyModule.SubModule.SubSubModule
+</pre>
+			<h2>
+				Compliant Solution
+			</h2>
+<pre>
+module MyModule.SubModule 
+  (module X) 
+where
+  import MyModule.SubModule.haskellCode as X
+  import MyModule.SubModule.SubSubModule as X
+</pre>
+		]]>
+		</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>BUG</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>15min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>hlint:Move brackets to avoid $</key>
+		<name>Move brackets to avoid $</name>
+		<internalKey>hlint:Move brackets to avoid $</internalKey>
+		<description>
+		<![CDATA[
+			<p>
+				The lack of visibility could confuse developers.   
+			</p>
+			<p>
+				It is recommended to use less functions and target more appropriate ones. Move parentheses to avoid $ function and makes the code clearer and simpler.
+			</p>
+			<h2>
+				Noncompliant Code Example
+			</h2>
+<pre>
+funcF ~> (handle $ funcG a)
+</pre>
+			<h2>
+				Compliant Solution
+			</h2>
+<pre>
+funcF ~> handle (funcG a)
+</pre>
+		]]>
+		</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>BUG</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>10min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>hlint:Use fewer imports</key>
+		<name>Use fewer imports</name>
+		<internalKey>hlint:Use fewer imports</internalKey>
+		<description>
+		<![CDATA[
+			<p>
+				 Redundant imports could confuse developers.   
+			</p>
+			<p>
+				Take redundant imports to avoid conflict and make the code clearer and simpler.
+			</p>
+			<h2>
+				Noncompliant Code Example
+			</h2>
+<pre>
+import System.Info
+import System.Environment
+import System.Info
+</pre>
+			<h2>
+				Compliant Solution
+			</h2>
+<pre>
+import System.Info
+import System.Environment
+</pre>
+		]]>
+		</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>BUG</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>10min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>hlint:Use ++</key>
+		<name>Use ++</name>
+		<internalKey>hlint:Use ++</internalKey>
+		<description>
+		<![CDATA[
+			<p>
+				 To reduce redundancy, it is recommended to use less functions and target more appropriate ones. It makes the code clearer and simpler.
+			</p>
+			<h2>
+				Noncompliant Code Example
+			</h2>
+<pre>
+concat ["Hello", "world"]
+</pre>
+			<h2>
+				Compliant Solution
+			</h2>
+<pre>
+("Hello" ++ "world")
+</pre>
+		]]>
+		</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>BUG</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>10min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>hlint:Use better pragmas</key>
+		<name>Use better pragmas</name>
+		<internalKey>hlint:Use better pragmas</internalKey>
+		<description>
+		<![CDATA[
+			<p>
+				 Redundant pragmas could confuse developers.   
+			</p>
+			<p>
+				Take unnecissary one off to avoid conflict and make the code clearer and simpler.
+			</p>
+			<h2>
+				Noncompliant Code Example
+			</h2>
+<pre>
+{-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE OverloadedStrings #-}
+</pre>
+			<h2>
+				Compliant Solution
+			</h2>
+<pre>
+{-# LANGUAGE OverloadedStrings #-}
+</pre>
+		]]>
+		</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>BUG</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>10min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>hlint:Reduce duplication</key>
+		<name>Reduce duplication</name>
+		<internalKey>hlint:Reduce duplication</internalKey>
+		<description>
+		<![CDATA[
+			<p>
+				 Duplication in the code may confuse developers.   
+			</p>
+			<p>
+				Combine the part of similar code to avoid duplication and make the code clearer and easier to understand. 
+			</p>
+		]]>
+		</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>BUG</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>10min</remediationFunctionBaseEffort>
+	</rule>
+	<rule>
+		<key>hlint:Use &lt;$&gt;</key>
+		<name>Use &lt;$&gt;</name>
+		<internalKey>hlint:Use &lt;$&gt;</internalKey>
+		<description>
+		<![CDATA[
+			<p>
+				The lack of visibility could confuse developers. 
+			</p>
+			<p>
+				To reduce redundancy, it is recommended to use less functions and target more appropriate ones. It makes the code clearer and simpler.
+			</p>
+			<h2>
+				Noncompliant Code Example
+			</h2>
+<pre>
+fmap (+ 1) $ Just 2
+</pre>
+			<h2>
+				Compliant Solution
+			</h2>
+<pre>
+((+ 1) <$> Just 2)
+</pre>
+		]]>
+		</description>
+		<severity>MAJOR</severity>
+		<cardinality>SINGLE</cardinality>
+		<status>READY</status>
+		<type>BUG</type>
+		<tag>other</tag>
+		<remediationFunction>CONSTANT_ISSUE</remediationFunction>
+        <remediationFunctionBaseEffort>10min</remediationFunctionBaseEffort>
+	</rule>
 	
 </haskelllint-rules>
