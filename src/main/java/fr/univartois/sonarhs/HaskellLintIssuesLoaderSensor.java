@@ -92,11 +92,15 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 	          parseAndSaveResults(analysisResultsFile);
 	        } catch (ParseException e) {
 	          throw new IllegalStateException("Unable to parse the provided HaskellLint report file", e);
-	        }
+	        } catch (IOException e) {
+		    LOGGER.info(e.toString());
+		} catch (org.json.simple.parser.ParseException e) {
+		    throw new RuntimeException(e);
+		}
 	    }
 	}
 	
-	protected void parseAndSaveResults(final File file) throws ParseException {
+	protected void parseAndSaveResults(final File file) throws ParseException, IOException, org.json.simple.parser.ParseException {//BUG 1
 		LOGGER.info("(mock) Parsing 'HaskellLint' Analysis Results");
 		HaskellLintAnalysisResultsParser parser = new HaskellLintAnalysisResultsParser();
 		List<HaskellLintError> errors = parser.parse(file);
@@ -149,9 +153,9 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 	public class HaskellLintError {
 
 		private final String hint;
-		private final String filePath;//file
-		private final int line;//startLine
-		private final String description;//from to
+		private final String filePath;
+		private final int line;
+		private final String description;
 
 		public HaskellLintError(final String hint, final String filePath, final int line, final String description) {
 			this.hint = hint;
@@ -218,19 +222,20 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 	private class HaskellLintAnalysisResultsParser {
 
 	
-		public List<HaskellLintError> parse(final File file) throws ParseException {
+		public List<HaskellLintError> parse(final File file) throws ParseException, IOException, org.json.simple.parser.ParseException {
 			LOGGER.info("Parsing file {}", file.getAbsolutePath());
 			List<HaskellLintError> errorsAsList = new ArrayList<>();
+			FileReader reader = null;
 			try {
-				FileReader reader = new FileReader(file);
-	            JSONParser jsonParser = new JSONParser();
+				reader = new FileReader(file);
+				JSONParser jsonParser = new JSONParser();
 				JSONArray jsonArray = null;
 				try {
 				    jsonArray = (JSONArray) jsonParser.parse(reader);
 				} catch (IOException e) {
-				    e.printStackTrace();
+				    throw e;
 				} catch (org.json.simple.parser.ParseException e) {
-				    e.printStackTrace();
+				    throw e;
 				}
 				
 				Iterator i = jsonArray.iterator();
@@ -245,9 +250,13 @@ public class HaskellLintIssuesLoaderSensor implements Sensor {
 									innerObj.get("to").toString())));
 				}
 			} catch (FileNotFoundException ex) {
-				ex.printStackTrace();
+			    	throw ex;
 			} catch (NullPointerException ex) {
-				ex.printStackTrace();
+			    	throw ex;
+			}finally{
+			    if(reader != null){
+				reader.close();
+			    }
 			}
 		
 		      return errorsAsList;

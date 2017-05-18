@@ -23,6 +23,12 @@ package fr.univartois.sonarhs;
 
 import org.sonar.api.resources.AbstractLanguage;
 
+/**
+ * This class describe Haskell language
+ * 
+ * @author Mohamed
+ *
+ */
 public class HaskellLanguage extends AbstractLanguage{
 
 	  public static final String NAME = "Haskell";
@@ -30,7 +36,9 @@ public class HaskellLanguage extends AbstractLanguage{
 
 	private static final String[] DEFAULT_FILE_SUFFIXES={"hs"};
 
-	
+	/**
+	 * HaskellLanguage Constructor
+	 */
 	public HaskellLanguage(){
 	    super(KEY, NAME);
 	}
