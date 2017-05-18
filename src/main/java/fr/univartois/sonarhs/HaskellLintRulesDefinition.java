@@ -30,6 +30,11 @@ import org.sonar.api.server.rule.RulesDefinitionXmlLoader;
 import org.sonar.api.utils.log.Loggers;
 import org.sonar.api.utils.log.Logger;
 
+/**
+ * Define rules from XML file
+ * @author Mohamed
+ *
+ */
 public class HaskellLintRulesDefinition implements RulesDefinition{
 
 	

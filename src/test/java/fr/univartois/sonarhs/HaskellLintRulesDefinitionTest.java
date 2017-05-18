@@ -36,7 +36,7 @@ public class HaskellLintRulesDefinitionTest {
     @Test
     public void testRepository() {
       
-	Repository repository = buildRepository(Version.parse("6.0"));
+	Repository repository = buildRepository();
 	
 	assertThat(repository.name()).isEqualTo("haskell-HaskellLint");
 	assertThat(repository.language()).isEqualTo("haskell");
@@ -46,7 +46,7 @@ public class HaskellLintRulesDefinitionTest {
     @Test
     public void testRules(){
 	
-	Repository repository = buildRepository(Version.parse("6.0"));
+	Repository repository = buildRepository();
 	Rule rule = repository.rule("hlint:Use putStr");
 	
 	assertThat(rule).isNotNull();
@@ -61,14 +61,13 @@ public class HaskellLintRulesDefinitionTest {
     }
     
     
-    private RulesDefinition.Repository buildRepository(Version sonarRuntimeVersion) {
+    private RulesDefinition.Repository buildRepository() {
      
 	HaskellLintRulesDefinition rulesDefinition = new HaskellLintRulesDefinition();
 	RulesDefinition.Context context = new RulesDefinition.Context();
 	rulesDefinition.define(context);
-	Repository repository = context.repository("haskell-haskelllint");
 	
-	return repository;
+	return context.repository("haskell-haskelllint");
     }
     
 }

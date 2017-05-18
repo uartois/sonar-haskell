@@ -29,7 +29,6 @@ import org.sonar.api.profiles.ProfileDefinition;
 import org.sonar.api.profiles.RulesProfile;
 import org.sonar.api.profiles.XMLProfileParser;
 import org.sonar.api.rules.ActiveRule;
-import org.sonar.api.rules.RuleFinder;
 import org.sonar.api.utils.ValidationMessages;
 
 import org.sonar.api.utils.log.Logger;
@@ -37,48 +36,56 @@ import org.sonar.api.utils.log.Loggers;
 
 import com.google.common.collect.ImmutableList;
 
-
+/**
+ * Define Sonar way profile using XML file in which rules priorities are known
+ * @author Mohamed
+ *
+ */
 public class HaskellQualityProfile extends ProfileDefinition{
 
-    	public static final String PROFILE_NAME = "Sonar way";
+    public static final String PROFILE_NAME = "Sonar way";
     
-    	private final AnnotationProfileParser annotationProfileParser;
-    	private final XMLProfileParser xmlProfileParser;
-	  
-	public HaskellQualityProfile(AnnotationProfileParser annotationProfileParser,
-	                       XMLProfileParser xmlProfileParser) {
-	    this.annotationProfileParser = annotationProfileParser;
-	    this.xmlProfileParser = xmlProfileParser;
-	}
+    private final AnnotationProfileParser annotationProfileParser;
+    private final XMLProfileParser xmlProfileParser;
 	
+    /**
+     * Constructor
+     * @param annotationProfileParser
+     * @param xmlProfileParser
+    */
+    public HaskellQualityProfile(AnnotationProfileParser annotationProfileParser,
+	                       XMLProfileParser xmlProfileParser) {
+	this.annotationProfileParser = annotationProfileParser;
+	this.xmlProfileParser = xmlProfileParser;
+    }
+	
+    
+    @Override
+    public RulesProfile createProfile(ValidationMessages validation) {
 
-	@Override
-	public RulesProfile createProfile(ValidationMessages validation) {
-
-		final Logger LOGGER=Loggers.get(HaskellQualityProfile.class);
+	final Logger LOGGER=Loggers.get(HaskellQualityProfile.class);
+	LOGGER.info("Haskelllint Quality profile");  
 		
-		LOGGER.info("Haskelllint Quality profile");  
+	RulesProfile profile = RulesProfile.create(PROFILE_NAME, "haskell");
+	profile.setDefaultProfile(Boolean.TRUE);
 		
-		RulesProfile profile = RulesProfile.create(PROFILE_NAME, "haskell");
-		profile.setDefaultProfile(Boolean.TRUE);
+	List<Class> empty = ImmutableList.<Class>of();
 		
-		List<Class> empty = ImmutableList.<Class>of();
-		
-	    RulesProfile checks = annotationProfileParser.parse("haskell-haskelllint",
+	RulesProfile checks = annotationProfileParser.parse("haskell-haskelllint",
 	    		"haskell-HaskellLint", "haskell", empty, validation);
 	    
-	    LOGGER.info(checks.getActiveRules().toString());
+	LOGGER.info(checks.getActiveRules().toString());
 	    
-	    RulesProfile dialyzer = xmlProfileParser.parseResource(getClass().getClassLoader(),
+	RulesProfile dialyzer = xmlProfileParser.parseResource(getClass().getClassLoader(),
 	      "default-profile.xml", validation);
 	    
-	    List<ActiveRule> rules = checks.getActiveRules();
-	    rules.addAll(dialyzer.getActiveRules());
+	List<ActiveRule> rules = checks.getActiveRules();
+	rules.addAll(dialyzer.getActiveRules());
 
-	    profile.setActiveRules(rules);
+	profile.setActiveRules(rules);
 
-	    LOGGER.info((new StringBuilder()).append("Profil generated: ").append(profile.getActiveRules()).toString());
-	    return profile;
-	}
+	LOGGER.info((new StringBuilder()).append("Profil generated: ").append(profile.getActiveRules()).toString());
+	return profile;
+    }
 
 }

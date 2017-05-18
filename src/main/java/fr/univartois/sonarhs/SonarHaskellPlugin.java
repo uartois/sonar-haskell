@@ -23,16 +23,21 @@ package fr.univartois.sonarhs;
 
 import org.sonar.api.Plugin;
 
+/**
+ * Define Sonar plugin class
+ * This is the main entry point
+ * @author Mohamed
+ *
+ */
 public class SonarHaskellPlugin implements Plugin{
 
-	@Override
-	public void define(Context context) {
+    @Override
+    public void define(Context context) {
 		
-	    context.addExtensions(HaskellLanguage.class, HaskellQualityProfile.class);
-	    context.addExtension(HaskellProperties.getProperties());
+	context.addExtensions(HaskellLanguage.class, HaskellQualityProfile.class);
+	context.addExtension(HaskellProperties.getProperties());
 	    
-	    context.addExtensions(HaskellLintRulesDefinition.class, HaskellLintIssuesLoaderSensor.class);
+	context.addExtensions(HaskellLintRulesDefinition.class, HaskellLintIssuesLoaderSensor.class);
 
-	}
-
+    }
 }
