@@ -23,13 +23,18 @@ sonar.hlint.reportPath=hlintReport.json
 sonar.sources=./
 ```
 
-- Install hlint
+- Install hlint using your favorite tool
 ```
 cabal update
 cabal install hlint
 ```
+or
+```
+stack update
+stack install hlint
+```
 
-- Produce the hlint report of your code to be analyzed, and save it using in a file named hlintReport.json   
+- Produce the hlint report of your code to be analyzed, and save it using in a file named hlintReport.json   
 ```
 hlint YOUR_CODE.hs --json > hlintReport.json
 hlint . --json > hlintReport.json
